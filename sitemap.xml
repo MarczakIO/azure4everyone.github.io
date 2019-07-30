@@ -37,18 +37,6 @@
   </url>
   
   <url>
-    <loc>https://azure4everyone.com/tags/active-directory/</loc>
-    <lastmod>2019-07-19T16:00:23+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://azure4everyone.com/tags/analysis-services/</loc>
-    <lastmod>2019-06-28T17:00:23+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://azure4everyone.com/tags/app-service/</loc>
     <lastmod>2019-07-28T14:00:23+02:00</lastmod>
     <priority>0</priority>
@@ -79,14 +67,8 @@
   </url>
   
   <url>
-    <loc>https://azure4everyone.com/tags/functions/</loc>
-    <lastmod>2019-07-19T16:00:23+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://azure4everyone.com/tags/logic-apps/</loc>
-    <lastmod>2019-07-19T16:00:23+02:00</lastmod>
+    <lastmod>2019-07-14T14:00:23+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -97,14 +79,8 @@
   </url>
   
   <url>
-    <loc>https://azure4everyone.com/tags/security/</loc>
-    <lastmod>2019-07-19T16:00:23+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://azure4everyone.com/tags/</loc>
-    <lastmod>2019-07-19T16:00:23+02:00</lastmod>
+    <lastmod>2019-07-28T14:00:23+02:00</lastmod>
     <priority>0</priority>
   </url>
   
