@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48 (47235) - http://www.bohemiancoding.com/sketch -->
+    <title>i-20x20-Until</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="i-20x20-Until" fill-rule="nonzero">
+            <g id="DoWhile_16x" transform="translate(2.000000, 3.000000)">
+                <polygon id="iconBg" fill="#424242" points="3 14 5 14 5 12 3 12"></polygon>
+                <path d="M14.001,0 L14.001,14 L7.001,14 L7.001,12 L12.001,12 L12.001,2 L3.001,2 L3.001,0 L14.001,0 Z M0.271,7.333 L0.979,8.04 L3.063,5.956 L3.063,10 L4.039,10 L4.039,5.956 L6.122,8.04 L6.829,7.333 L3.55,3.981 L0.271,7.333 Z" id="colorAction" fill="#00539C"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -3,16 +3,58 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://azure4everyone.com/posts/2019/07/data-factory-intro/</loc>
+    <lastmod>2019-07-22T01:11:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://azure4everyone.com/posts/2019/07/logic-apps-intro/</loc>
+    <lastmod>2019-07-14T14:00:23+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://azure4everyone.com/about/</loc>
   </url>
   
   <url>
+    <loc>https://azure4everyone.com/tags/azure/</loc>
+    <lastmod>2019-07-22T01:11:23+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://azure4everyone.com/</loc>
+    <lastmod>2019-07-22T01:11:23+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://azure4everyone.com/tags/data-factory/</loc>
+    <lastmod>2019-07-22T01:11:23+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://azure4everyone.com/tags/logic-apps/</loc>
+    <lastmod>2019-07-14T14:00:23+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://azure4everyone.com/posts/</loc>
+    <lastmod>2019-07-22T01:11:23+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://azure4everyone.com/tags/</loc>
+    <lastmod>2019-07-22T01:11:23+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://azure4everyone.com/tags/youtube/</loc>
+    <lastmod>2019-07-22T01:11:23+02:00</lastmod>
     <priority>0</priority>
   </url>
   

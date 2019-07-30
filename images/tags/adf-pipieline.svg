@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="134px"
+   height="134px"
+   viewBox="0 0 134 134"
+   version="1.1"
+   id="svg42"
+   sodipodi:docname="adf-pipieline.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <metadata
+     id="metadata46">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview44"
+     showgrid="false"
+     inkscape:current-layer="g37" />
+  <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title2">Group 23</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <defs
+     id="defs6" />
+  <g
+     id="Overview"
+     stroke-width="1"
+     stroke="none"
+     fill-rule="evenodd"
+     fill="none">
+    <g
+       id="g37">
+      <g
+         id="Group-2-Copy"
+         transform="matrix(1.5521477,0,0,1.5521477,9.3804661,34.428572)">
+        <g
+           id="Group">
+          <g
+             id="Group-5">
+            <path
+               d="M 69.721639,0 C 72.636797,0 75,10.297451 75,23 75,35.702549 72.636797,46 69.721639,46 H 53.886555 V 0 Z"
+               id="Combined-Shape"
+               inkscape:connector-curvature="0"
+               style="fill:#4aabd4" />
+            <path
+               d="M 75,25.555556 C 74.599173,37.142389 72.41061,46 69.77086,46 H 53.886555 V 25.555556 Z"
+               id="Combined-Shape-Copy-3"
+               inkscape:connector-curvature="0"
+               style="fill:#0097c5" />
+            <ellipse
+               id="Oval-6-Copy"
+               cx="53.886555"
+               cy="23"
+               rx="5.2783613"
+               ry="23"
+               style="fill:#0070c8" />
+            <g
+               id="Group-4"
+               transform="translate(22.216387,5.111111)"
+               style="fill:#4dbce1">
+              <path
+                 d="m 29.408013,0 c 1.249354,0 2.262155,8.0091284 2.262155,17.888889 0,9.87976 -1.012801,17.888889 -2.262155,17.888889 H 0 V 0 Z"
+                 id="path12"
+                 inkscape:connector-curvature="0" />
+              <path
+                 d="m 29.408013,0 c 1.249354,0 2.262155,8.0091284 2.262155,17.888889 0,9.87976 -1.012801,17.888889 -2.262155,17.888889 H 0 V 0 Z"
+                 id="path14"
+                 inkscape:connector-curvature="0" />
+            </g>
+            <path
+               d="m 51.6244,5.1111111 c 1.249353,0 2.262155,8.0091289 2.262155,17.8888889 0,9.879761 -1.012802,17.888889 -2.262155,17.888889 H 22.216387 V 5.1111111 Z"
+               id="path17"
+               inkscape:connector-curvature="0"
+               style="fill:#74c4de" />
+            <path
+               d="m 53.863646,20.444444 c 0.0151,0.834653 0.02291,1.68789 0.02291,2.555556 0,9.879761 -1.012802,17.888889 -2.262155,17.888889 H 22.216387 V 20.444444 Z"
+               id="path19"
+               inkscape:connector-curvature="0"
+               style="fill:#54b3d9" />
+            <path
+               d="m 22.216387,0 c 2.915158,0 5.278361,10.297451 5.278361,23 0,12.702549 -2.363203,23 -5.278361,23 H 6.3813025 V 0 Z"
+               id="Combined-Shape-Copy-2"
+               inkscape:connector-curvature="0"
+               style="fill:#5cadd2" />
+            <path
+               d="M 27.494748,25.555556 C 27.093921,37.142389 24.905358,46 22.265608,46 H 6.3813025 V 25.555556 Z"
+               id="path22"
+               inkscape:connector-curvature="0"
+               style="fill:#3797c4" />
+            <ellipse
+               id="Oval-6-Copy-3"
+               cx="6.3813024"
+               cy="23"
+               rx="6.3813024"
+               ry="23"
+               style="fill:#0070c8" />
+          </g>
+          <g
+             id="g26"
+             transform="translate(19.577206,4.6)" />
+        </g>
+        <ellipse
+           id="Oval-4"
+           cx="6.0661764"
+           cy="23.547619"
+           rx="3.8602941"
+           ry="18.071428"
+           style="fill:#acaba9" />
+        <path
+           d="m 8.621267,10.000974 c 0.800446,3.311166 1.3052036,8.152957 1.3052036,13.546645 0,5.789717 -0.581602,10.943516 -1.4862204,14.250865 C 7.359228,35.275745 6.6176471,30.086815 6.6176471,24.095238 c 0,-6.32046 0.8252274,-11.747739 2.0036199,-14.094264 z"
+           id="path30"
+           inkscape:connector-curvature="0"
+           style="fill:#4a4a4a" />
+      </g>
+    </g>
+  </g>
+</svg>
