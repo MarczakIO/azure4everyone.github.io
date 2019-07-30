@@ -157,11 +157,9 @@ aside .widget a {
 .btn-friendly-site > img {
   height:30px;
   margin-right:4px;
-  color:#00283e;
-  font-weight: bold;
 }
 .btn-friendly-site.alt {
-  background-color:#4bbefb;
+  background-color: #0386cc;
 }
 @media (max-width: 991px) {
   .blog .page-header.header-small .container {
