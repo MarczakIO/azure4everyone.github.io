@@ -6,13 +6,13 @@
     <description>Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Jul 2019 14:00:23 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jul 2019 16:00:23 +0200</lastBuildDate>
     
         <atom:link href="https://azure4everyone.com/tags/logic-apps/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Azure 4 Everyone - Azure Logic Apps Introduction</title>
+      <title>Azure Logic Apps Introduction</title>
       <link>https://azure4everyone.com/posts/2019/07/logic-apps-intro/</link>
       <pubDate>Sun, 14 Jul 2019 14:00:23 +0200</pubDate>
       

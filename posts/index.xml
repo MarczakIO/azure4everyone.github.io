@@ -6,13 +6,25 @@
     <description>Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Jul 2019 01:11:23 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jul 2019 14:00:23 +0200</lastBuildDate>
     
         <atom:link href="https://azure4everyone.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Azure 4 Everyone - Azure Data Factory Introduction</title>
+      <title>Azure App Service Introduction</title>
+      <link>https://azure4everyone.com/posts/2019/07/app-service-intro/</link>
+      <pubDate>Sun, 28 Jul 2019 14:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2019/07/app-service-intro/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/azure-app-service-intro.jpg&quot;&gt;
+        &lt;p&gt;Web development is the beating heart of cloud applications. Azure App Service is one of key compute services which streamlines development and maintenance of web applications. It is powerful Platform as a Service offering with many of security and DevOps features.&lt;/p&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Azure Data Factory Introduction</title>
       <link>https://azure4everyone.com/posts/2019/07/data-factory-intro/</link>
       <pubDate>Mon, 22 Jul 2019 01:11:23 +0200</pubDate>
       
@@ -24,7 +36,7 @@
     </item>
     
     <item>
-      <title>Azure 4 Everyone - Azure Logic Apps Introduction</title>
+      <title>Azure Logic Apps Introduction</title>
       <link>https://azure4everyone.com/posts/2019/07/logic-apps-intro/</link>
       <pubDate>Sun, 14 Jul 2019 14:00:23 +0200</pubDate>
       
