@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Azure Storage Intro | Azure 4 Everyone | Adam Marczak</title>
+<title>Azure Function Apps Intro | Azure 4 Everyone | Adam Marczak</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/png" href="https://azure4everyone.com/images/favicon-32x32.png" sizes="32x32" />
 <link rel="icon" type="image/png" href="https://azure4everyone.com/images/favicon-16x16.png" sizes="16x16" />
@@ -15,24 +15,24 @@
 <link href='https://azure4everyone.com/css/hestia.min.css' rel="stylesheet" type="text/css" />
 <link href='https://azure4everyone.com/css/main.min.css?ver=1.21' rel='stylesheet' type="text/css" />
 
-<meta name="description" content="Choosing the right storage solution is critical part of every application design. Azure Storage is one of the most flexible and powerful, yet simple services in Azure. With its four services (file, blob, queue and table) it can feed most of common needs.">
+<meta name="description" content="Serverless is powerful and flexible way of delivering fast and scalable solutions in Azure. Today we will get introduction about Azure Function Apps, one of my favorite services and one of the best serverless services out there.">
 <meta name="author" content="Adam Marczak">
 <meta name="copyright" content="Adam Marczak">
-<meta name="title" content="Azure Storage Intro | Azure 4 Everyone | Adam Marczak">
+<meta name="title" content="Azure Function Apps Intro | Azure 4 Everyone | Adam Marczak">
 <meta property="og:locale" content="en_US">
 <meta property="article:author" content="https://www.facebook.com/MarczakIO/">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Azure Storage Intro">
-<meta property="og:description" content="Choosing the right storage solution is critical part of every application design. Azure Storage is one of the most flexible and powerful, yet simple services in Azure. With its four services (file, blob, queue and table) it can feed most of common needs.">
-<meta property="og:url" content="https://azure4everyone.com/posts/2019/08/logic-apps-intro/">
+<meta property="og:title" content="Azure Function Apps Intro">
+<meta property="og:description" content="Serverless is powerful and flexible way of delivering fast and scalable solutions in Azure. Today we will get introduction about Azure Function Apps, one of my favorite services and one of the best serverless services out there.">
+<meta property="og:url" content="https://azure4everyone.com/posts/2019/08/function-apps-intro/">
 <meta property="og:site_name" content="Azure 4 Everyone">
-<meta property="og:image" content="https://azure4everyone.com/images/youtube/azure-storage-intro.jpg">
+<meta property="og:image" content="https://azure4everyone.com/images/youtube/azure-function-apps-intro.jpg">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@MarczakIO">
-<meta name="twitter:title" content="Azure Storage Intro">
-<meta name="twitter:description" content="Choosing the right storage solution is critical part of every application design. Azure Storage is one of the most flexible and powerful, yet simple services in Azure. With its four services (file, blob, queue and table) it can feed most of common needs.">
-<meta name="twitter:url" content="https://azure4everyone.com/posts/2019/08/logic-apps-intro/">
+<meta name="twitter:title" content="Azure Function Apps Intro">
+<meta name="twitter:description" content="Serverless is powerful and flexible way of delivering fast and scalable solutions in Azure. Today we will get introduction about Azure Function Apps, one of my favorite services and one of the best serverless services out there.">
+<meta name="twitter:url" content="https://azure4everyone.com/posts/2019/08/function-apps-intro/">
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144580824-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -89,10 +89,10 @@
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-md-offset-1 text-center">
-          <h1 class="hestia-title">Azure Storage Intro</h1>
+          <h1 class="hestia-title">Azure Function Apps Intro</h1>
           
             <h4 class="author">
-              Published by<a href="/about" title="Adam Marczak" class="vcard author"><strong class="fn">Adam Marczak</strong></a> on <time class="date updated published" datetime="2019-08-05 12:00:23 &#43;0200 CEST">Aug 5 2019</time>
+              Published by<a href="/about" title="Adam Marczak" class="vcard author"><strong class="fn">Adam Marczak</strong></a> on <time class="date updated published" datetime="2019-08-12 11:00:23 &#43;0200 CEST">Aug 12 2019</time>
             </h4>
            
         </div>
@@ -106,37 +106,37 @@
         <div class="container">
           <div class="row">
 <div class="col-md-9 single-posts-wrap">
-    <article id="/posts/2019/08/logic-apps-intro/" class="article-section section-text"> 
+    <article id="/posts/2019/08/function-apps-intro/" class="article-section section-text"> 
 <div class="lazy" style="max-height: 416px">
     <div style="padding-bottom:56.21621621621622%"></div>
-    <img data-src="/images/youtube/azure-storage-intro.jpg" src=""/> 
+    <img data-src="/images/youtube/azure-function-apps-intro.jpg" src=""/> 
 </div> 
         <h2>Highlight</h2>
-        <p>Choosing the right storage solution is critical part of every application design. Azure Storage is one of the most flexible and powerful, yet simple services in Azure. With its four services (file, blob, queue and table) it can feed most of common needs.</p>
+        <p>Serverless is powerful and flexible way of delivering fast and scalable solutions in Azure. Today we will get introduction about Azure Function Apps, one of my favorite services and one of the best serverless services out there.</p>
 
 <h2 id="intro">Intro</h2>
 
-<p>In this video I will cover basics of App Storage and show quick demo where I provision the service and upload some data using portal and tools.</p>
+<p>In this video I will cover basics of Function Apps and show quick demo where I create HTTP service in the portal and BLOB triggered function from Visual Studio Code. All in .NET Core 2.2 version.</p>
 
 <h2 id="agenda">Agenda</h2>
 
 <p>In today episode I will cover</p>
 
 <ol>
-<li>Azure Storage Service Overview</li>
-<li>What Services are part of Azure Storage</li>
-<li>What are core features or Azure Storage</li>
-<li>How does data redundancy work with storage objects</li>
-<li>Demo of Azure Storage and Storage Explorer tool</li>
+<li>Azure Function Apps Overview</li>
+<li>Key Features of Function Apps</li>
+<li>What are bindings and how do they work in the code</li>
+<li>Demo of HTTP function built in portal</li>
+<li>Demo of Blob Triggered function built in Visual Studio Code</li>
 </ol>
 
 <h2 id="video">Video</h2>
 
-<iframe class="youtube" frameborder="0" allowfullscreen src="https://www.youtube.com/embed/UzTtastcBsk"></iframe>
+<iframe class="youtube" frameborder="0" allowfullscreen src="https://www.youtube.com/embed/Vxf-rOEO1q4"></iframe>
 
 <h2 id="final-thoughts">Final thoughts</h2>
 
-<p>This is introduction into series of topics regarding storage solutions Azure, with more to come. In future, I want to cover all storage services in Azure. This is so that I can make sessions about planning the right storage strategies.</p>
+<p>This is second topic from series of topics regarding web and compute solutions Azure, with more to come. Serverless if probably one of the best things in the cloud. Make sure to take advantage of it in your projects.</p>
     </article>
     <div class="section-blog-info">
         <div class="row">
@@ -163,21 +163,21 @@
    rel="tooltip" 
    data-original-title="Share on Facebook" 
    class="btn btn-just-icon btn-share btn-facebook"
-   href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fazure4everyone.com%2fposts%2f2019%2f08%2flogic-apps-intro%2f">
+   href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fazure4everyone.com%2fposts%2f2019%2f08%2ffunction-apps-intro%2f">
     <i class="fa fa-facebook"></i>
 </a>
 <a target="_blank" 
    rel="tooltip" 
    data-original-title="Share on Twitter" 
    class="btn btn-just-icon btn-share btn-twitter" 
-   href="https://twitter.com/home?status=Azure%20Storage%20Intro - https%3a%2f%2fazure4everyone.com%2fposts%2f2019%2f08%2flogic-apps-intro%2f">
+   href="https://twitter.com/home?status=Azure%20Function%20Apps%20Intro - https%3a%2f%2fazure4everyone.com%2fposts%2f2019%2f08%2ffunction-apps-intro%2f">
    <i class="fa fa-twitter"></i>
 </a>
 <a target="_blank" 
    rel="tooltip" 
    data-original-title="Share on Google+" 
    class="btn btn-just-icon btn-share btn-google" 
-   href="https://plus.google.com/share?url=https%3a%2f%2fazure4everyone.com%2fposts%2f2019%2f08%2flogic-apps-intro%2f"><i 
+   href="https://plus.google.com/share?url=https%3a%2f%2fazure4everyone.com%2fposts%2f2019%2f08%2ffunction-apps-intro%2f"><i 
    class="fa fa-google"></i>
 </a>
             
@@ -188,8 +188,8 @@
     <a href="https://azure4everyone.com/tags/azure" title="View all posts in Azure">
       <img src="https://azure4everyone.com/images/tags/azure.svg" alt="Azure"/>
     </a>
-    <a href="https://azure4everyone.com/tags/storage-account" title="View all posts in Storage Account">
-      <img src="https://azure4everyone.com/images/tags/storage-account.svg" alt="Storage Account"/>
+    <a href="https://azure4everyone.com/tags/functions" title="View all posts in Functions">
+      <img src="https://azure4everyone.com/images/tags/functions.svg" alt="Functions"/>
     </a>
     <a href="https://azure4everyone.com/tags/youtube" title="View all posts in YouTube">
       <img src="https://azure4everyone.com/images/tags/youtube.svg" alt="YouTube"/>
@@ -201,8 +201,8 @@
             <div class="col-md-12"><div id="disqus_thread"></div>
 <script>
 var disqus_config = function () {
-this.page.url = "https:\/\/azure4everyone.com\/posts\/2019\/08\/logic-apps-intro\/"; 
-this.page.identifier = "\/posts\/2019\/08\/logic-apps-intro\/";
+this.page.url = "https:\/\/azure4everyone.com\/posts\/2019\/08\/function-apps-intro\/"; 
+this.page.identifier = "\/posts\/2019\/08\/function-apps-intro\/";
 };
 
 (function() {
@@ -277,7 +277,12 @@ s.setAttribute('data-timestamp', +new Date());
 <ul>
         <li><b class="list-header">2019 August</b></li>
         <li class="indented">
-            <a href="/posts/2019/08/logic-apps-intro/" title="Azure Storage Intro" rel="bookmark">
+            <a href="/posts/2019/08/function-apps-intro/" title="Azure Function Apps Intro" rel="bookmark">
+                <b>12th </b>Azure Function Apps Intro
+            </a>
+        </li>
+        <li class="indented">
+            <a href="/posts/2019/08/storage-intro/" title="Azure Storage Intro" rel="bookmark">
                 <b>5th </b>Azure Storage Intro
             </a>
         </li>
@@ -311,13 +316,19 @@ s.setAttribute('data-timestamp', +new Date());
         <div class="lazy" style="width:30px;height:20px;float:left;">
           <img src="" data-src="https://azure4everyone.com/images/tags/azure.svg" alt="Azure"/> 
         </div> 
-        <a href="https://azure4everyone.com/tags/azure">Azure (4)</a>
+        <a href="https://azure4everyone.com/tags/azure">Azure (5)</a>
       </li>
       <li>
         <div class="lazy" style="width:30px;height:20px;float:left;">
           <img src="" data-src="https://azure4everyone.com/images/tags/data-factory.svg" alt="Data Factory"/> 
         </div> 
         <a href="https://azure4everyone.com/tags/data-factory">Data Factory (1)</a>
+      </li>
+      <li>
+        <div class="lazy" style="width:30px;height:20px;float:left;">
+          <img src="" data-src="https://azure4everyone.com/images/tags/functions.svg" alt="Functions"/> 
+        </div> 
+        <a href="https://azure4everyone.com/tags/functions">Functions (1)</a>
       </li>
       <li>
         <div class="lazy" style="width:30px;height:20px;float:left;">
@@ -335,7 +346,7 @@ s.setAttribute('data-timestamp', +new Date());
         <div class="lazy" style="width:30px;height:20px;float:left;">
           <img src="" data-src="https://azure4everyone.com/images/tags/youtube.svg" alt="Youtube"/> 
         </div> 
-        <a href="https://azure4everyone.com/tags/youtube">Youtube (4)</a>
+        <a href="https://azure4everyone.com/tags/youtube">Youtube (5)</a>
       </li>
   </ul>
 </div>

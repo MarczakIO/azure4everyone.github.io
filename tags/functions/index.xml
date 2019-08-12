@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Functions on Azure 4 Everyone</title>
+    <link>https://azure4everyone.com/tags/functions/</link>
+    <description>Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Aug 2019 11:00:23 +0200</lastBuildDate>
+    
+        <atom:link href="https://azure4everyone.com/tags/functions/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Azure Function Apps Intro</title>
+      <link>https://azure4everyone.com/posts/2019/08/function-apps-intro/</link>
+      <pubDate>Mon, 12 Aug 2019 11:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2019/08/function-apps-intro/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/azure-function-apps-intro.jpg&quot;&gt;
+        &lt;p&gt;Serverless is powerful and flexible way of delivering fast and scalable solutions in Azure. Today we will get introduction about Azure Function Apps, one of my favorite services and one of the best serverless services out there.&lt;/p&gt;
+      </description>
+    </item>
+    
+  </channel>
+</rss>
