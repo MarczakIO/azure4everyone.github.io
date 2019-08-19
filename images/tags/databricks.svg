@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 23 24"
+   class=""
+   role="presentation"
+   focusable="false"
+   id="FxSymbol0-092"
+   version="1.1"
+   sodipodi:docname="Azure Databricks.svg"
+   inkscape:export-filename="E:\icons\Microsoft_Cloud_AI_Azure_Service_Icon_Set_2019_05_08_2\_Companies\Azure Databricks.png"
+   inkscape:export-xdpi="2514.4099"
+   inkscape:export-ydpi="2514.4099"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <metadata
+     id="metadata19">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs17" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview15"
+     showgrid="false"
+     inkscape:current-layer="FxSymbol0-092" />
+  <g
+     id="g12">
+    <title
+       id="title2" />
+    <g
+       fill="none"
+       id="g10">
+      <path
+         fill="#DC2126"
+         d="M.06 13.933v3.823l11.448 5.984 11.448-5.984v-3.823l-4.03-2.075 4.03-2.111V5.959l-.037-.012L11.508.06.097 5.935l-.037.024v3.788l4.03 2.11-4.03 2.076"
+         id="path4" />
+      <path
+         fill="#F0542D"
+         d="M18.939 11.858l-7.431 3.872-7.419-3.872L.06 13.933l11.448 5.983 11.46-5.983z"
+         id="path6" />
+      <path
+         fill="#F0542D"
+         d="M11.508.06l11.46 5.899-11.46 5.983L.06 5.96z"
+         id="path8" />
+    </g>
+  </g>
+</svg>

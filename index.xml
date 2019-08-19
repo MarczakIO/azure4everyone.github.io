@@ -6,10 +6,22 @@
     <description>Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Aug 2019 11:00:23 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 19 Aug 2019 11:00:23 +0200</lastBuildDate>
     
         <atom:link href="https://azure4everyone.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Azure Databricks Intro</title>
+      <link>https://azure4everyone.com/posts/2019/08/databricks-intro/</link>
+      <pubDate>Mon, 19 Aug 2019 11:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2019/08/databricks-intro/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/azure-databricks-intro.jpg&quot;&gt;
+        &lt;p&gt;Azure Databricks is fast, easy to use and scalable big data collaboration platform. Based on Apache Spark brings high performance and benefits of spark without need of having high technical knowledge. You just write Python/Scala scripts and you are ready to go.&lt;/p&gt;
+      </description>
+    </item>
     
     <item>
       <title>Azure Function Apps Intro</title>
