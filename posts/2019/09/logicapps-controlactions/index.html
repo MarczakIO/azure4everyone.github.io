@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Azure App Service Introduction | Azure 4 Everyone | Adam Marczak</title>
+<title>Azure Logic Apps Conditions, Loops, Parallel Executions and more using Control Actions | Azure 4 Everyone | Adam Marczak</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/png" href="https://azure4everyone.com/images/favicon-32x32.png" sizes="32x32" />
 <link rel="icon" type="image/png" href="https://azure4everyone.com/images/favicon-16x16.png" sizes="16x16" />
@@ -15,24 +15,24 @@
 <link href='https://azure4everyone.com/css/hestia.min.css' rel="stylesheet" type="text/css" />
 <link href='https://azure4everyone.com/css/main.min.css?ver=1.21' rel='stylesheet' type="text/css" />
 
-<meta name="description" content="Web development is the beating heart of cloud applications. Azure App Service is one of key compute services which streamlines development and maintenance of web applications. It is powerful Platform as a Service offering with many of security and DevOps features.">
+<meta name="description" content="Using conditions, loops and parallel execution allows developers to implement much more complex Enterprise Integration scenarios using Azure Logic Apps. All those actions are available through Control Actions group which we will learn all about Today. ">
 <meta name="author" content="Adam Marczak">
 <meta name="copyright" content="Adam Marczak">
-<meta name="title" content="Azure App Service Introduction | Azure 4 Everyone | Adam Marczak">
+<meta name="title" content="Azure Logic Apps Conditions, Loops, Parallel Executions and more using Control Actions | Azure 4 Everyone | Adam Marczak">
 <meta property="og:locale" content="en_US">
 <meta property="article:author" content="https://www.facebook.com/MarczakIO/">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Azure App Service Introduction">
-<meta property="og:description" content="Web development is the beating heart of cloud applications. Azure App Service is one of key compute services which streamlines development and maintenance of web applications. It is powerful Platform as a Service offering with many of security and DevOps features.">
-<meta property="og:url" content="https://azure4everyone.com/posts/2019/07/app-service-intro/">
+<meta property="og:title" content="Azure Logic Apps Conditions, Loops, Parallel Executions and more using Control Actions">
+<meta property="og:description" content="Using conditions, loops and parallel execution allows developers to implement much more complex Enterprise Integration scenarios using Azure Logic Apps. All those actions are available through Control Actions group which we will learn all about Today. ">
+<meta property="og:url" content="https://azure4everyone.com/posts/2019/09/logicapps-controlactions/">
 <meta property="og:site_name" content="Azure 4 Everyone">
-<meta property="og:image" content="https://azure4everyone.com/images/youtube/03-AzureAppServiceIntro-740.jpg">
+<meta property="og:image" content="https://azure4everyone.com/images/youtube/09-AzureLogicApps-LoopsConditionsParallelExecution-740.jpg">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@MarczakIO">
-<meta name="twitter:title" content="Azure App Service Introduction">
-<meta name="twitter:description" content="Web development is the beating heart of cloud applications. Azure App Service is one of key compute services which streamlines development and maintenance of web applications. It is powerful Platform as a Service offering with many of security and DevOps features.">
-<meta name="twitter:url" content="https://azure4everyone.com/posts/2019/07/app-service-intro/">
+<meta name="twitter:title" content="Azure Logic Apps Conditions, Loops, Parallel Executions and more using Control Actions">
+<meta name="twitter:description" content="Using conditions, loops and parallel execution allows developers to implement much more complex Enterprise Integration scenarios using Azure Logic Apps. All those actions are available through Control Actions group which we will learn all about Today. ">
+<meta name="twitter:url" content="https://azure4everyone.com/posts/2019/09/logicapps-controlactions/">
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144580824-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -89,10 +89,10 @@
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-md-offset-1 text-center">
-          <h1 class="hestia-title">Azure App Service Introduction</h1>
+          <h1 class="hestia-title">Azure Logic Apps Conditions, Loops, Parallel Executions and more using Control Actions</h1>
           
             <h4 class="author">
-              Published by<a href="/about" title="Adam Marczak" class="vcard author"><strong class="fn">Adam Marczak</strong></a> on <time class="date updated published" datetime="2019-07-28 14:00:23 &#43;0200 CEST">Jul 28 2019</time>
+              Published by<a href="/about" title="Adam Marczak" class="vcard author"><strong class="fn">Adam Marczak</strong></a> on <time class="date updated published" datetime="2019-09-09 12:00:23 &#43;0200 CEST">Sep 9 2019</time>
             </h4>
            
         </div>
@@ -106,37 +106,74 @@
         <div class="container">
           <div class="row">
 <div class="col-md-9 single-posts-wrap">
-    <article id="/posts/2019/07/app-service-intro/" class="article-section section-text"> 
+    <article id="/posts/2019/09/logicapps-controlactions/" class="article-section section-text"> 
 <div class="lazy" style="max-height: 416px">
     <div style="padding-bottom:56.21621621621622%"></div>
-    <img data-src="/images/youtube/03-AzureAppServiceIntro-740.jpg" src=""/> 
-</div> 
+    <img data-src="/images/youtube/09-AzureLogicApps-LoopsConditionsParallelExecution-740.jpg" src=""/> 
+</div> <a target="_blank" 
+   rel="tooltip" 
+   class="btn btn-github"
+   href="https://github.com/MarczakIO/Azure4Everyone-CosmosDB-Introduction">
+    <i class="fa fa-github"></i>
+    Source Code
+</a>
         <h2>Highlight</h2>
-        <p>Web development is the beating heart of cloud applications. Azure App Service is one of key compute services which streamlines development and maintenance of web applications. It is powerful Platform as a Service offering with many of security and DevOps features.</p>
+        <p>Using conditions, loops and parallel execution allows developers to implement much more complex Enterprise Integration scenarios using Azure Logic Apps. All those actions are available through Control Actions group which we will learn all about Today. </p>
 
 <h2 id="intro">Intro</h2>
 
-<p>In this video I will cover basics of App Service and show quick demo where I deploy small MVC dotnet core application into Azure.</p>
+<p>In this episode I will cover basics of Logic Apps Control Actions with live demo of parallel execution, conditions, loops as well as terminate and scope actions.</p>
 
 <h2 id="agenda">Agenda</h2>
 
 <p>In today episode I will cover</p>
 
 <ol>
-<li>Azure App Service Overview</li>
-<li>How App Service and App Service Plan works</li>
-<li>Overview Portal Features of App Service</li>
-<li>Simple .net core 2.2 deployment demo on Linux App Service</li>
-<li>App Service choice guidelines</li>
+<li>Overview of key workflow components</li>
+<li>Demo of Parallel Execution</li>
+<li>Demo of Conditional Execution using If-else Condition block</li>
+<li>Demo of Conditional Execution using Switch block</li>
+<li>Demo of For-each loop</li>
+<li>Demo of Until loop</li>
+<li>Demo of Terminate block</li>
+<li>Demo of Scope block</li>
 </ol>
+
+<p>All of this using real world scenarios.</p>
 
 <h2 id="video">Video</h2>
 
-<iframe class="youtube" frameborder="0" allowfullscreen src="https://www.youtube.com/embed/4BwyqmRTrx8?origin=https://azure4everyone.com"></iframe>
+<iframe class="youtube" frameborder="0" allowfullscreen src="https://www.youtube.com/embed/4Ue6yvTh4lc?origin=https://azure4everyone.com"></iframe>
 
 <h2 id="final-thoughts">Final thoughts</h2>
 
-<p>This is introduction into series of web development topics in Azure, with more to come. In future, I want to cover all compute services in Azure in order to make sessions about right tools for the job.</p>
+<p>With conditions and loops you can now build even more complex solutions and solve any of your business needs. But always remember to keep logic app flow simple as the pricing might get quickly out of hand when executing workflows rapidly.</p>
+
+<h3 id="next-steps-for-you-after-watching-the-video">Next steps for you after watching the video</h3>
+
+<ol>
+<li>Check logic apps docs
+
+<ul>
+<li><a href="https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-overview">https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-overview</a></li>
+</ul></li>
+<li>Check workflow execution docs
+
+<ul>
+<li><a href="https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-control-flow-conditional-statement">https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-control-flow-conditional-statement</a></li>
+</ul></li>
+<li>Read Azure Jumpstart if you want to start with Azure and need a subscription
+
+<ul>
+<li><a href="https://marczak.io/posts/2019/07/azure-jumpstart/">https://marczak.io/posts/2019/07/azure-jumpstart/</a></li>
+</ul></li>
+</ol><a target="_blank" 
+   rel="tooltip" 
+   class="btn btn-github"
+   href="https://github.com/MarczakIO/Azure4Everyone-CosmosDB-Introduction">
+    <i class="fa fa-github"></i>
+    Source Code
+</a>
     </article>
     <div class="section-blog-info">
         <div class="row">
@@ -163,21 +200,21 @@
    rel="tooltip" 
    data-original-title="Share on Facebook" 
    class="btn btn-just-icon btn-share btn-facebook"
-   href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fazure4everyone.com%2fposts%2f2019%2f07%2fapp-service-intro%2f">
+   href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fazure4everyone.com%2fposts%2f2019%2f09%2flogicapps-controlactions%2f">
     <i class="fa fa-facebook"></i>
 </a>
 <a target="_blank" 
    rel="tooltip" 
    data-original-title="Share on Twitter" 
    class="btn btn-just-icon btn-share btn-twitter" 
-   href="https://twitter.com/home?status=Azure%20App%20Service%20Introduction - https%3a%2f%2fazure4everyone.com%2fposts%2f2019%2f07%2fapp-service-intro%2f">
+   href="https://twitter.com/home?status=Azure%20Logic%20Apps%20Conditions%2c%20Loops%2c%20Parallel%20Executions%20and%20more%20using%20Control%20Actions - https%3a%2f%2fazure4everyone.com%2fposts%2f2019%2f09%2flogicapps-controlactions%2f">
    <i class="fa fa-twitter"></i>
 </a>
 <a target="_blank" 
    rel="tooltip" 
    data-original-title="Share on Google+" 
    class="btn btn-just-icon btn-share btn-google" 
-   href="https://plus.google.com/share?url=https%3a%2f%2fazure4everyone.com%2fposts%2f2019%2f07%2fapp-service-intro%2f"><i 
+   href="https://plus.google.com/share?url=https%3a%2f%2fazure4everyone.com%2fposts%2f2019%2f09%2flogicapps-controlactions%2f"><i 
    class="fa fa-google"></i>
 </a>
             
@@ -185,11 +222,11 @@
             <div class="col-md-6 text-center large">
                 <h4 class="">More tagged posts</h4>
   <div class="tag-list">
-    <a href="https://azure4everyone.com/tags/app-service" title="View all posts in App Service">
-      <img src="https://azure4everyone.com/images/tags/app-service.svg" alt="App Service"/>
-    </a>
     <a href="https://azure4everyone.com/tags/azure" title="View all posts in Azure">
       <img src="https://azure4everyone.com/images/tags/azure.svg" alt="Azure"/>
+    </a>
+    <a href="https://azure4everyone.com/tags/logic-apps" title="View all posts in Logic Apps">
+      <img src="https://azure4everyone.com/images/tags/logic-apps.svg" alt="Logic Apps"/>
     </a>
     <a href="https://azure4everyone.com/tags/youtube" title="View all posts in YouTube">
       <img src="https://azure4everyone.com/images/tags/youtube.svg" alt="YouTube"/>
@@ -201,8 +238,8 @@
             <div class="col-md-12"><div id="disqus_thread"></div>
 <script>
 var disqus_config = function () {
-this.page.url = "https:\/\/azure4everyone.com\/posts\/2019\/07\/app-service-intro\/"; 
-this.page.identifier = "\/posts\/2019\/07\/app-service-intro\/";
+this.page.url = "https:\/\/azure4everyone.com\/posts\/2019\/09\/logicapps-controlactions\/"; 
+this.page.identifier = "\/posts\/2019\/09\/logicapps-controlactions\/";
 };
 
 (function() {
