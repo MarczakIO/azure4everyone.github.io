@@ -6,10 +6,22 @@
     <description>Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Sep 2019 12:00:23 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 16 Sep 2019 12:00:23 +0200</lastBuildDate>
     
         <atom:link href="https://azure4everyone.com/tags/azure/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Azure Container Instances Intro</title>
+      <link>https://azure4everyone.com/posts/2019/09/aci-intro/</link>
+      <pubDate>Mon, 16 Sep 2019 12:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2019/09/aci-intro/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/10-AzureContainerInstances-Intro-740.jpg&quot;&gt;
+        &lt;p&gt;If you are looking for a quick way to host your containers in Azure, then look no further. With Azure Container Instances you can host your containers in minutes without need to run complicated provisioning or infrastructure management. A true container service for beginners.&lt;/p&gt;
+      </description>
+    </item>
     
     <item>
       <title>Azure Logic Apps Conditions, Loops, Parallel Executions and more using Control Actions</title>

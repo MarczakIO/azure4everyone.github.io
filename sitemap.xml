@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://azure4everyone.com/posts/2019/09/aci-intro/</loc>
+    <lastmod>2019-09-16T12:00:23+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://azure4everyone.com/posts/2019/09/logicapps-controlactions/</loc>
     <lastmod>2019-09-09T12:00:23+02:00</lastmod>
   </url>
@@ -84,13 +89,19 @@
   
   <url>
     <loc>https://azure4everyone.com/tags/azure/</loc>
-    <lastmod>2019-09-09T12:00:23+02:00</lastmod>
+    <lastmod>2019-09-16T12:00:23+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://azure4everyone.com/</loc>
-    <lastmod>2019-09-09T12:00:23+02:00</lastmod>
+    <lastmod>2019-09-16T12:00:23+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://azure4everyone.com/tags/container-instances/</loc>
+    <lastmod>2019-09-16T12:00:23+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -132,7 +143,7 @@
   
   <url>
     <loc>https://azure4everyone.com/posts/</loc>
-    <lastmod>2019-09-09T12:00:23+02:00</lastmod>
+    <lastmod>2019-09-16T12:00:23+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -150,7 +161,7 @@
   
   <url>
     <loc>https://azure4everyone.com/tags/youtube/</loc>
-    <lastmod>2019-09-09T12:00:23+02:00</lastmod>
+    <lastmod>2019-09-16T12:00:23+02:00</lastmod>
     <priority>0</priority>
   </url>
   
