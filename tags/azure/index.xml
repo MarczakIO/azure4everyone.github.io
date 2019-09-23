@@ -6,10 +6,22 @@
     <description>Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Sep 2019 12:00:23 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 23 Sep 2019 12:00:23 +0200</lastBuildDate>
     
         <atom:link href="https://azure4everyone.com/tags/azure/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Continuous Deployment using App Service Deployment Center</title>
+      <link>https://azure4everyone.com/posts/2019/09/appservice-deployment-center/</link>
+      <pubDate>Mon, 23 Sep 2019 12:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2019/09/appservice-deployment-center/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/11-AzureAppService-DeploymentCenter-740.jpg&quot;&gt;
+        &lt;p&gt;Continuous Deployment is great way to increase productivity for developers in any technology out there. With Azure App Service deployment center, you can quickly set up continuous deployment for your web apps and serverless functions without need to learn complicated external tools and platforms, all this in just few minutes.&lt;/p&gt;
+      </description>
+    </item>
     
     <item>
       <title>Azure Container Instances Intro</title>
