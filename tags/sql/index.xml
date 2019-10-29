@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sql on Azure 4 Everyone</title>
+    <link>https://azure4everyone.com/tags/sql/</link>
+    <description>Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Oct 2019 12:00:23 +0200</lastBuildDate>
+    
+        <atom:link href="https://azure4everyone.com/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Azure SQL Database Intro</title>
+      <link>https://azure4everyone.com/posts/2019/10/sqldatabase-intro/</link>
+      <pubDate>Tue, 29 Oct 2019 12:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2019/10/sqldatabase-intro/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/16-AzureSqlDatabase-Intro-740.jpg&quot;&gt;
+        &lt;p&gt;Azure SQL Database is one of the key data storage solution for structured data in Azure. If you need to manage structured data via schema, constraints and relationships or you need to explore your data via rich query language then this might be the right service for you.&lt;/p&gt;
+      </description>
+    </item>
+    
+  </channel>
+</rss>
