@@ -18,7 +18,7 @@
       
       <guid>https://azure4everyone.com/posts/2019/10/datafactory-triggers/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/13-AzureDataFactory-Triggers-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/13-AzureDataFactory-Triggers-v2-740.jpg&quot;&gt;
         &lt;p&gt;Choosing the right trigger type is very important task when designing data factory workflows. Today I will show you four ways to trigger data factory pipelines so you can make sure you react to your business needs better.&lt;/p&gt;
       </description>
     </item>
@@ -30,7 +30,7 @@
       
       <guid>https://azure4everyone.com/posts/2019/09/eventgrid-intro/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/12-AzureEventGrid-Intro-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/12-AzureEventGrid-Intro-v2-740.jpg&quot;&gt;
         &lt;p&gt;Azure Event Grid is fast and reliable event routing service allowing developers to create real time applications and decouple their systems at ease. Thanks to event grid built in events you can quickly automate Azure subscription for all your operation needs.&lt;/p&gt;
       </description>
     </item>
