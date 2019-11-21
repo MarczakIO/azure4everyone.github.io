@@ -24,6 +24,18 @@
     </item>
     
     <item>
+      <title>Azure CLI Introduction</title>
+      <link>https://azure4everyone.com/posts/2019/11/cli-intro/</link>
+      <pubDate>Tue, 12 Nov 2019 10:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2019/11/cli-intro/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/19-AzureCLI-Intro-v2-740.jpg&quot;&gt;
+        &lt;p&gt;Azure CLI (Command Line Interface) allows developers and operations to complete nearly any scenario for management and automation of Azure resources in no time.&lt;/p&gt;
+      </description>
+    </item>
+    
+    <item>
       <title>Azure Azure Data Factory Mapping Data Flow</title>
       <link>https://azure4everyone.com/posts/2019/11/adf-mapping-data-flow/</link>
       <pubDate>Tue, 05 Nov 2019 12:00:23 +0200</pubDate>
