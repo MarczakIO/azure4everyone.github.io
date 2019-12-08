@@ -6,17 +6,17 @@
     <description>Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Dec 2019 01:00:23 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 30 Nov 2019 01:00:23 +0200</lastBuildDate>
     
         <atom:link href="https://azure4everyone.com/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Azure PowerShell Intro</title>
-      <link>https://azure4everyone.com/posts/2019/12/powershell-intro/</link>
-      <pubDate>Wed, 04 Dec 2019 01:00:23 +0200</pubDate>
+      <title>Azure PowerShell Introduction</title>
+      <link>https://azure4everyone.com/posts/2019/11/powershell-intro/</link>
+      <pubDate>Sat, 30 Nov 2019 01:00:23 +0200</pubDate>
       
-      <guid>https://azure4everyone.com/posts/2019/12/powershell-intro/</guid>
+      <guid>https://azure4everyone.com/posts/2019/11/powershell-intro/</guid>
       <description>
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/20-AzurePowerShell-Intro-v2-740.jpg&quot;&gt;
         &lt;p&gt;Azure PowerShell allows for task automation and operational management of Azure resources at no cost or effort using popular PowerShell scripting language. &lt;/p&gt;
