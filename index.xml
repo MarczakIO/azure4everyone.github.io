@@ -6,13 +6,49 @@
     <description>Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 Nov 2019 10:00:23 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 07 Dec 2019 01:00:23 +0200</lastBuildDate>
     
         <atom:link href="https://azure4everyone.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Azure Automation Intro</title>
+      <title>Azure Analysis Services Intro</title>
+      <link>https://azure4everyone.com/posts/2019/12/analysis-services-intro/</link>
+      <pubDate>Sat, 07 Dec 2019 01:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2019/12/analysis-services-intro/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/21-AzureAnalysisServices-Intro-v2-740.jpg&quot;&gt;
+        &lt;p&gt;With Azure Analysis Services you can scale your Power BI reports up to tens and hundreds of gigabytes of data. It is very fast in-memory database and analytical progressing engine with all the benefits of cloud scaling and security. &lt;/p&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Azure PowerShell Intro</title>
+      <link>https://azure4everyone.com/posts/2019/12/powershell-intro/</link>
+      <pubDate>Wed, 04 Dec 2019 01:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2019/12/powershell-intro/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/20-AzurePowerShell-Intro-v2-740.jpg&quot;&gt;
+        &lt;p&gt;Azure PowerShell allows for task automation and operational management of Azure resources at no cost or effort using popular PowerShell scripting language. &lt;/p&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Azure CLI Introduction</title>
+      <link>https://azure4everyone.com/posts/2019/11/cli-intro/</link>
+      <pubDate>Tue, 19 Nov 2019 10:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2019/11/cli-intro/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/19-AzureCLI-Intro-v2-740.jpg&quot;&gt;
+        &lt;p&gt;Azure CLI (Command Line Interface) allows developers and operations to complete nearly any scenario for management and automation of Azure resources in no time.&lt;/p&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Azure Automation Introduction</title>
       <link>https://azure4everyone.com/posts/2019/11/automation-intro/</link>
       <pubDate>Tue, 12 Nov 2019 10:00:23 +0200</pubDate>
       
@@ -20,18 +56,6 @@
       <description>
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/18-AzureAutomation-Intro-v2-740.jpg&quot;&gt;
         &lt;p&gt;Azure Automation service is designed specifically to help with day to day operational challenges around process automation, configuration management and update management for both Azure and non-Azure environments. Join me and see what is this service all about.&lt;/p&gt;
-      </description>
-    </item>
-    
-    <item>
-      <title>Azure CLI Introduction</title>
-      <link>https://azure4everyone.com/posts/2019/11/cli-intro/</link>
-      <pubDate>Tue, 12 Nov 2019 10:00:23 +0200</pubDate>
-      
-      <guid>https://azure4everyone.com/posts/2019/11/cli-intro/</guid>
-      <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/19-AzureCLI-Intro-v2-740.jpg&quot;&gt;
-        &lt;p&gt;Azure CLI (Command Line Interface) allows developers and operations to complete nearly any scenario for management and automation of Azure resources in no time.&lt;/p&gt;
       </description>
     </item>
     
