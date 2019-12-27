@@ -6,10 +6,46 @@
     <description>Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Dec 2019 01:00:23 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 26 Dec 2019 01:00:23 +0200</lastBuildDate>
     
         <atom:link href="https://azure4everyone.com/tags/azure/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Azure Virtual Machine Introduction</title>
+      <link>https://azure4everyone.com/posts/2019/12/virtual-machines-intro/</link>
+      <pubDate>Thu, 26 Dec 2019 01:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2019/12/virtual-machines-intro/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/24-AzureVirtualMachines-Intro-v2-740.jpg&quot;&gt;
+        &lt;p&gt;Virtual Machines are beating heart and a core component of any cloud. With wide range of use cases and flexibility of virtualizing most of commonly known operating systems it is possible to move pretty much any software to the cloud. &lt;/p&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Azure Databricks Secret Scopes</title>
+      <link>https://azure4everyone.com/posts/2019/12/databricks-secret-scopes/</link>
+      <pubDate>Sun, 22 Dec 2019 01:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2019/12/databricks-secret-scopes/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/23-AzureDatabricks-SecretScopes-v2-740.jpg&quot;&gt;
+        &lt;p&gt;When building solutions in Databricks you need to ensure that all your credentials are securely stored. Today I will show you how to do it using Databricks Secret Scopes and how can you integrate them with Azure Key Vault. &lt;/p&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Azure Data Lake Storage (Gen 2) Introduction</title>
+      <link>https://azure4everyone.com/posts/2019/12/data-lake-storage-intro/</link>
+      <pubDate>Wed, 18 Dec 2019 01:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2019/12/data-lake-storage-intro/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/22-AzureDataLakeStorage-Intro-v2-740.jpg&quot;&gt;
+        &lt;p&gt;Data Lake Storage Gen 2 is the best storage solution for big data analytics in Azure. With its Hadoop compatible access, it is a perfect fit for existing platforms like Databricks, Cloudera, Hortonworks, Hadoop, HDInsight and many more. Take advantage of both blob storage and data lake in one service! &lt;/p&gt;
+      </description>
+    </item>
     
     <item>
       <title>Azure Analysis Services Intro</title>
