@@ -6,10 +6,22 @@
     <description>Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Dec 2019 01:00:23 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jan 2020 16:00:23 +0200</lastBuildDate>
     
         <atom:link href="https://azure4everyone.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Azure Traffic Manager Introduction</title>
+      <link>https://azure4everyone.com/posts/2020/01/traffic-manager-intro/</link>
+      <pubDate>Thu, 02 Jan 2020 16:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/01/traffic-manager-intro/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/25-AzureTrafficManager-Intro-740.jpg&quot;&gt;
+        &lt;p&gt;Azure Traffic Manager is a DNS-based traffic load balancer that enables you to distribute traffic optimally to services across global Azure regions, while providing high availability and responsiveness. &lt;/p&gt;
+      </description>
+    </item>
     
     <item>
       <title>Azure Virtual Machine Introduction</title>
