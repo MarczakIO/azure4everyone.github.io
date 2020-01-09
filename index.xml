@@ -6,10 +6,22 @@
     <description>Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Jan 2020 16:00:23 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jan 2020 14:00:23 +0200</lastBuildDate>
     
         <atom:link href="https://azure4everyone.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Azure Load Balancer Introduction</title>
+      <link>https://azure4everyone.com/posts/2020/01/load-balancer/</link>
+      <pubDate>Thu, 09 Jan 2020 14:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/01/load-balancer/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/26-AzureLoadBalancer-Intro-740.jpg&quot;&gt;
+        &lt;p&gt;Azure Load balancing allows for distribution of load or incoming network traffic across a group of backend resources or servers. It operates at layer 4 of the Open Systems Interconnection (OSI) model. It is the single point of contact for clients. &lt;/p&gt;
+      </description>
+    </item>
     
     <item>
       <title>Azure Traffic Manager Introduction</title>
