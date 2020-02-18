@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 18 18"
+   data-islogo="true"
+   class=""
+   role="presentation"
+   focusable="false"
+   id="FxSymbol0-0a8"
+   data-type="1"
+   version="1.1"
+   sodipodi:docname="event-grid-domain.svg"
+   inkscape:export-filename="C:\Users\user\OneDrive\Personal\01. MarczakIO\images\tags\event-grid-domain.png"
+   inkscape:export-xdpi="5333.3301"
+   inkscape:export-ydpi="5333.3301"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <metadata
+     id="metadata62">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs60" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview58"
+     showgrid="false"
+     inkscape:current-layer="FxSymbol0-0a8" />
+  <g
+     id="g55">
+    <title
+       id="title2" />
+    <defs
+       id="defs19">
+      <linearGradient
+         id="f3c5571b-6c5d-4ae5-a065-2abae5a20b33"
+         x1="12.11"
+         y1="14.5"
+         x2="12.3"
+         y2="3.41"
+         gradientUnits="userSpaceOnUse">
+        <stop
+           offset="0"
+           stop-color="#198ab3"
+           id="stop4" />
+        <stop
+           offset="0"
+           stop-color="#198ab3"
+           id="stop6" />
+        <stop
+           offset=".11"
+           stop-color="#22a5cb"
+           id="stop8" />
+        <stop
+           offset=".23"
+           stop-color="#29bade"
+           id="stop10" />
+        <stop
+           offset=".37"
+           stop-color="#2ec9eb"
+           id="stop12" />
+        <stop
+           offset=".53"
+           stop-color="#31d1f3"
+           id="stop14" />
+        <stop
+           offset=".78"
+           stop-color="#32d4f5"
+           id="stop16" />
+      </linearGradient>
+    </defs>
+    <title
+       id="title21">Icon-iot-183</title>
+    <path
+       fill="#949494"
+       d="M13.96 8.26H7.12l1.93-1.94h3.23v-.75H8.74L6.06 8.26h-2.9v.75h.52l2.69 2.71h4.01v-.75h-3.7L4.73 9.01h9.23v-.75z"
+       id="path23" />
+    <path
+       d="M11.09 4.66A1.29 1.29 0 1 1 9.8 5.94a1.28 1.28 0 0 1 1.29-1.28zm1.17 4a1.29 1.29 0 1 0 1.29-1.28 1.29 1.29 0 0 0-1.29 1.26zm-2.72 2.67a1.29 1.29 0 1 0 1.29-1.28 1.28 1.28 0 0 0-1.29 1.28z"
+       fill="url(#f3c5571b-6c5d-4ae5-a065-2abae5a20b33)"
+       id="path25" />
+    <g
+       fill="#999"
+       id="g31">
+      <path
+         d="M1.07 1.43h1.29V5a.29.29 0 0 1-.29.29H.79A.29.29 0 0 1 .5 5V2a.57.57 0 0 1 .57-.57z"
+         id="path27" />
+      <path
+         d="M1.07 1.43h1.29V5a.29.29 0 0 1-.29.29H.79A.29.29 0 0 1 .5 5V2a.57.57 0 0 1 .57-.57z"
+         opacity=".5"
+         id="path29" />
+    </g>
+    <g
+       fill="#999"
+       id="g37">
+      <path
+         d="M15.64 1.43h1.29a.57.57 0 0 1 .57.57v3a.29.29 0 0 1-.29.29h-1.29a.29.29 0 0 1-.28-.29V1.43z"
+         id="path33" />
+      <path
+         d="M15.64 1.43h1.29a.57.57 0 0 1 .57.57v3a.29.29 0 0 1-.29.29h-1.29a.29.29 0 0 1-.28-.29V1.43z"
+         opacity=".5"
+         id="path35" />
+    </g>
+    <path
+       d="M17.5 2v1.25H.5V2a.57.57 0 0 1 .57-.57h15.87a.57.57 0 0 1 .56.57z"
+       fill="#949494"
+       id="path39" />
+    <g
+       fill="#999"
+       id="g45">
+      <path
+         d="M.79 12.68h1.29a.29.29 0 0 1 .29.29v3.6h-1.3A.57.57 0 0 1 .5 16v-3a.29.29 0 0 1 .29-.32z"
+         id="path41" />
+      <path
+         d="M.79 12.68h1.29a.29.29 0 0 1 .29.29v3.6h-1.3A.57.57 0 0 1 .5 16v-3a.29.29 0 0 1 .29-.32z"
+         opacity=".5"
+         id="path43" />
+    </g>
+    <g
+       fill="#999"
+       id="g51">
+      <path
+         d="M15.92 12.68h1.29a.29.29 0 0 1 .29.29v3a.57.57 0 0 1-.57.57h-1.29V13a.29.29 0 0 1 .28-.32z"
+         id="path47" />
+      <path
+         d="M15.92 12.68h1.29a.29.29 0 0 1 .29.29v3a.57.57 0 0 1-.57.57h-1.29V13a.29.29 0 0 1 .28-.32z"
+         opacity=".5"
+         id="path49" />
+    </g>
+    <path
+       d="M.5 16v-1.25h17V16a.57.57 0 0 1-.57.57H1.07A.57.57 0 0 1 .5 16z"
+       fill="#949494"
+       id="path53" />
+  </g>
+</svg>

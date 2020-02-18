@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100px"
+   height="100px"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg28"
+   sodipodi:docname="data-factory-sfir.svg"
+   inkscape:export-filename="C:\Users\user\OneDrive\Personal\01. MarczakIO\images\tags\data-factory-sfir.png"
+   inkscape:export-xdpi="1393.37"
+   inkscape:export-ydpi="1393.37"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <metadata
+     id="metadata32">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview30"
+     showgrid="false"
+     inkscape:current-layer="svg28" />
+  <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title2">i-100x100-ir_selfhosted_color</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <defs
+     id="defs6" />
+  <g
+     id="i-100x100-ir_selfhosted_color"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd">
+    <g
+       id="Icon_IR_OnPrem_Clr_100x"
+       transform="translate(17.924528, 6.603774)">
+      <path
+         d="M50.4895031,64.8702587 C50.4895031,67.2680404 48.5477776,69.2118265 46.1525379,69.2118265 L4.67127292,69.2118265 C2.27603319,69.2118265 0.334307733,67.2680404 0.334307733,64.8702587 L0.334307733,4.52246645 C0.334307733,2.12468477 2.27603319,0.180898658 4.67127292,0.180898658 L46.1525379,0.180898658 C48.5477776,0.180898658 50.4895031,2.12468477 50.4895031,4.52246645 L50.4895031,64.8702587 Z"
+         id="Shape"
+         fill="#8E9BA7"
+         fill-rule="nonzero" />
+      <path
+         d="M7.70714855,30.1738961 C7.70714855,27.176669 10.1343054,24.7469364 13.128355,24.7469364 L38.1201169,24.7469364 C41.1141666,24.7469364 43.5413234,27.176669 43.5413234,30.1738961 C43.5413234,33.1711232 41.1141666,35.6008559 38.1201169,35.6008559 L13.1554611,35.6008559 C10.1614114,35.6008559 7.73425458,33.1711232 7.73425458,30.1738961 L7.70714855,30.1738961 Z"
+         id="path9"
+         fill="#4D4C4D"
+         fill-rule="nonzero" />
+      <ellipse
+         id="Oval"
+         fill="#B7D333"
+         fill-rule="nonzero"
+         cx="13.39038"
+         cy="30.1738961"
+         rx="3.65931438"
+         ry="3.66319782" />
+      <path
+         d="M7.70714855,13.9653764 C7.70714855,10.9681493 10.1343054,8.53841665 13.128355,8.53841665 L38.1201169,8.53841665 C41.1141666,8.53841665 43.5413234,10.9681493 43.5413234,13.9653764 C43.5413234,16.9626035 41.1141666,19.3923361 38.1201169,19.3923361 L13.1554611,19.3923361 C10.1614114,19.3923361 7.73425458,16.9626035 7.73425458,13.9653764 L7.70714855,13.9653764 Z"
+         id="path12"
+         fill="#4D4C4D"
+         fill-rule="nonzero" />
+      <ellipse
+         id="ellipse14"
+         fill="#B7D333"
+         fill-rule="nonzero"
+         cx="13.39038"
+         cy="13.9653764"
+         rx="3.65931438"
+         ry="3.66319782" />
+      <ellipse
+         id="ellipse16"
+         fill="#FFFFFF"
+         fill-rule="nonzero"
+         cx="27.331916"
+         cy="71.2740712"
+         rx="16.2636195"
+         ry="16.2808792" />
+      <polyline
+         id="polyline18"
+         fill="#7FBB42"
+         fill-rule="nonzero"
+         points="23.1214457 63.0341373 34.4065905 71.1564871 23.0762689 79.3059716 23.0762689 63.0341373" />
+      <path
+         d="M0.63247409,71.0117681 L11.0954026,71.0117681"
+         id="path20"
+         stroke="#6D6D6D"
+         stroke-width="5.82927835"
+         stroke-linecap="round" />
+      <path
+         d="M43.8123837,71.3645205 L63.6178581,71.3645205"
+         id="path22"
+         stroke="#6D6D6D"
+         stroke-width="5.82927835"
+         stroke-linecap="round" />
+      <path
+         d="M11.0411905,71.0660377 C11.1329737,63.2758814 16.7248401,56.6425595 24.3805431,55.2423011 C32.0362461,53.8420428 39.6099851,58.0673235 42.4476369,65.3216746 C45.2852887,72.5760257 42.591494,80.8261404 36.0216112,85.0022575 C29.4517283,89.1783745 20.8472158,88.1099789 15.4956152,82.4536082"
+         id="path24"
+         stroke="#231F20"
+         stroke-width="5.82927835"
+         stroke-linecap="round" />
+    </g>
+  </g>
+</svg>

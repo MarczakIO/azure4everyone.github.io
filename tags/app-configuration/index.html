@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Azure Load Balancer Introduction | Azure 4 Everyone | Adam Marczak</title>
+<title>App Configuration | Azure 4 Everyone | Adam Marczak</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/png" href="https://azure4everyone.com/images/favicon-32x32.png" sizes="32x32" />
 <link rel="icon" type="image/png" href="https://azure4everyone.com/images/favicon-16x16.png" sizes="16x16" />
@@ -14,25 +14,27 @@
 <link rel="stylesheet" id="font-awesome-css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" media="all">
 <link href='https://azure4everyone.com/css/hestia.min.css' rel="stylesheet" type="text/css" />
 <link href='https://azure4everyone.com/css/main.min.css?ver=1.21' rel='stylesheet' type="text/css" />
+  <link href="https://azure4everyone.com/tags/app-configuration/index.xml" rel="alternate" type="application/rss+xml" title="Azure 4 Everyone" />
+  <link href="https://azure4everyone.com/tags/app-configuration/index.xml" rel="feed" type="application/rss+xml" title="Azure 4 Everyone" />
 
-<meta name="description" content="Azure Load balancing allows for distribution of load or incoming network traffic across a group of backend resources or servers. It operates at layer 4 of the Open Systems Interconnection (OSI) model. It is the single point of contact for clients. ">
+<meta name="description" content="Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.">
 <meta name="author" content="Adam Marczak">
 <meta name="copyright" content="Adam Marczak">
-<meta name="title" content="Azure Load Balancer Introduction | Azure 4 Everyone | Adam Marczak">
+<meta name="title" content="App Configuration | Azure 4 Everyone | Adam Marczak">
 <meta property="og:locale" content="en_US">
 <meta property="article:author" content="https://www.facebook.com/MarczakIO/">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Azure Load Balancer Introduction">
-<meta property="og:description" content="Azure Load balancing allows for distribution of load or incoming network traffic across a group of backend resources or servers. It operates at layer 4 of the Open Systems Interconnection (OSI) model. It is the single point of contact for clients. ">
-<meta property="og:url" content="https://azure4everyone.com/posts/2020/01/load-balancer/">
+<meta property="og:title" content="App Configuration">
+<meta property="og:description" content="Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.">
+<meta property="og:url" content="https://azure4everyone.com/tags/app-configuration/">
 <meta property="og:site_name" content="Azure 4 Everyone">
-<meta property="og:image" content="https://azure4everyone.com/images/youtube/26-AzureLoadBalancer-Intro-740.jpg">
+<meta property="og:image" content="https://azure4everyone.com/images/background.png">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@MarczakIO">
-<meta name="twitter:title" content="Azure Load Balancer Introduction">
-<meta name="twitter:description" content="Azure Load balancing allows for distribution of load or incoming network traffic across a group of backend resources or servers. It operates at layer 4 of the Open Systems Interconnection (OSI) model. It is the single point of contact for clients. ">
-<meta name="twitter:url" content="https://azure4everyone.com/posts/2020/01/load-balancer/">
+<meta name="twitter:title" content="App Configuration">
+<meta name="twitter:description" content="Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.">
+<meta name="twitter:url" content="https://azure4everyone.com/tags/app-configuration/">
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144580824-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -89,11 +91,9 @@
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-md-offset-1 text-center">
-          <h1 class="hestia-title">Azure Load Balancer Introduction</h1>
+          <h1 class="hestia-title">App Configuration</h1>
           
-            <h4 class="author">
-              Published by<a href="/about" title="Adam Marczak" class="vcard author"><strong class="fn">Adam Marczak</strong></a> on <time class="date updated published" datetime="2020-01-09 14:00:23 &#43;0200 &#43;0200">Jan 9 2020</time>
-            </h4>
+            <h4>Learn every day</h4>
            
         </div>
       </div>
@@ -105,134 +105,40 @@
       <div class="hestia-blogs">
         <div class="container">
           <div class="row">
-<div class="col-md-9 single-posts-wrap">
-    <article id="/posts/2020/01/load-balancer/" class="article-section section-text"> 
+<div class="col-md-9 blog-posts-wrap"><article id="post-19" class="card card-plain card-blog">
+  <div class="row">
+    <div class="col-md-5">
+      <a href="/posts/2020/02/app-configuration-intro/" class='thumbnail'> 
 <div class="lazy" style="max-height: 416px">
     <div style="padding-bottom:56.21621621621622%"></div>
-    <img data-src="/images/youtube/26-AzureLoadBalancer-Intro-740.jpg" src=""/> 
+    <img data-src="/images/youtube/31-AzureAppConfiguration-Intro-740.jpg" src=""/> 
 </div> 
-        <h2>Highlight</h2>
-        <p>Azure Load balancing allows for distribution of load or incoming network traffic across a group of backend resources or servers. It operates at layer 4 of the Open Systems Interconnection (OSI) model. It is the single point of contact for clients. </p>
-
-<h2 id="intro">Intro</h2>
-
-<p>In this episode I give you introduction to what Azure Load Balancer service is and what are the key concepts around it including integrations with virtual machine scale sets and availability sets.</p>
-
-<h2 id="agenda">Agenda</h2>
-
-<p>In this episode I will show you a live demo of</p>
-
-<ul>
-<li>Creating load balancer service</li>
-<li>Adding backend pools</li>
-<li>Creating health probes</li>
-<li>Creating load balancing rules</li>
-</ul>
-
-<p>Source code: <a href="https://github.com/MarczakIO/azure4everyone-samples/tree/master/azure-load-balancer-introduction">https://github.com/MarczakIO/azure4everyone-samples/tree/master/azure-load-balancer-introduction</a></p>
-
-<h2 id="video">Video</h2>
-
-<iframe class="youtube" frameborder="0" allowfullscreen src="https://www.youtube.com/embed/T7XU6Lz8lJw?origin=https://azure4everyone.com"></iframe>
-
-<h2 id="next-steps-for-you-after-watching-the-video">Next steps for you after watching the video</h2>
-
-<ol>
-<li>Load balancer documentation
-
-<ul>
-<li><a href="https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-overview">https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-overview</a></li>
-</ul></li>
-<li>basic versus Standard Load Balancer
-
-<ul>
-<li><a href="https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-standard-overview">https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-standard-overview</a></li>
-</ul></li>
-<li>Quickstart
-
-<ul>
-<li><a href="https://docs.microsoft.com/en-us/azure/load-balancer/quickstart-load-balancer-standard-public-portal">https://docs.microsoft.com/en-us/azure/load-balancer/quickstart-load-balancer-standard-public-portal</a></li>
-</ul></li>
-</ol>
-    </article>
-    <div class="section-blog-info">
-        <div class="row">
-            <div class="col-md-12">
-<div class="authorblock">
-    <div class="row">
-        <div class="col-sm-3">
-            <div class="avatar"></div>
-        </div>
-        <div class="col-sm-9">
-            <h4><b>Adam Marczak</b></h4>
-            <p>Programmer, architect, trainer, blogger, evangelist are just few of many titles. What I really am, is just passionate technology enthusiast. I take great pleasure in learning new technologies and finding ways it can aid people every day. My latest passion is running <b><a href='https://www.youtube.com/azure4everyone'>Azure 4 Everyone</a></b> YouTube channel where I show that Azure is really for everyone!</p>
-        </div>
+      </a>
     </div>
-</div>
-            </div>
-        </div> 
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <h3 class="text-center">Did you enjoy the article?</h3>
-            </div>
-            <div class="col-md-6 text-center">
-                <h4 class="">Share it!</h4><a target="_blank" 
-   rel="tooltip" 
-   data-original-title="Share on Facebook" 
-   class="btn btn-just-icon btn-share btn-facebook"
-   href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fazure4everyone.com%2fposts%2f2020%2f01%2fload-balancer%2f">
-    <i class="fa fa-facebook"></i>
-</a>
-<a target="_blank" 
-   rel="tooltip" 
-   data-original-title="Share on Twitter" 
-   class="btn btn-just-icon btn-share btn-twitter" 
-   href="https://twitter.com/home?status=Azure%20Load%20Balancer%20Introduction - https%3a%2f%2fazure4everyone.com%2fposts%2f2020%2f01%2fload-balancer%2f">
-   <i class="fa fa-twitter"></i>
-</a>
-<a target="_blank" 
-   rel="tooltip" 
-   data-original-title="Share on Google+" 
-   class="btn btn-just-icon btn-share btn-google" 
-   href="https://plus.google.com/share?url=https%3a%2f%2fazure4everyone.com%2fposts%2f2020%2f01%2fload-balancer%2f"><i 
-   class="fa fa-google"></i>
-</a>
-            
-            </div>
-            <div class="col-md-6 text-center large">
-                <h4 class="">More tagged posts</h4>
+    <div class="col-md-7">
+      
   <div class="tag-list">
+    <a href="https://azure4everyone.com/tags/app-configuration" title="View all posts in App Configuration">
+      <img src="https://azure4everyone.com/images/tags/app-configuration.svg" alt="App Configuration"/>
+    </a>
     <a href="https://azure4everyone.com/tags/azure" title="View all posts in Azure">
       <img src="https://azure4everyone.com/images/tags/azure.svg" alt="Azure"/>
-    </a>
-    <a href="https://azure4everyone.com/tags/load-balancer" title="View all posts in Load Balancer">
-      <img src="https://azure4everyone.com/images/tags/load-balancer.svg" alt="Load Balancer"/>
     </a>
     <a href="https://azure4everyone.com/tags/youtube" title="View all posts in YouTube">
       <img src="https://azure4everyone.com/images/tags/youtube.svg" alt="YouTube"/>
     </a>
   </div>
-            </div>
-        </div>
-        <div class="row comments">
-            <div class="col-md-12"><div id="disqus_thread"></div>
-<script>
-var disqus_config = function () {
-this.page.url = "https:\/\/azure4everyone.com\/posts\/2020\/01\/load-balancer\/"; 
-this.page.identifier = "\/posts\/2020\/01\/load-balancer\/";
-};
-
-(function() {
-if (window.location.hostname == "localhost")return;
-var d = document, s = d.createElement('script');
-s.src = 'https://marczak-io.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-            </div>
-        </div> 
+      <h2 class="card-title entry-title">
+        <a href="/posts/2020/02/app-configuration-intro/" title="Azure App Configuration Introduction" rel="bookmark">Azure App Configuration Introduction</a></h2>
+        <div class="card-description">
+        <p><p>Applications running in the cloud have many distributed components. By centralizing application settings and feature flags you can reduce operational costs and complexity of your solutions. Azure App Configuration service delivers all that in simple and clean manner.</p> </p> 
+      </div>
+      <div class="author">
+        By <a href="/about" title="Adam Marczak" class="vcard author"><strong class="fn">Adam Marczak</strong></a>, <time class="entry-date updated" datetime="2020-02-13 14:00:23 &#43;0200 &#43;0200">February 13 2020</time>
+      </div>
     </div>
+  </div>
+</article>
 </div>
             <div class="col-md-3 blog-sidebar-wrapper">
               <aside id="secondary" class="blog-sidebar" role="complementary"><div id="mvp" style="margin:50px 0 20px 0;max-width:180px;margin-right:30px;">
@@ -292,31 +198,31 @@ s.setAttribute('data-timestamp', +new Date());
 </div><div id="recent-posts" class="recent-posts widget widget_recent_entries" style="float:left;max-width:180px;margin-right:30px;">
 <h5>Recent Posts</h5>
 <ul>
+        <li><b class="list-header">2020 February</b></li>
+        <li class="indented">
+            <a href="/posts/2020/02/arm-tempaltes-intro/" title="Azure Resource Management (ARM) Templates Introduction" rel="bookmark">
+                <b>18th </b>Azure Resource Management (ARM) Templates Introduction
+            </a>
+        </li>
+        <li class="indented">
+            <a href="/posts/2020/02/app-configuration-intro/" title="Azure App Configuration Introduction" rel="bookmark">
+                <b>13th </b>Azure App Configuration Introduction
+            </a>
+        </li>
+        <li class="indented">
+            <a href="/posts/2020/02/application-insights-intro/" title="Azure Application Insights Introduction" rel="bookmark">
+                <b>4th </b>Azure Application Insights Introduction
+            </a>
+        </li>
         <li><b class="list-header">2020 January</b></li>
         <li class="indented">
-            <a href="/posts/2020/01/load-balancer/" title="Azure Load Balancer Introduction" rel="bookmark">
-                <b>9th </b>Azure Load Balancer Introduction
+            <a href="/posts/2020/01/table-storage-intro/" title="Azure Table Storage Introduction" rel="bookmark">
+                <b>28th </b>Azure Table Storage Introduction
             </a>
         </li>
         <li class="indented">
-            <a href="/posts/2020/01/traffic-manager-intro/" title="Azure Traffic Manager Introduction" rel="bookmark">
-                <b>2nd </b>Azure Traffic Manager Introduction
-            </a>
-        </li>
-        <li><b class="list-header">2019 December</b></li>
-        <li class="indented">
-            <a href="/posts/2019/12/virtual-machines-intro/" title="Azure Virtual Machine Introduction" rel="bookmark">
-                <b>26th </b>Azure Virtual Machine Introduction
-            </a>
-        </li>
-        <li class="indented">
-            <a href="/posts/2019/12/databricks-secret-scopes/" title="Azure Databricks Secret Scopes" rel="bookmark">
-                <b>22nd </b>Azure Databricks Secret Scopes
-            </a>
-        </li>
-        <li class="indented">
-            <a href="/posts/2019/12/data-lake-storage-intro/" title="Azure Data Lake Storage (Gen 2) Introduction" rel="bookmark">
-                <b>18th </b>Azure Data Lake Storage (Gen 2) Introduction
+            <a href="/posts/2020/01/queue-storage-intro/" title="Azure Queue Storage Introduction" rel="bookmark">
+                <b>23rd </b>Azure Queue Storage Introduction
             </a>
         </li>
 </ul>
@@ -331,9 +237,27 @@ s.setAttribute('data-timestamp', +new Date());
       </li>
       <li>
         <div class="lazy" style="width:30px;height:20px;float:left;">
+          <img src="" data-src="https://azure4everyone.com/images/tags/app-configuration.svg" alt="App Configuration"/> 
+        </div> 
+        <a href="https://azure4everyone.com/tags/app-configuration">App Configuration (1)</a>
+      </li>
+      <li>
+        <div class="lazy" style="width:30px;height:20px;float:left;">
           <img src="" data-src="https://azure4everyone.com/images/tags/app-service.svg" alt="App Service"/> 
         </div> 
         <a href="https://azure4everyone.com/tags/app-service">App Service (2)</a>
+      </li>
+      <li>
+        <div class="lazy" style="width:30px;height:20px;float:left;">
+          <img src="" data-src="https://azure4everyone.com/images/tags/application-insights.svg" alt="Application Insights"/> 
+        </div> 
+        <a href="https://azure4everyone.com/tags/application-insights">Application Insights (1)</a>
+      </li>
+      <li>
+        <div class="lazy" style="width:30px;height:20px;float:left;">
+          <img src="" data-src="https://azure4everyone.com/images/tags/arm.svg" alt="Arm"/> 
+        </div> 
+        <a href="https://azure4everyone.com/tags/arm">Arm (1)</a>
       </li>
       <li>
         <div class="lazy" style="width:30px;height:20px;float:left;">
@@ -345,7 +269,7 @@ s.setAttribute('data-timestamp', +new Date());
         <div class="lazy" style="width:30px;height:20px;float:left;">
           <img src="" data-src="https://azure4everyone.com/images/tags/azure.svg" alt="Azure"/> 
         </div> 
-        <a href="https://azure4everyone.com/tags/azure">Azure (26)</a>
+        <a href="https://azure4everyone.com/tags/azure">Azure (32)</a>
       </li>
       <li>
         <div class="lazy" style="width:30px;height:20px;float:left;">
@@ -369,7 +293,7 @@ s.setAttribute('data-timestamp', +new Date());
         <div class="lazy" style="width:30px;height:20px;float:left;">
           <img src="" data-src="https://azure4everyone.com/images/tags/data-factory.svg" alt="Data Factory"/> 
         </div> 
-        <a href="https://azure4everyone.com/tags/data-factory">Data Factory (4)</a>
+        <a href="https://azure4everyone.com/tags/data-factory">Data Factory (5)</a>
       </li>
       <li>
         <div class="lazy" style="width:30px;height:20px;float:left;">
@@ -427,15 +351,27 @@ s.setAttribute('data-timestamp', +new Date());
       </li>
       <li>
         <div class="lazy" style="width:30px;height:20px;float:left;">
+          <img src="" data-src="https://azure4everyone.com/images/tags/queue.svg" alt="Queue"/> 
+        </div> 
+        <a href="https://azure4everyone.com/tags/queue">Queue (1)</a>
+      </li>
+      <li>
+        <div class="lazy" style="width:30px;height:20px;float:left;">
           <img src="" data-src="https://azure4everyone.com/images/tags/sql.svg" alt="Sql"/> 
         </div> 
-        <a href="https://azure4everyone.com/tags/sql">Sql (1)</a>
+        <a href="https://azure4everyone.com/tags/sql">Sql (2)</a>
       </li>
       <li>
         <div class="lazy" style="width:30px;height:20px;float:left;">
           <img src="" data-src="https://azure4everyone.com/images/tags/storage-account.svg" alt="Storage Account"/> 
         </div> 
-        <a href="https://azure4everyone.com/tags/storage-account">Storage Account (1)</a>
+        <a href="https://azure4everyone.com/tags/storage-account">Storage Account (3)</a>
+      </li>
+      <li>
+        <div class="lazy" style="width:30px;height:20px;float:left;">
+          <img src="" data-src="https://azure4everyone.com/images/tags/table-storage.svg" alt="Table Storage"/> 
+        </div> 
+        <a href="https://azure4everyone.com/tags/table-storage">Table Storage (1)</a>
       </li>
       <li>
         <div class="lazy" style="width:30px;height:20px;float:left;">
@@ -453,7 +389,7 @@ s.setAttribute('data-timestamp', +new Date());
         <div class="lazy" style="width:30px;height:20px;float:left;">
           <img src="" data-src="https://azure4everyone.com/images/tags/youtube.svg" alt="Youtube"/> 
         </div> 
-        <a href="https://azure4everyone.com/tags/youtube">Youtube (26)</a>
+        <a href="https://azure4everyone.com/tags/youtube">Youtube (32)</a>
       </li>
   </ul>
 </div><div id="recent-posts" class="recent-posts widget widget_recent_entries" style="float:left;margin-right:10px;">
@@ -471,7 +407,8 @@ s.setAttribute('data-timestamp', +new Date());
 </div>
               </aside>
             </div>
-          </div>
+          </div> 
+
         </div>
       </div>
 <footer class="footer footer-black footer-big">

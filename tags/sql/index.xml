@@ -6,10 +6,22 @@
     <description>Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Oct 2019 12:00:23 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jan 2020 14:00:23 +0200</lastBuildDate>
     
         <atom:link href="https://azure4everyone.com/tags/sql/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Azure Data Factory Self-hosted Integration Runtime</title>
+      <link>https://azure4everyone.com/posts/2020/01/adf-integration-runtime/</link>
+      <pubDate>Thu, 16 Jan 2020 14:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/01/adf-integration-runtime/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/27-AzureDataFactory-SelfHostedIntegrationRuntime-740.jpg&quot;&gt;
+        &lt;p&gt;With Azure Data Factory Self-hosted integration runtime, you can now integrate your on-premise, virtual private network data sources as well as those which require your own drivers.&lt;/p&gt;
+      </description>
+    </item>
     
     <item>
       <title>Azure SQL Database Intro</title>
