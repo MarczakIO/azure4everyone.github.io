@@ -18,7 +18,7 @@
       
       <guid>https://azure4everyone.com/posts/2020/01/table-storage-intro/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/29-AzureTableStorage-Intro-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/29-AzureTableStorage-Intro-v6.jpg&quot;&gt;
         &lt;p&gt;Do you need simple but scalable NoSQL database in a cloud? Look no further, with Azure Table Storage you can create applications extremely easy while maintaining all the best features of Storage Accounts like geo-replication, security, scalability, high availability and low price. Join me for quick introduction video.&lt;/p&gt;
       </description>
     </item>
@@ -30,7 +30,7 @@
       
       <guid>https://azure4everyone.com/posts/2020/01/queue-storage-intro/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/28-AzureQueueStorage-Intro-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/28-AzureQueueStorage-Intro-v6.jpg&quot;&gt;
         &lt;p&gt;Azure Queue Storage is simple yet powerful service for storing large number of messages. It is one of core services for implementing scenarios like load-leveling, fan-out, fan-in and those relying on retry capabilities.&lt;/p&gt;
       </description>
     </item>
@@ -42,7 +42,7 @@
       
       <guid>https://azure4everyone.com/posts/2019/08/storage-intro/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/04-AzureStorageAccountIntro-v2-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/04-AzureStorageAccountIntro-v6.jpg&quot;&gt;
         &lt;p&gt;Choosing the right storage solution is critical part of every application design. Azure Storage is one of the most flexible and powerful, yet simple services in Azure. With its four services (file, blob, queue and table) it can feed most of common needs.&lt;/p&gt;
       </description>
     </item>

@@ -18,7 +18,7 @@
       
       <guid>https://azure4everyone.com/posts/2020/02/arm-tempaltes-intro/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/32-AzureRMTemplates-Intro-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/32-AzureRMTemplates-Intro-v6.jpg&quot;&gt;
         &lt;p&gt;Azure Resource Manager Templates provide simple and unified way to create and manage your Azure environments for both developers and administrators. With simple JSON files you can deploy your environment in consistent fashion and at great speed.&lt;/p&gt;
       </description>
     </item>
@@ -30,7 +30,7 @@
       
       <guid>https://azure4everyone.com/posts/2020/02/app-configuration-intro/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/31-AzureAppConfiguration-Intro-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/31-AzureAppConfiguration-Intro-v6.jpg&quot;&gt;
         &lt;p&gt;Applications running in the cloud have many distributed components. By centralizing application settings and feature flags you can reduce operational costs and complexity of your solutions. Azure App Configuration service delivers all that in simple and clean manner.&lt;/p&gt;
       </description>
     </item>
@@ -42,7 +42,7 @@
       
       <guid>https://azure4everyone.com/posts/2020/02/application-insights-intro/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/30-AzureApplicationInsights-Intro-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/30-AzureApplicationInsights-Intro-v6.jpg&quot;&gt;
         &lt;p&gt;Creating logging and performance tracking solution for your applications can be challenging, especially in multi-service cloud environment. In this video I will show you why Azure Application Insights is the right tool for the job.&lt;/p&gt;
       </description>
     </item>
@@ -54,7 +54,7 @@
       
       <guid>https://azure4everyone.com/posts/2020/01/table-storage-intro/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/29-AzureTableStorage-Intro-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/29-AzureTableStorage-Intro-v6.jpg&quot;&gt;
         &lt;p&gt;Do you need simple but scalable NoSQL database in a cloud? Look no further, with Azure Table Storage you can create applications extremely easy while maintaining all the best features of Storage Accounts like geo-replication, security, scalability, high availability and low price. Join me for quick introduction video.&lt;/p&gt;
       </description>
     </item>
@@ -66,7 +66,7 @@
       
       <guid>https://azure4everyone.com/posts/2020/01/queue-storage-intro/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/28-AzureQueueStorage-Intro-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/28-AzureQueueStorage-Intro-v6.jpg&quot;&gt;
         &lt;p&gt;Azure Queue Storage is simple yet powerful service for storing large number of messages. It is one of core services for implementing scenarios like load-leveling, fan-out, fan-in and those relying on retry capabilities.&lt;/p&gt;
       </description>
     </item>
@@ -74,11 +74,11 @@
     <item>
       <title>Azure Data Factory Self-hosted Integration Runtime</title>
       <link>https://azure4everyone.com/posts/2020/01/adf-integration-runtime/</link>
-      <pubDate>Thu, 16 Jan 2020 14:00:23 +0200</pubDate>
+      <pubDate>Thu, 09 Jan 2020 14:00:23 +0200</pubDate>
       
       <guid>https://azure4everyone.com/posts/2020/01/adf-integration-runtime/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/27-AzureDataFactory-SelfHostedIntegrationRuntime-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/27-AzureDataFactory-SHIR-v6.jpg&quot;&gt;
         &lt;p&gt;With Azure Data Factory Self-hosted integration runtime, you can now integrate your on-premise, virtual private network data sources as well as those which require your own drivers.&lt;/p&gt;
       </description>
     </item>
@@ -90,7 +90,7 @@
       
       <guid>https://azure4everyone.com/posts/2020/01/load-balancer-intro/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/26-AzureLoadBalancer-Intro-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/26-AzureLoadBalancer-Intro.jpg&quot;&gt;
         &lt;p&gt;Azure Load balancing allows for distribution of load or incoming network traffic across a group of backend resources or servers. It operates at layer 4 of the Open Systems Interconnection (OSI) model. It is the single point of contact for clients. &lt;/p&gt;
       </description>
     </item>
@@ -102,7 +102,7 @@
       
       <guid>https://azure4everyone.com/posts/2020/01/traffic-manager-intro/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/25-AzureTrafficManager-Intro-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/25-AzureTrafficManager-Intro-v6.jpg&quot;&gt;
         &lt;p&gt;Azure Traffic Manager is a DNS-based traffic load balancer that enables you to distribute traffic optimally to services across global Azure regions, while providing high availability and responsiveness. &lt;/p&gt;
       </description>
     </item>
@@ -114,7 +114,7 @@
       
       <guid>https://azure4everyone.com/posts/2019/12/virtual-machines-intro/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/24-AzureVirtualMachines-Intro-v2-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/24-AzureVirtualMachines-Intro-v6.jpg&quot;&gt;
         &lt;p&gt;Virtual Machines are beating heart and a core component of any cloud. With wide range of use cases and flexibility of virtualizing most of commonly known operating systems it is possible to move pretty much any software to the cloud. &lt;/p&gt;
       </description>
     </item>
@@ -126,7 +126,7 @@
       
       <guid>https://azure4everyone.com/posts/2019/12/databricks-secret-scopes/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/23-AzureDatabricks-SecretScopes-v2-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/23-AzureDatabricks-SecretScopes-v6.jpg&quot;&gt;
         &lt;p&gt;When building solutions in Databricks you need to ensure that all your credentials are securely stored. Today I will show you how to do it using Databricks Secret Scopes and how can you integrate them with Azure Key Vault. &lt;/p&gt;
       </description>
     </item>
@@ -138,7 +138,7 @@
       
       <guid>https://azure4everyone.com/posts/2019/12/data-lake-storage-intro/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/22-AzureDataLakeStorage-Intro-v2-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/22-AzureDataLakeStorage-Intro-v6.jpg&quot;&gt;
         &lt;p&gt;Data Lake Storage Gen 2 is the best storage solution for big data analytics in Azure. With its Hadoop compatible access, it is a perfect fit for existing platforms like Databricks, Cloudera, Hortonworks, Hadoop, HDInsight and many more. Take advantage of both blob storage and data lake in one service! &lt;/p&gt;
       </description>
     </item>
@@ -150,7 +150,7 @@
       
       <guid>https://azure4everyone.com/posts/2019/12/analysis-services-intro/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/21-AzureAnalysisServices-Intro-v2-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/21-AzureAnalysisServices-Intro-v6.jpg&quot;&gt;
         &lt;p&gt;With Azure Analysis Services you can scale your Power BI reports up to tens and hundreds of gigabytes of data. It is very fast in-memory database and analytical progressing engine with all the benefits of cloud scaling and security. &lt;/p&gt;
       </description>
     </item>
@@ -162,7 +162,7 @@
       
       <guid>https://azure4everyone.com/posts/2019/11/powershell-intro/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/20-AzurePowerShell-Intro-v2-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/20-AzurePowerShell-Intro-v6.jpg&quot;&gt;
         &lt;p&gt;Azure PowerShell allows for task automation and operational management of Azure resources at no cost or effort using popular PowerShell scripting language. &lt;/p&gt;
       </description>
     </item>
@@ -174,7 +174,7 @@
       
       <guid>https://azure4everyone.com/posts/2019/11/cli-intro/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/19-AzureCLI-Intro-v2-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/19-AzureCLI-Intro-v6.jpg&quot;&gt;
         &lt;p&gt;Azure CLI (Command Line Interface) allows developers and operations to complete nearly any scenario for management and automation of Azure resources in no time.&lt;/p&gt;
       </description>
     </item>
@@ -186,7 +186,7 @@
       
       <guid>https://azure4everyone.com/posts/2019/11/automation-intro/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/18-AzureAutomation-Intro-v2-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/18-AzureAutomation-Intro-v6.jpg&quot;&gt;
         &lt;p&gt;Azure Automation service is designed specifically to help with day to day operational challenges around process automation, configuration management and update management for both Azure and non-Azure environments. Join me and see what is this service all about.&lt;/p&gt;
       </description>
     </item>
@@ -198,7 +198,7 @@
       
       <guid>https://azure4everyone.com/posts/2019/11/adf-mapping-data-flow/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/17-AzureDataFactory-MappingDataFlows-v2-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/17-AzureDataFactory-MappingDataFlows-v6.jpg&quot;&gt;
         &lt;p&gt;With Azure Data Factory Mapping Data Flow, you can create fast and scalable on-demand transformations by using visual user interface. In just minutes you can leverage power of Spark with not a single line of code written. &lt;/p&gt;
       </description>
     </item>
@@ -210,7 +210,7 @@
       
       <guid>https://azure4everyone.com/posts/2019/10/sqldatabase-intro/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/16-AzureSqlDatabase-Intro-v2-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/16-AzureSqlDatabase-Intro-v6.jpg&quot;&gt;
         &lt;p&gt;Azure SQL Database is one of the key data storage solution for structured data in Azure. If you need to manage structured data via schema, constraints and relationships or you need to explore your data via rich query language then this might be the right service for you.&lt;/p&gt;
       </description>
     </item>
@@ -222,7 +222,7 @@
       
       <guid>https://azure4everyone.com/posts/2019/10/botservice-intro/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/15-AzureBotService-Intro-v2-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/15-AzureBotService-Intro-v6.jpg&quot;&gt;
         &lt;p&gt;Azure Bot Service and Bot Framework provide tools to build, test, deploy, and manage intelligent bots all in one place. &lt;/p&gt;
       </description>
     </item>
@@ -234,7 +234,7 @@
       
       <guid>https://azure4everyone.com/posts/2019/10/keyvault-intro/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/14-AzureKeyVault-Intro-v2-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/14-AzureKeyVault-Intro-v6.jpg&quot;&gt;
         &lt;p&gt;Using Azure Key Vault Service allows for centralization and protection of your application secrets, certificates but also encryption keys for Virtual Machines..&lt;/p&gt;
       </description>
     </item>
@@ -246,7 +246,7 @@
       
       <guid>https://azure4everyone.com/posts/2019/10/datafactory-triggers/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/13-AzureDataFactory-Triggers-v2-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/13-AzureDataFactory-Triggers-v6.jpg&quot;&gt;
         &lt;p&gt;Choosing the right trigger type is very important task when designing data factory workflows. Today I will show you four ways to trigger data factory pipelines so you can make sure you react to your business needs better.&lt;/p&gt;
       </description>
     </item>
@@ -258,7 +258,7 @@
       
       <guid>https://azure4everyone.com/posts/2019/09/eventgrid-intro/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/12-AzureEventGrid-Intro-v2-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/12-AzureEventGrid-Intro-v6.jpg&quot;&gt;
         &lt;p&gt;Azure Event Grid is fast and reliable event routing service allowing developers to create real time applications and decouple their systems at ease. Thanks to event grid built in events you can quickly automate Azure subscription for all your operation needs.&lt;/p&gt;
       </description>
     </item>
@@ -270,7 +270,7 @@
       
       <guid>https://azure4everyone.com/posts/2019/09/appservice-deployment-center/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/11-AzureAppService-DeploymentCenter-v2-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/11-AzureAppService-DeploymentCenter-v6.jpg&quot;&gt;
         &lt;p&gt;Continuous Deployment is great way to increase productivity for developers in any technology out there. With Azure App Service deployment center, you can quickly set up continuous deployment for your web apps and serverless functions without need to learn complicated external tools and platforms, all this in just few minutes.&lt;/p&gt;
       </description>
     </item>
@@ -282,7 +282,7 @@
       
       <guid>https://azure4everyone.com/posts/2019/09/aci-intro/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/10-AzureContainerInstances-Intro-v2-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/10-AzureContainerInstances-Intro-v6.jpg&quot;&gt;
         &lt;p&gt;If you are looking for a quick way to host your containers in Azure, then look no further. With Azure Container Instances you can host your containers in minutes without need to run complicated provisioning or infrastructure management. A true container service for beginners.&lt;/p&gt;
       </description>
     </item>
@@ -294,7 +294,7 @@
       
       <guid>https://azure4everyone.com/posts/2019/09/logicapps-controlactions/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/09-AzureLogicApps-LoopsConditionsParallelExecution-v2-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/09-AzureLogicApps-LoopsConditionsParallelExecution-v6.jpg&quot;&gt;
         &lt;p&gt;Using conditions, loops and parallel execution allows developers to implement much more complex Enterprise Integration scenarios using Azure Logic Apps. All those actions are available through Control Actions group which we will learn all about Today. &lt;/p&gt;
       </description>
     </item>
@@ -306,7 +306,7 @@
       
       <guid>https://azure4everyone.com/posts/2019/09/cosmosdb-intro/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/08-AzureCosmosDB-Intro-v2-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/08-AzureCosmosDB-Intro-v6.jpg&quot;&gt;
         &lt;p&gt;Azure Cosmos DB is globally distributed and highly responsive database in the cloud. With just few clicks you can get multi-regional distribution and redundancy with high availability of 99.999%. &lt;/p&gt;
       </description>
     </item>
@@ -318,7 +318,7 @@
       
       <guid>https://azure4everyone.com/posts/2019/08/datafactory-params/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/07-AzureDataFactory-Parameterization-v2-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/07-AzureDataFactory-Parameterization-v6.jpg&quot;&gt;
         &lt;p&gt;Parametrization in Azure Data Factory is essential to achieve good design and reusability as well as low cost of solution maintenance. Using parameters also speeds up implementation of new features in your pipelines. &lt;/p&gt;
       </description>
     </item>
@@ -330,7 +330,7 @@
       
       <guid>https://azure4everyone.com/posts/2019/08/databricks-intro/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/06-AzureDatabricksIntro-v2-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/06-AzureDatabricksIntro-v6.jpg&quot;&gt;
         &lt;p&gt;Azure Databricks is fast, easy to use and scalable big data collaboration platform. Based on Apache Spark brings high performance and benefits of spark without need of having high technical knowledge. You just write Python/Scala scripts and you are ready to go.&lt;/p&gt;
       </description>
     </item>
@@ -342,7 +342,7 @@
       
       <guid>https://azure4everyone.com/posts/2019/08/function-apps-intro/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/05-AzureFunctionAppsIntro-v2-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/05-AzureFunctionAppsIntro-v6.jpg&quot;&gt;
         &lt;p&gt;Serverless is powerful and flexible way of delivering fast and scalable solutions in Azure. Today we will get introduction about Azure Function Apps, one of my favorite services and one of the best serverless services out there.&lt;/p&gt;
       </description>
     </item>
@@ -354,7 +354,7 @@
       
       <guid>https://azure4everyone.com/posts/2019/08/storage-intro/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/04-AzureStorageAccountIntro-v2-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/04-AzureStorageAccountIntro-v6.jpg&quot;&gt;
         &lt;p&gt;Choosing the right storage solution is critical part of every application design. Azure Storage is one of the most flexible and powerful, yet simple services in Azure. With its four services (file, blob, queue and table) it can feed most of common needs.&lt;/p&gt;
       </description>
     </item>
@@ -366,7 +366,7 @@
       
       <guid>https://azure4everyone.com/posts/2019/07/app-service-intro/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/03-AzureAppServiceIntro-v2-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/03-AzureAppServiceIntro-v6.jpg&quot;&gt;
         &lt;p&gt;Web development is the beating heart of cloud applications. Azure App Service is one of key compute services which streamlines development and maintenance of web applications. It is powerful Platform as a Service offering with many of security and DevOps features.&lt;/p&gt;
       </description>
     </item>
@@ -378,7 +378,7 @@
       
       <guid>https://azure4everyone.com/posts/2019/07/data-factory-intro/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/02-AzureDataFactoryIntro-v2-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/02-AzureDataFactoryIntro-v6.jpg&quot;&gt;
         &lt;p&gt;Azure Data Factory is essential service in all data related activities in Azure. It is flexible and powerful Platform as a Service offering with multitude of connectors and inetgration capabilities. It is a heart of ETL in Azure. &lt;/p&gt;
       </description>
     </item>
@@ -390,7 +390,7 @@
       
       <guid>https://azure4everyone.com/posts/2019/07/logic-apps-intro/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/01-AzureLogicAppsIntro-v2-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/01-AzureLogicAppsIntro-v6.jpg&quot;&gt;
         &lt;p&gt;Azure Logic Apps are Enterprise Integration Service and as such their main purpose is orchestration, integration and scheduling of tasks in a simple way. With easy to use user interface, no coding design and powerful extensibility you can easily integrate services in minutes.&lt;/p&gt;
       </description>
     </item>

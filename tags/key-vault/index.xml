@@ -18,7 +18,7 @@
       
       <guid>https://azure4everyone.com/posts/2019/12/databricks-secret-scopes/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/23-AzureDatabricks-SecretScopes-v2-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/23-AzureDatabricks-SecretScopes-v6.jpg&quot;&gt;
         &lt;p&gt;When building solutions in Databricks you need to ensure that all your credentials are securely stored. Today I will show you how to do it using Databricks Secret Scopes and how can you integrate them with Azure Key Vault. &lt;/p&gt;
       </description>
     </item>
@@ -30,7 +30,7 @@
       
       <guid>https://azure4everyone.com/posts/2019/10/keyvault-intro/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/14-AzureKeyVault-Intro-v2-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/14-AzureKeyVault-Intro-v6.jpg&quot;&gt;
         &lt;p&gt;Using Azure Key Vault Service allows for centralization and protection of your application secrets, certificates but also encryption keys for Virtual Machines..&lt;/p&gt;
       </description>
     </item>
