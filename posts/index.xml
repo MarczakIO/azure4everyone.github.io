@@ -6,13 +6,49 @@
     <description>Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Feb 2020 12:00:23 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 11 Mar 2020 12:00:23 +0200</lastBuildDate>
     
         <atom:link href="https://azure4everyone.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Azure Resource Management (ARM) Templates Introduction</title>
+      <title>ARM Templates Orchestration</title>
+      <link>https://azure4everyone.com/posts/2020/03/arm-orchestration/</link>
+      <pubDate>Wed, 11 Mar 2020 12:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/03/arm-orchestration/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/35-AzureRMTemplates-Orchestration-v6.jpg&quot;&gt;
+        &lt;p&gt;If you need to deploy multiple services and combine them together using ARM templates, then this episode is for you. This time we are going to look at orchestration using dependencies and references.&lt;/p&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>ARM Templates Parameter Files</title>
+      <link>https://azure4everyone.com/posts/2020/03/arm-parameter-files/</link>
+      <pubDate>Tue, 03 Mar 2020 12:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/03/arm-parameter-files/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/34-AzureRMTemplates-ParameterFiles-v6.jpg&quot;&gt;
+        &lt;p&gt;With JSON-based Parameter Files you can supply environment variables consistently and conviniently to your ARM Templates.&lt;/p&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>ARM Templates Parametrization</title>
+      <link>https://azure4everyone.com/posts/2020/02/arm-parametrization/</link>
+      <pubDate>Tue, 25 Feb 2020 12:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/02/arm-parametrization/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/33-AzureRMTemplates-Parametrization-v6.jpg&quot;&gt;
+        &lt;p&gt;Expressions, parameters and variables allow anyone to build flexible and reusable ARM templates. They are indeed a powerful tool in hands of skillful developers and administrators.&lt;/p&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>ARM Templates Introduction</title>
       <link>https://azure4everyone.com/posts/2020/02/arm-tempaltes-intro/</link>
       <pubDate>Tue, 18 Feb 2020 12:00:23 +0200</pubDate>
       
