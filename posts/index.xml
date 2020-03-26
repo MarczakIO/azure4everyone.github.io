@@ -6,10 +6,34 @@
     <description>Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Mar 2020 12:00:23 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2020 12:00:23 +0200</lastBuildDate>
     
         <atom:link href="https://azure4everyone.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ARM Templates Parameter Files</title>
+      <link>https://azure4everyone.com/posts/2020/03/arm-conditions/</link>
+      <pubDate>Sat, 21 Mar 2020 12:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/03/arm-conditions/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/37-AzureRMTemplates-Conditions-v6.jpg&quot;&gt;
+        &lt;p&gt;With ARM templates you can perform conditional deployment of your Azure infrastructure with ease. All it takes is a simple evaluation.&lt;/p&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>ARM Templates Copy Elements</title>
+      <link>https://azure4everyone.com/posts/2020/03/arm-copy-loops/</link>
+      <pubDate>Fri, 20 Mar 2020 12:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/03/arm-copy-loops/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/35-AzureRMTemplates-Copy-v6.jpg&quot;&gt;
+        &lt;p&gt;With Copy Elements you can deploy multiple instances of your resources or properties, all in a single Resource Manager template.&lt;/p&gt;
+      </description>
+    </item>
     
     <item>
       <title>ARM Templates Orchestration</title>
