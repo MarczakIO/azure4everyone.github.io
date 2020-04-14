@@ -6,10 +6,34 @@
     <description>Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Mar 2020 12:00:23 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2020 10:00:23 +0200</lastBuildDate>
     
         <atom:link href="https://azure4everyone.com/tags/arm/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Azure Cloud Shell Tutorial</title>
+      <link>https://azure4everyone.com/posts/2020/04/azure-cloud-shell-intro/</link>
+      <pubDate>Tue, 14 Apr 2020 10:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/04/azure-cloud-shell-intro/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/39-AzureCloudShell-Intro-v7-740.jpg&quot;&gt;
+        &lt;p&gt;Modularization of ARM templates is one of the key concepts for delivering reusable and easy to maintain components for your application infrastructure.&lt;/p&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>ARM Templates Modularization</title>
+      <link>https://azure4everyone.com/posts/2020/04/arm-nested-and-linked-templates/</link>
+      <pubDate>Sat, 11 Apr 2020 12:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/04/arm-nested-and-linked-templates/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/38-AzureRMTemplates-NestedAndLinked-v6.jpg&quot;&gt;
+        &lt;p&gt;Modularization of ARM templates is one of the key concepts for delivering reusable and easy to maintain components for your application infrastructure.&lt;/p&gt;
+      </description>
+    </item>
     
     <item>
       <title>ARM Templates Parameter Files</title>

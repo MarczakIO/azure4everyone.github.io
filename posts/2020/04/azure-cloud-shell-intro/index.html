@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Azure SQL Database Intro | Azure 4 Everyone | Adam Marczak</title>
+<title>Azure Cloud Shell Tutorial | Azure 4 Everyone | Adam Marczak</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/png" href="https://azure4everyone.com/images/favicon-32x32.png" sizes="32x32" />
 <link rel="icon" type="image/png" href="https://azure4everyone.com/images/favicon-16x16.png" sizes="16x16" />
@@ -15,24 +15,24 @@
 <link href='https://azure4everyone.com/css/hestia.min.css' rel="stylesheet" type="text/css" />
 <link href='https://azure4everyone.com/css/main.min.css?ver=1.21' rel='stylesheet' type="text/css" />
 
-<meta name="description" content="Azure SQL Database is one of the key data storage solution for structured data in Azure. If you need to manage structured data via schema, constraints and relationships or you need to explore your data via rich query language then this might be the right service for you.">
+<meta name="description" content="Modularization of ARM templates is one of the key concepts for delivering reusable and easy to maintain components for your application infrastructure.">
 <meta name="author" content="Adam Marczak">
 <meta name="copyright" content="Adam Marczak">
-<meta name="title" content="Azure SQL Database Intro | Azure 4 Everyone | Adam Marczak">
+<meta name="title" content="Azure Cloud Shell Tutorial | Azure 4 Everyone | Adam Marczak">
 <meta property="og:locale" content="en_US">
 <meta property="article:author" content="https://www.facebook.com/MarczakIO/">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Azure SQL Database Intro">
-<meta property="og:description" content="Azure SQL Database is one of the key data storage solution for structured data in Azure. If you need to manage structured data via schema, constraints and relationships or you need to explore your data via rich query language then this might be the right service for you.">
-<meta property="og:url" content="https://azure4everyone.com/posts/2019/10/sqldatabase-intro/">
+<meta property="og:title" content="Azure Cloud Shell Tutorial">
+<meta property="og:description" content="Modularization of ARM templates is one of the key concepts for delivering reusable and easy to maintain components for your application infrastructure.">
+<meta property="og:url" content="https://azure4everyone.com/posts/2020/04/azure-cloud-shell-intro/">
 <meta property="og:site_name" content="Azure 4 Everyone">
-<meta property="og:image" content="https://azure4everyone.com/images/youtube/16-AzureSqlDatabase-Intro-v6.jpg">
+<meta property="og:image" content="https://azure4everyone.com/images/youtube/39-AzureCloudShell-Intro-v7-740.jpg">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@MarczakIO">
-<meta name="twitter:title" content="Azure SQL Database Intro">
-<meta name="twitter:description" content="Azure SQL Database is one of the key data storage solution for structured data in Azure. If you need to manage structured data via schema, constraints and relationships or you need to explore your data via rich query language then this might be the right service for you.">
-<meta name="twitter:url" content="https://azure4everyone.com/posts/2019/10/sqldatabase-intro/">
+<meta name="twitter:title" content="Azure Cloud Shell Tutorial">
+<meta name="twitter:description" content="Modularization of ARM templates is one of the key concepts for delivering reusable and easy to maintain components for your application infrastructure.">
+<meta name="twitter:url" content="https://azure4everyone.com/posts/2020/04/azure-cloud-shell-intro/">
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144580824-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -89,10 +89,10 @@
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-md-offset-1 text-center">
-          <h1 class="hestia-title">Azure SQL Database Intro</h1>
+          <h1 class="hestia-title">Azure Cloud Shell Tutorial</h1>
           
             <h4 class="author">
-              Published by<a href="/about" title="Adam Marczak" class="vcard author"><strong class="fn">Adam Marczak</strong></a> on <time class="date updated published" datetime="2019-10-29 12:00:23 &#43;0200 &#43;0200">Oct 29 2019</time>
+              Published by<a href="/about" title="Adam Marczak" class="vcard author"><strong class="fn">Adam Marczak</strong></a> on <time class="date updated published" datetime="2020-04-14 10:00:23 &#43;0200 CEST">Apr 14 2020</time>
             </h4>
            
         </div>
@@ -106,52 +106,45 @@
         <div class="container">
           <div class="row">
 <div class="col-md-9 single-posts-wrap">
-    <article id="/posts/2019/10/sqldatabase-intro/" class="article-section section-text"> 
+    <article id="/posts/2020/04/azure-cloud-shell-intro/" class="article-section section-text"> 
 <div class="lazy" style="max-height: 416px">
     <div style="padding-bottom:56.21621621621622%"></div>
-    <img data-src="/images/youtube/16-AzureSqlDatabase-Intro-v6.jpg" src=""/> 
+    <img data-src="/images/youtube/39-AzureCloudShell-Intro-v7-740.jpg" src=""/> 
 </div> 
         <h2>Highlight</h2>
-        <p>Azure SQL Database is one of the key data storage solution for structured data in Azure. If you need to manage structured data via schema, constraints and relationships or you need to explore your data via rich query language then this might be the right service for you.</p>
+        <p>Modularization of ARM templates is one of the key concepts for delivering reusable and easy to maintain components for your application infrastructure.</p>
 
 <h2 id="intro">Intro</h2>
 
-<p>In this episode I give you introduction to what Azure SQL Database is and what are the key reasons to use relational databases. This video also shows what are the key drivers to choose the right pricing and performance models and a demo of creation, management and connecting to Azure SQL.</p>
+<p>In this episode I give you introduction nested and linked templates with real life examples and CLI scripts to tie everything together.</p>
+
+<p>Source code for demos: <a href="https://github.com/MarczakIO/azure4everyone-samples/tree/master/azure-resourcemanager-templates-nested-linked">https://github.com/MarczakIO/azure4everyone-samples/tree/master/azure-resourcemanager-templates-nested-linked</a></p>
 
 <h2 id="agenda">Agenda</h2>
 
-<p>In today episode I will cover</p>
+<p>In this episode live demo of</p>
 
-<ol>
-<li>What is Azure SQL Database service?</li>
-<li>What is relational database?</li>
-<li>Pricing and deployment models</li>
-<li>Creation and management</li>
-<li>Connectivity tools</li>
-</ol>
+<ul>
+<li>Deploying nested templates</li>
+<li>Showcasing outer versus inner scopes</li>
+<li>Deploying nested storage account</li>
+<li>Deploying linked templates</li>
+<li>Deploying linked web app and service plan</li>
+</ul>
 
 <h2 id="video">Video</h2>
 
-<iframe class="youtube" frameborder="0" allowfullscreen src="https://www.youtube.com/embed/BgvEOkcR0Wk?origin=https://azure4everyone.com"></iframe>
+<iframe class="youtube" frameborder="0" allowfullscreen src="https://www.youtube.com/embed/If4g2vVaiYk?origin=https://azure4everyone.com"></iframe>
 
-<h3 id="next-steps-for-you-after-watching-the-video">Next steps for you after watching the video</h3>
+<h2 id="next-steps-for-you-after-watching-the-video">Next steps for you after watching the video</h2>
 
 <ol>
-<li>Azure SQL Database documentation
+<li>Linked and nested template deployment doc references
 
 <ul>
-<li><a href="https://docs.microsoft.com/en-us/azure/sql-database/">https://docs.microsoft.com/en-us/azure/sql-database/</a></li>
-<li><a href="https://docs.microsoft.com/en-us/azure/sql-database/sql-database-technical-overview">https://docs.microsoft.com/en-us/azure/sql-database/sql-database-technical-overview</a></li>
-</ul></li>
-<li>Check self-paced labs on SQL Database
-
-<ul>
-<li><a href="https://www.microsoft.com/handsonlabs/selfpacedlabs">https://www.microsoft.com/handsonlabs/selfpacedlabs</a></li>
-</ul></li>
-<li>Check how to load data to SQL database using ADF
-
-<ul>
-<li><a href="https://youtu.be/EpDkxTHAhOs">https://youtu.be/EpDkxTHAhOs</a></li>
+<li><a href="https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/linked-templates">https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/linked-templates</a></li>
+<li><a href="https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-tutorial-create-linked-templates">https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-tutorial-create-linked-templates</a></li>
+<li><a href="https://docs.microsoft.com/en-us/azure/lab-services/deploy-nested-template-environments">https://docs.microsoft.com/en-us/azure/lab-services/deploy-nested-template-environments</a></li>
 </ul></li>
 </ol>
     </article>
@@ -180,21 +173,21 @@
    rel="tooltip" 
    data-original-title="Share on Facebook" 
    class="btn btn-just-icon btn-share btn-facebook"
-   href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fazure4everyone.com%2fposts%2f2019%2f10%2fsqldatabase-intro%2f">
+   href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fazure4everyone.com%2fposts%2f2020%2f04%2fazure-cloud-shell-intro%2f">
     <i class="fa fa-facebook"></i>
 </a>
 <a target="_blank" 
    rel="tooltip" 
    data-original-title="Share on Twitter" 
    class="btn btn-just-icon btn-share btn-twitter" 
-   href="https://twitter.com/home?status=Azure%20SQL%20Database%20Intro - https%3a%2f%2fazure4everyone.com%2fposts%2f2019%2f10%2fsqldatabase-intro%2f">
+   href="https://twitter.com/home?status=Azure%20Cloud%20Shell%20Tutorial - https%3a%2f%2fazure4everyone.com%2fposts%2f2020%2f04%2fazure-cloud-shell-intro%2f">
    <i class="fa fa-twitter"></i>
 </a>
 <a target="_blank" 
    rel="tooltip" 
    data-original-title="Share on Google+" 
    class="btn btn-just-icon btn-share btn-google" 
-   href="https://plus.google.com/share?url=https%3a%2f%2fazure4everyone.com%2fposts%2f2019%2f10%2fsqldatabase-intro%2f"><i 
+   href="https://plus.google.com/share?url=https%3a%2f%2fazure4everyone.com%2fposts%2f2020%2f04%2fazure-cloud-shell-intro%2f"><i 
    class="fa fa-google"></i>
 </a>
             
@@ -202,11 +195,11 @@
             <div class="col-md-6 text-center large">
                 <h4 class="">More tagged posts</h4>
   <div class="tag-list">
+    <a href="https://azure4everyone.com/tags/arm" title="View all posts in ARM">
+      <img src="https://azure4everyone.com/images/tags/arm.svg" alt="ARM"/>
+    </a>
     <a href="https://azure4everyone.com/tags/azure" title="View all posts in Azure">
       <img src="https://azure4everyone.com/images/tags/azure.svg" alt="Azure"/>
-    </a>
-    <a href="https://azure4everyone.com/tags/sql" title="View all posts in SQL">
-      <img src="https://azure4everyone.com/images/tags/sql.svg" alt="SQL"/>
     </a>
     <a href="https://azure4everyone.com/tags/youtube" title="View all posts in YouTube">
       <img src="https://azure4everyone.com/images/tags/youtube.svg" alt="YouTube"/>
@@ -218,8 +211,8 @@
             <div class="col-md-12"><div id="disqus_thread"></div>
 <script>
 var disqus_config = function () {
-this.page.url = "https:\/\/azure4everyone.com\/posts\/2019\/10\/sqldatabase-intro\/"; 
-this.page.identifier = "\/posts\/2019\/10\/sqldatabase-intro\/";
+this.page.url = "https:\/\/azure4everyone.com\/posts\/2020\/04\/azure-cloud-shell-intro\/"; 
+this.page.identifier = "\/posts\/2020\/04\/azure-cloud-shell-intro\/";
 };
 
 (function() {
