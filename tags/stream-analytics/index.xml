@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stream Analytics on Azure 4 Everyone</title>
+    <link>https://azure4everyone.com/tags/stream-analytics/</link>
+    <description>Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 Jun 2020 10:00:23 +0200</lastBuildDate>
+    
+        <atom:link href="https://azure4everyone.com/tags/stream-analytics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Azure Stream Analytics Tutorial | Processing stream data with SQL</title>
+      <link>https://azure4everyone.com/posts/2020/06/azure-stream-analytics-intro/</link>
+      <pubDate>Tue, 02 Jun 2020 10:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/06/azure-stream-analytics-intro/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/46-AzureSteamAnalytics-Intro-740.jpg&quot;&gt;
+        &lt;p&gt;Azure Stream Analytics offer SQL Query language over stream of data, out of the box Azure integrations and custom functions support. Today a quick tutorial around this easy to use streaming service. &lt;/p&gt;
+      </description>
+    </item>
+    
+  </channel>
+</rss>

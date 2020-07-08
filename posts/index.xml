@@ -6,10 +6,170 @@
     <description>Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Apr 2020 10:00:23 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2020 13:00:23 +0200</lastBuildDate>
     
         <atom:link href="https://azure4everyone.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AZ-900 Episode 3 | CapEx vs OpEx and their differences</title>
+      <link>https://azure4everyone.com/posts/2020/07/az900-ep03/</link>
+      <pubDate>Tue, 07 Jul 2020 13:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/07/az900-ep03/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-ep-03-740.jpg&quot;&gt;
+        &lt;p&gt;Episode 2 covers following skills
+- Describe the principles of economies of scale&lt;/p&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>AZ-900 Episode 2 | Principle of economies of scale</title>
+      <link>https://azure4everyone.com/posts/2020/07/az900-ep02/</link>
+      <pubDate>Tue, 07 Jul 2020 12:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/07/az900-ep02/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-ep-02-740.jpg&quot;&gt;
+        &lt;p&gt;Episode 3 covers following skills
+- Describe the differences between Capital Expenditure (CapEx) and Operational Expenditure (OpEx)&lt;/p&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>AZ-900 Episode 1 | Cloud Computing and Vocabulary</title>
+      <link>https://azure4everyone.com/posts/2020/07/az900-ep01/</link>
+      <pubDate>Tue, 07 Jul 2020 11:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/07/az900-ep01/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-ep-01-740.jpg&quot;&gt;
+        &lt;p&gt;Episode 1 covers following skills
+- Describe what is Cloud Computing
+- Describe terms such as High Availability, Scalability, Elasticity, Agility, Fault Tolerance, and Disaster Recovery&lt;/p&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>AZ-900 | Course Overview</title>
+      <link>https://azure4everyone.com/posts/2020/07/az900-ep00/</link>
+      <pubDate>Tue, 07 Jul 2020 10:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/07/az900-ep00/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-ep-00-740.jpg&quot;&gt;
+        &lt;p&gt;Azure Fundamentals certification is an opportunity to prove knowledge of cloud concepts, core Azure services, Azure pricing, SLA, and lifecycle, and the fundamentals of cloud security, privacy, compliance, and trust.&lt;/p&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://azure4everyone.com/posts/2020/06/azure-active-directory-intro/</link>
+      <pubDate>Tue, 23 Jun 2020 10:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/06/azure-active-directory-intro/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/48-AzureActiveDirectory-Intro-740.jpg&quot;&gt;
+        &lt;p&gt;My latest tutorial about basics of Azure Active Directory is here. It is a very powerful identity and access management service that is very well integrated with majority of Microsoft&amp;rsquo;s cloud services.&lt;/p&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Azure Data Factory Custom Email Notifications Tutorial</title>
+      <link>https://azure4everyone.com/posts/2020/06/azure-data-factory-sending-emails/</link>
+      <pubDate>Tue, 16 Jun 2020 10:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/06/azure-data-factory-sending-emails/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/47-AzureDataFactory-SendingEmails-740.jpg&quot;&gt;
+        &lt;p&gt;Deep-dive episode on implementing end-2-end email notifications in Azure Data Factory. In this episode I will describe out of the box options with Azure Monitor and explain why Logic Apps are better choice.&lt;/p&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Azure Stream Analytics Tutorial | Processing stream data with SQL</title>
+      <link>https://azure4everyone.com/posts/2020/06/azure-stream-analytics-intro/</link>
+      <pubDate>Tue, 02 Jun 2020 10:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/06/azure-stream-analytics-intro/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/46-AzureSteamAnalytics-Intro-740.jpg&quot;&gt;
+        &lt;p&gt;Azure Stream Analytics offer SQL Query language over stream of data, out of the box Azure integrations and custom functions support. Today a quick tutorial around this easy to use streaming service. &lt;/p&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Azure Files Tutorial | Easy file shares in the cloud</title>
+      <link>https://azure4everyone.com/posts/2020/05/azure-file-service-intro/</link>
+      <pubDate>Tue, 26 May 2020 10:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/05/azure-file-service-intro/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/45-AzureFiles-Intro-740.jpg&quot;&gt;
+        &lt;p&gt;If you want to start using File Shares quickly then Azure has you covered. With Azure Files you can create file shares in the cloud and start using them immediately. Minimum configuration needed. It&amp;rsquo;s also amazing when extending local on-premises file servers.&lt;/p&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Managed Identities with Azure AD (Active Directory) Tutorial</title>
+      <link>https://azure4everyone.com/posts/2020/05/azure-ad-managed-identity/</link>
+      <pubDate>Tue, 19 May 2020 10:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/05/azure-ad-managed-identity/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/44-AzureAD-ManagedIdentity-740.jpg&quot;&gt;
+        &lt;p&gt;Azure AD Managed Identities are one of the best features when it comes to authentication across multiple Azure services. They are secure, managed by Azure AD and incur no additional cost.&lt;/p&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Azure Event Hub Tutorial | Big data message streaming service</title>
+      <link>https://azure4everyone.com/posts/2020/05/azure-event-hubs-intro/</link>
+      <pubDate>Tue, 12 May 2020 10:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/05/azure-event-hubs-intro/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/43-AzureEventHub-Intro-740.jpg&quot;&gt;
+        &lt;p&gt;Azure Event Hubs is highly scalable big data event processing service capable of processing millions of events per second. &lt;/p&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Azure Cost Management Tutorial | Analyzing and reacting to changes in billing</title>
+      <link>https://azure4everyone.com/posts/2020/05/azure-cost-management-intro/</link>
+      <pubDate>Tue, 05 May 2020 10:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/05/azure-cost-management-intro/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/42-AzureCostManagement-Intro-740.jpg&quot;&gt;
+        &lt;p&gt;Understanding costs of your Azure resource is one of the most critical items when driving cloud transformation for your organization. In this episode we will take a look at Azure Cost Management.&lt;/p&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Azure Logic Apps Trusted Connectivity to Firewall Protected Blob Storage</title>
+      <link>https://azure4everyone.com/posts/2020/04/azure-logic-apps-trusted-blob-connection/</link>
+      <pubDate>Tue, 28 Apr 2020 10:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/04/azure-logic-apps-trusted-blob-connection/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/41-AzureLogicApps-FirewallStorageProtection-740.jpg&quot;&gt;
+        &lt;p&gt;Protecting sensitive data is one of the most critical tasks when it comes to designing cloud applications. But sometimes this imposes challenges when using out of the box components, like in case of logic apps connecting to firewall protected blob storage.&lt;/p&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Azure Data Factory | Copy multiple tables in Bulk with Lookup &amp; ForEach</title>
+      <link>https://azure4everyone.com/posts/2020/04/azure-data-factory-lookup-activity/</link>
+      <pubDate>Tue, 21 Apr 2020 10:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/04/azure-data-factory-lookup-activity/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/40-AzureDataFactory-LookupActivity-740.jpg&quot;&gt;
+        &lt;p&gt;With Azure Data Factory Lookup and ForEach activities you can perform dynamic copies of your data tables in bulk within a single pipeline. &lt;/p&gt;
+      </description>
+    </item>
     
     <item>
       <title>Azure Cloud Shell Tutorial</title>

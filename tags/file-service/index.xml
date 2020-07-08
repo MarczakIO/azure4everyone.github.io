@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>File Service on Azure 4 Everyone</title>
+    <link>https://azure4everyone.com/tags/file-service/</link>
+    <description>Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 May 2020 10:00:23 +0200</lastBuildDate>
+    
+        <atom:link href="https://azure4everyone.com/tags/file-service/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Azure Files Tutorial | Easy file shares in the cloud</title>
+      <link>https://azure4everyone.com/posts/2020/05/azure-file-service-intro/</link>
+      <pubDate>Tue, 26 May 2020 10:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/05/azure-file-service-intro/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/45-AzureFiles-Intro-740.jpg&quot;&gt;
+        &lt;p&gt;If you want to start using File Shares quickly then Azure has you covered. With Azure Files you can create file shares in the cloud and start using them immediately. Minimum configuration needed. It&amp;rsquo;s also amazing when extending local on-premises file servers.&lt;/p&gt;
+      </description>
+    </item>
+    
+  </channel>
+</rss>

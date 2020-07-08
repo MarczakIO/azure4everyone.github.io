@@ -3,6 +3,71 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://azure4everyone.com/posts/2020/07/az900-ep03/</loc>
+    <lastmod>2020-07-07T13:00:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://azure4everyone.com/posts/2020/07/az900-ep02/</loc>
+    <lastmod>2020-07-07T12:00:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://azure4everyone.com/posts/2020/07/az900-ep01/</loc>
+    <lastmod>2020-07-07T11:00:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://azure4everyone.com/posts/2020/07/az900-ep00/</loc>
+    <lastmod>2020-07-07T10:00:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://azure4everyone.com/posts/2020/06/azure-active-directory-intro/</loc>
+    <lastmod>2020-06-23T10:00:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://azure4everyone.com/posts/2020/06/azure-data-factory-sending-emails/</loc>
+    <lastmod>2020-06-16T10:00:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://azure4everyone.com/posts/2020/06/azure-stream-analytics-intro/</loc>
+    <lastmod>2020-06-02T10:00:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://azure4everyone.com/posts/2020/05/azure-file-service-intro/</loc>
+    <lastmod>2020-05-26T10:00:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://azure4everyone.com/posts/2020/05/azure-ad-managed-identity/</loc>
+    <lastmod>2020-05-19T10:00:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://azure4everyone.com/posts/2020/05/azure-event-hubs-intro/</loc>
+    <lastmod>2020-05-12T10:00:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://azure4everyone.com/posts/2020/05/azure-cost-management-intro/</loc>
+    <lastmod>2020-05-05T10:00:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://azure4everyone.com/posts/2020/04/azure-logic-apps-trusted-blob-connection/</loc>
+    <lastmod>2020-04-28T10:00:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://azure4everyone.com/posts/2020/04/azure-data-factory-lookup-activity/</loc>
+    <lastmod>2020-04-21T10:00:23+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://azure4everyone.com/posts/2020/04/azure-cloud-shell-intro/</loc>
     <lastmod>2020-04-14T10:00:23+02:00</lastmod>
   </url>
@@ -232,6 +297,12 @@
   </url>
   
   <url>
+    <loc>https://azure4everyone.com/tags/active-directory/</loc>
+    <lastmod>2020-06-23T10:00:23+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://azure4everyone.com/tags/analysis-services/</loc>
     <lastmod>2019-12-07T01:00:23+02:00</lastmod>
     <priority>0</priority>
@@ -268,14 +339,26 @@
   </url>
   
   <url>
+    <loc>https://azure4everyone.com/tags/az-900/</loc>
+    <lastmod>2020-07-07T13:00:23+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://azure4everyone.com/tags/azure/</loc>
-    <lastmod>2020-04-14T10:00:23+02:00</lastmod>
+    <lastmod>2020-07-07T13:00:23+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://azure4everyone.com/</loc>
-    <lastmod>2020-04-14T10:00:23+02:00</lastmod>
+    <lastmod>2020-07-07T13:00:23+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://azure4everyone.com/tags/blob-storage/</loc>
+    <lastmod>2020-04-28T10:00:23+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -299,7 +382,7 @@
   
   <url>
     <loc>https://azure4everyone.com/tags/data-factory/</loc>
-    <lastmod>2020-01-09T14:00:23+02:00</lastmod>
+    <lastmod>2020-06-16T10:00:23+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -322,8 +405,20 @@
   </url>
   
   <url>
+    <loc>https://azure4everyone.com/tags/event-hub/</loc>
+    <lastmod>2020-05-12T10:00:23+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://azure4everyone.com/externalposts/</loc>
     <lastmod>2019-10-25T14:00:23+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://azure4everyone.com/tags/file-service/</loc>
+    <lastmod>2020-05-26T10:00:23+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -347,13 +442,13 @@
   
   <url>
     <loc>https://azure4everyone.com/tags/logic-apps/</loc>
-    <lastmod>2019-10-07T12:00:23+02:00</lastmod>
+    <lastmod>2020-04-28T10:00:23+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://azure4everyone.com/posts/</loc>
-    <lastmod>2020-04-14T10:00:23+02:00</lastmod>
+    <lastmod>2020-07-07T13:00:23+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -376,6 +471,12 @@
   </url>
   
   <url>
+    <loc>https://azure4everyone.com/tags/security/</loc>
+    <lastmod>2020-04-28T10:00:23+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://azure4everyone.com/tags/sql/</loc>
     <lastmod>2020-01-09T14:00:23+02:00</lastmod>
     <priority>0</priority>
@@ -383,7 +484,13 @@
   
   <url>
     <loc>https://azure4everyone.com/tags/storage-account/</loc>
-    <lastmod>2020-01-28T14:00:23+02:00</lastmod>
+    <lastmod>2020-05-26T10:00:23+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://azure4everyone.com/tags/stream-analytics/</loc>
+    <lastmod>2020-06-02T10:00:23+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -395,7 +502,7 @@
   
   <url>
     <loc>https://azure4everyone.com/tags/</loc>
-    <lastmod>2019-12-07T01:00:23+02:00</lastmod>
+    <lastmod>2020-06-23T10:00:23+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -408,12 +515,6 @@
   <url>
     <loc>https://azure4everyone.com/tags/vm/</loc>
     <lastmod>2019-12-26T01:00:23+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://azure4everyone.com/tags/youtube/</loc>
-    <lastmod>2020-04-14T10:00:23+02:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -6,10 +6,34 @@
     <description>Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Jan 2020 14:00:23 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2020 10:00:23 +0200</lastBuildDate>
     
         <atom:link href="https://azure4everyone.com/tags/data-factory/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Azure Data Factory Custom Email Notifications Tutorial</title>
+      <link>https://azure4everyone.com/posts/2020/06/azure-data-factory-sending-emails/</link>
+      <pubDate>Tue, 16 Jun 2020 10:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/06/azure-data-factory-sending-emails/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/47-AzureDataFactory-SendingEmails-740.jpg&quot;&gt;
+        &lt;p&gt;Deep-dive episode on implementing end-2-end email notifications in Azure Data Factory. In this episode I will describe out of the box options with Azure Monitor and explain why Logic Apps are better choice.&lt;/p&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Azure Data Factory | Copy multiple tables in Bulk with Lookup &amp; ForEach</title>
+      <link>https://azure4everyone.com/posts/2020/04/azure-data-factory-lookup-activity/</link>
+      <pubDate>Tue, 21 Apr 2020 10:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/04/azure-data-factory-lookup-activity/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/40-AzureDataFactory-LookupActivity-740.jpg&quot;&gt;
+        &lt;p&gt;With Azure Data Factory Lookup and ForEach activities you can perform dynamic copies of your data tables in bulk within a single pipeline. &lt;/p&gt;
+      </description>
+    </item>
     
     <item>
       <title>Azure Data Factory Self-hosted Integration Runtime</title>

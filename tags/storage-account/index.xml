@@ -6,10 +6,34 @@
     <description>Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Jan 2020 14:00:23 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2020 10:00:23 +0200</lastBuildDate>
     
         <atom:link href="https://azure4everyone.com/tags/storage-account/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Azure Files Tutorial | Easy file shares in the cloud</title>
+      <link>https://azure4everyone.com/posts/2020/05/azure-file-service-intro/</link>
+      <pubDate>Tue, 26 May 2020 10:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/05/azure-file-service-intro/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/45-AzureFiles-Intro-740.jpg&quot;&gt;
+        &lt;p&gt;If you want to start using File Shares quickly then Azure has you covered. With Azure Files you can create file shares in the cloud and start using them immediately. Minimum configuration needed. It&amp;rsquo;s also amazing when extending local on-premises file servers.&lt;/p&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Azure Logic Apps Trusted Connectivity to Firewall Protected Blob Storage</title>
+      <link>https://azure4everyone.com/posts/2020/04/azure-logic-apps-trusted-blob-connection/</link>
+      <pubDate>Tue, 28 Apr 2020 10:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/04/azure-logic-apps-trusted-blob-connection/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/41-AzureLogicApps-FirewallStorageProtection-740.jpg&quot;&gt;
+        &lt;p&gt;Protecting sensitive data is one of the most critical tasks when it comes to designing cloud applications. But sometimes this imposes challenges when using out of the box components, like in case of logic apps connecting to firewall protected blob storage.&lt;/p&gt;
+      </description>
+    </item>
     
     <item>
       <title>Azure Table Storage Introduction</title>
