@@ -12,8 +12,8 @@
 <link rel="stylesheet" id="hestia_fonts-css" href="https://fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C500%2C700%7CRoboto+Slab%3A400%2C700&amp;subset=latin%2Clatin-ext" type="text/css" media="all">
 <link rel="stylesheet" id="bootstrap-css" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="font-awesome-css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" media="all">
-<link href='https://azure4everyone.com/css/hestia.min.css' rel="stylesheet" type="text/css" />
-<link href='https://azure4everyone.com/css/main.min.css?ver=1.21' rel='stylesheet' type="text/css" />
+<link href='https://azure4everyone.com/css/hestia.min.css?ver=1.23' rel="stylesheet" type="text/css" />
+<link href='https://azure4everyone.com/css/main.min.css?ver=1.25' rel='stylesheet' type="text/css" />
   <link href="https://azure4everyone.com/tags/container-instances/index.xml" rel="alternate" type="application/rss+xml" title="Azure 4 Everyone" />
   <link href="https://azure4everyone.com/tags/container-instances/index.xml" rel="feed" type="application/rss+xml" title="Azure 4 Everyone" />
 
@@ -40,13 +40,12 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments)};
   gtag('js', new Date());
-
   gtag('config', 'UA-144580824-1');
 </script>
 </head>
 <body class="home blog">
   <div class="wrapper"><header class="header">
-  <nav class="navbar navbar-default navbar-fixed-top  hestia_left">
+  <nav class="navbar navbar-default hestia_left">
     <div class="container">
       <div class="navbar-header">
         <div class="title-logo-wrapper">
@@ -87,7 +86,7 @@
       </div>
     </div>
   </nav>
-  <div id="primary" class="boxed-layout-header page-header header-small" data-parallax="active" style="margin-top: 50px;">
+  <div id="primary" class="boxed-layout-header page-header header-small" data-parallax="active" style="margin-top: -20px;">
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-md-offset-1 text-center">
@@ -138,16 +137,26 @@
 </article>
 </div>
             <div class="col-md-3 blog-sidebar-wrapper">
-              <aside id="secondary" class="blog-sidebar" role="complementary"><div id="mvp" style="margin:50px 0 20px 0;max-width:180px;margin-right:30px;">
+              <aside id="secondary" class="blog-sidebar" role="complementary"><a href="/index.xml" target="_blank">
+    <div id="rss" class="rss-banner">
+        <i class="fa fa-rss"></i> Subscribe to RSS
+    </div>
+</a><div id="mvp" class="banner-mvp">
 <img src="/images/mvp.svg" />
-</div><div id="recent-posts" class="recent-posts widget widget_recent_entries" style="float:left;">
 </div><div id="recent-posts" class="recent-posts widget widget_recent_entries" style="float:left;margin-right:10px;">
+<h5>Featured Courses</h5>
+<div style="width:180px;margin-top:25px">
+<div style="margin-top:10px">
+    <a href="https://marczak.io/az-900" >
+        <img src="/images/az-900/cert.svg" style="width:60px;margin-right:10px;;float:left;"></img> AZ-900 <br/>Microsoft Azure Fundamentlas
+    </a>
+</div>
+</div>
+</div><div id="recent-posts" class="recent-posts widget widget_recent_entries">
+</div><div id="recent-posts" class="recent-posts widget widget_recent_entries">
 <h5>Featured Posts</h5>
 <div style="width:180px;margin-top:25px">
-  <div class="tag-list">
-    <img src="https://azure4everyone.com/images/tags/azure.svg" alt="Azure"/>
-    <img src="https://azure4everyone.com/images/tags/logic-apps.svg" alt="Logic Apps"/>
-  </div>
+    <p style="font-weight:normal">Automating Enterprise Azure billing using Logic Apps for 0.03$/month</p>
 <div style="margin-top:10px;">
     <a href="https://marczak.io/posts/2019/10/ea-consumption-automation-with-logic-apps/" > 
 <div class="lazy" style="max-height: 416px">
@@ -156,14 +165,9 @@
 </div> 
     </a>
 </div>
-<h5 style="font-size:14px;margin: 3px 0 11px 0">Automating Enterprise Azure billing using Logic Apps for 0.03$/month</h5>
 </div>
 <div style="width:180px;margin-top:25px">
-  <div class="tag-list">
-    <img src="https://azure4everyone.com/images/tags/azure.svg" alt="Azure"/>
-    <img src="https://azure4everyone.com/images/tags/logic-apps.svg" alt="Logic Apps"/>
-    <img src="https://azure4everyone.com/images/tags/security.svg" alt="Security"/>
-  </div>
+    <p style="font-weight:normal">Enhancing Logic Apps security with obfuscation</p>
 <div style="margin-top:10px;">
     <a href="https://marczak.io/posts/2019/08/logic-apps-obfuscation/" > 
 <div class="lazy" style="max-height: 417px">
@@ -172,16 +176,9 @@
 </div> 
     </a>
 </div>
-<h5 style="font-size:14px;margin: 3px 0 11px 0">Enhancing Logic Apps security with obfuscation</h5>
 </div>
 <div style="width:180px;margin-top:25px">
-  <div class="tag-list">
-    <img src="https://azure4everyone.com/images/tags/api-management.svg" alt="API Management"/>
-    <img src="https://azure4everyone.com/images/tags/active-directory.svg" alt="Active Directory"/>
-    <img src="https://azure4everyone.com/images/tags/azure.svg" alt="Azure"/>
-    <img src="https://azure4everyone.com/images/tags/logic-apps.svg" alt="Logic Apps"/>
-    <img src="https://azure4everyone.com/images/tags/security.svg" alt="Security"/>
-  </div>
+    <p style="font-weight:normal">Securing Logic App with Azure AD authentication using API Management</p>
 <div style="margin-top:10px;">
     <a href="https://marczak.io/posts/2019/08/secure-logic-app-with-api-management/" > 
 <div class="lazy" style="max-height: 1080px">
@@ -190,7 +187,6 @@
 </div> 
     </a>
 </div>
-<h5 style="font-size:14px;margin: 3px 0 11px 0">Securing Logic App with Azure AD authentication using API Management</h5>
 </div>
 </div><div id="recent-posts" class="recent-posts widget widget_recent_entries" style="float:left;max-width:180px;margin-right:30px;">
 <h5>Recent Posts</h5>
@@ -506,6 +502,6 @@
       }
     });
   </script>
-  <script type="text/javascript" src="https://azure4everyone.com/js/main.min.js?ver=1.15"></script>
+  <script type="text/javascript" src="https://azure4everyone.com/js/main.min.js?ver=1.16"></script>
 </body>
 </html>
