@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html prefix="og: http://ogp.me/ns#" lang="en-us">
 <head>
-	<meta name="generator" content="Hugo 0.30.2" />
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Azure 4 Everyone | Adam Marczak</title>
+<title>AZ-900 Episode 8 | Resources, Resource Groups &amp; Resource Manager | Azure 4 Everyone | Adam Marczak</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/png" href="https://azure4everyone.com/images/favicon-32x32.png" sizes="32x32" />
 <link rel="icon" type="image/png" href="https://azure4everyone.com/images/favicon-16x16.png" sizes="16x16" />
@@ -15,27 +14,37 @@
 <link rel="stylesheet" id="font-awesome-css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" media="all">
 <link href='https://azure4everyone.com/css/hestia.min.css?ver=1.23' rel="stylesheet" type="text/css" />
 <link href='https://azure4everyone.com/css/main.min.css?ver=1.25' rel='stylesheet' type="text/css" />
-  <link href="https://azure4everyone.com/index.xml" rel="alternate" type="application/rss+xml" title="Azure 4 Everyone" />
-  <link href="https://azure4everyone.com/index.xml" rel="feed" type="application/rss+xml" title="Azure 4 Everyone" />
 
-<meta name="description" content="Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.">
+<meta name="description" content="
+Describe Resources
+Describe Resource Groups
+Describe Resource Manager
+Describe the benefits and usage of core Azure architectural components">
 <meta name="author" content="Adam Marczak">
 <meta name="copyright" content="Adam Marczak">
-<meta name="title" content="Azure 4 Everyone | Adam Marczak">
+<meta name="title" content="AZ-900 Episode 8 | Resources, Resource Groups &amp; Resource Manager | Azure 4 Everyone | Adam Marczak">
 <meta property="og:locale" content="en_US">
 <meta property="article:author" content="https://www.facebook.com/MarczakIO/">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Azure 4 Everyone">
-<meta property="og:description" content="Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.">
-<meta property="og:url" content="https://azure4everyone.com/">
+<meta property="og:title" content="AZ-900 Episode 8 | Resources, Resource Groups &amp; Resource Manager">
+<meta property="og:description" content="
+Describe Resources
+Describe Resource Groups
+Describe Resource Manager
+Describe the benefits and usage of core Azure architectural components">
+<meta property="og:url" content="https://azure4everyone.com/posts/2020/08/az900-ep08/">
 <meta property="og:site_name" content="Azure 4 Everyone">
-<meta property="og:image" content="https://azure4everyone.com/images/background.jpg">
+<meta property="og:image" content="https://azure4everyone.com/images/youtube/az-900-ep-08-740.jpg">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@MarczakIO">
-<meta name="twitter:title" content="Azure 4 Everyone">
-<meta name="twitter:description" content="Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.">
-<meta name="twitter:url" content="https://azure4everyone.com/">
+<meta name="twitter:title" content="AZ-900 Episode 8 | Resources, Resource Groups &amp; Resource Manager">
+<meta name="twitter:description" content="
+Describe Resources
+Describe Resource Groups
+Describe Resource Manager
+Describe the benefits and usage of core Azure architectural components">
+<meta name="twitter:url" content="https://azure4everyone.com/posts/2020/08/az900-ep08/">
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144580824-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -95,9 +104,11 @@
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-md-offset-1 text-center">
-          <h1 class="hestia-title">Azure 4 Everyone</h1>
+          <h1 class="hestia-title">AZ-900 Episode 8 | Resources, Resource Groups &amp; Resource Manager</h1>
           
-            <h4>Learn every day</h4>
+            <h4 class="author">
+              Published by<a href="/about" title="Adam Marczak" class="vcard author"><strong class="fn">Adam Marczak</strong></a> on <time class="date updated published" datetime="2020-08-03 13:00:23 &#43;0200 CEST">Aug 3 2020</time>
+            </h4>
            
         </div>
       </div>
@@ -108,227 +119,123 @@
     <div class="main main-raised">
       <div class="hestia-blogs">
         <div class="container">
-          <div class="row"> 
-<div class="col-md-9 blog-posts-wrap"><article id="post-19" class="card card-plain card-blog">
-  <div class="row">
-    <div class="col-md-5">
-      <a href="/posts/2019/10/sqldatabase-intro/" class='thumbnail'> 
+          <div class="row">
+<div class="col-md-9 single-posts-wrap">
+    <article id="/posts/2020/08/az900-ep08/" class="article-section section-text"> 
 <div class="lazy" style="max-height: 416px">
     <div style="padding-bottom:56.21621621621622%"></div>
-    <img data-src="/images/youtube/16-AzureSqlDatabase-Intro-v6.jpg" src=""/> 
+    <img data-src="/images/youtube/az-900-ep-08-740.jpg" src=""/> 
 </div> 
-      </a>
+        <h2>Highlight</h2>
+        <ul>
+<li>Describe Resources</li>
+<li>Describe Resource Groups</li>
+<li>Describe Resource Manager</li>
+<li>Describe the benefits and usage of core Azure architectural components </li>
+</ul>
+
+<h2 id="intro">Intro</h2>
+
+<p>Study Materials: <a href="https://marczak.io/az-900/#ep08">https://marczak.io/az-900/#ep08</a></p>
+
+<h2 id="agenda">Agenda</h2>
+
+<p>In this episode</p>
+
+<ul>
+<li>Episode Introduction</li>
+<li>Session Objectives</li>
+<li>Resources</li>
+<li>Resource Groups</li>
+<li>Portal Demo</li>
+<li>Azure CLI Demo</li>
+<li>Resource Portal Demo</li>
+<li>Resource &amp; Resource Group Additional Info</li>
+<li>Resource Manager</li>
+<li>Summary &amp; Next Steps</li>
+</ul>
+
+<h2 id="video">Video</h2>
+
+<iframe class="youtube" frameborder="0" allowfullscreen src="https://www.youtube.com/embed/gIhf-S7BCdo?origin=https://azure4everyone.com"></iframe>
+
+<h1 id="enjoy">Enjoy!</h1>
+    </article>
+    <div class="section-blog-info">
+        <div class="row">
+            <div class="col-md-12">
+<div class="authorblock">
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="avatar"></div>
+        </div>
+        <div class="col-sm-9">
+            <h4><b>Adam Marczak</b></h4>
+            <p>Programmer, architect, trainer, blogger, evangelist are just a few of many titles. What I really am, is a passionate technology enthusiast. I take great pleasure in learning new technologies and finding ways in which it can aid people every day. My latest passion is running an <a href='https://www.youtube.com/azure4everyone'>Azure 4 Everyone</a> YouTube channel, where I show that Azure really is for everyone!</p>
+        </div>
     </div>
-    <div class="col-md-7">
-      
+</div>
+            </div>
+        </div> 
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3 class="text-center">Did you enjoy the article?</h3>
+            </div>
+            <div class="col-md-6 text-center">
+                <h4 class="">Share it!</h4><a target="_blank" 
+   rel="tooltip" 
+   data-original-title="Share on Facebook" 
+   class="btn btn-just-icon btn-share btn-facebook"
+   href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fazure4everyone.com%2fposts%2f2020%2f08%2faz900-ep08%2f">
+    <i class="fa fa-facebook"></i>
+</a>
+<a target="_blank" 
+   rel="tooltip" 
+   data-original-title="Share on Twitter" 
+   class="btn btn-just-icon btn-share btn-twitter" 
+   href="https://twitter.com/home?status=AZ-900%20Episode%208%20%7c%20Resources%2c%20Resource%20Groups%20%26%20Resource%20Manager - https%3a%2f%2fazure4everyone.com%2fposts%2f2020%2f08%2faz900-ep08%2f">
+   <i class="fa fa-twitter"></i>
+</a>
+<a target="_blank" 
+   rel="tooltip" 
+   data-original-title="Share on Google+" 
+   class="btn btn-just-icon btn-share btn-google" 
+   href="https://plus.google.com/share?url=https%3a%2f%2fazure4everyone.com%2fposts%2f2020%2f08%2faz900-ep08%2f"><i 
+   class="fa fa-google"></i>
+</a>
+            
+            </div>
+            <div class="col-md-6 text-center large">
+                <h4 class="">More tagged posts</h4>
   <div class="tag-list">
-    <a href="https://azure4everyone.com/tags/azure" title="View all posts in Azure">
-      <img src="https://azure4everyone.com/images/tags/azure.svg" alt="Azure"/>
-    </a>
-    <a href="https://azure4everyone.com/tags/sql" title="View all posts in SQL">
-      <img src="https://azure4everyone.com/images/tags/sql.svg" alt="SQL"/>
-    </a>
-  </div>
-      <h2 class="card-title entry-title">
-        <a href="/posts/2019/10/sqldatabase-intro/" title="Azure SQL Database Intro" rel="bookmark">Azure SQL Database Intro</a></h2>
-        <div class="card-description">
-        <p><p>Azure SQL Database is one of the key data storage solution for structured data in Azure. If you need to manage structured data via schema, constraints and relationships or you need to explore your data via rich query language then this might be the right service for you.</p> </p> 
-      </div>
-      <div class="author">
-        By <a href="/about" title="Adam Marczak" class="vcard author"><strong class="fn">Adam Marczak</strong></a>, <time class="entry-date updated" datetime="2019-10-29 12:00:23 &#43;0200 &#43;0200">October 29 2019</time>
-      </div>
-    </div>
-  </div>
-</article><article id="post-19" class="card card-plain card-blog">
-  <div class="row">
-    <div class="col-md-5">
-      <a href="/posts/2019/10/botservice-intro/" class='thumbnail'> 
-<div class="lazy" style="max-height: 416px">
-    <div style="padding-bottom:56.21621621621622%"></div>
-    <img data-src="/images/youtube/15-AzureBotService-Intro-v6.jpg" src=""/> 
-</div> 
-      </a>
-    </div>
-    <div class="col-md-7">
-      
-  <div class="tag-list">
-    <a href="https://azure4everyone.com/tags/azure" title="View all posts in Azure">
-      <img src="https://azure4everyone.com/images/tags/azure.svg" alt="Azure"/>
-    </a>
-    <a href="https://azure4everyone.com/tags/bot-service" title="View all posts in Bot Service">
-      <img src="https://azure4everyone.com/images/tags/bot-service.svg" alt="Bot Service"/>
-    </a>
-  </div>
-      <h2 class="card-title entry-title">
-        <a href="/posts/2019/10/botservice-intro/" title="Azure Bot Service Intro" rel="bookmark">Azure Bot Service Intro</a></h2>
-        <div class="card-description">
-        <p><p>Azure Bot Service and Bot Framework provide tools to build, test, deploy, and manage intelligent bots all in one place. </p> </p> 
-      </div>
-      <div class="author">
-        By <a href="/about" title="Adam Marczak" class="vcard author"><strong class="fn">Adam Marczak</strong></a>, <time class="entry-date updated" datetime="2019-10-22 16:00:23 &#43;0200 CEST">October 22 2019</time>
-      </div>
-    </div>
-  </div>
-</article><article id="post-19" class="card card-plain card-blog">
-  <div class="row">
-    <div class="col-md-5">
-      <a href="/posts/2019/10/keyvault-intro/" class='thumbnail'> 
-<div class="lazy" style="max-height: 416px">
-    <div style="padding-bottom:56.21621621621622%"></div>
-    <img data-src="/images/youtube/14-AzureKeyVault-Intro-v6.jpg" src=""/> 
-</div> 
-      </a>
-    </div>
-    <div class="col-md-7">
-      
-  <div class="tag-list">
-    <a href="https://azure4everyone.com/tags/azure" title="View all posts in Azure">
-      <img src="https://azure4everyone.com/images/tags/azure.svg" alt="Azure"/>
-    </a>
-    <a href="https://azure4everyone.com/tags/key-vault" title="View all posts in Key Vault">
-      <img src="https://azure4everyone.com/images/tags/key-vault.svg" alt="Key Vault"/>
-    </a>
-  </div>
-      <h2 class="card-title entry-title">
-        <a href="/posts/2019/10/keyvault-intro/" title="Azure Key Vault Intro" rel="bookmark">Azure Key Vault Intro</a></h2>
-        <div class="card-description">
-        <p><p>Using Azure Key Vault Service allows for centralization and protection of your application secrets, certificates but also encryption keys for Virtual Machines..</p> </p> 
-      </div>
-      <div class="author">
-        By <a href="/about" title="Adam Marczak" class="vcard author"><strong class="fn">Adam Marczak</strong></a>, <time class="entry-date updated" datetime="2019-10-15 12:00:23 &#43;0200 CEST">October 15 2019</time>
-      </div>
-    </div>
-  </div>
-</article><article id="post-19" class="card card-plain card-blog">
-  <div class="row">
-    <div class="col-md-5">
-      <a href="/posts/2019/10/datafactory-triggers/" class='thumbnail'> 
-<div class="lazy" style="max-height: 416px">
-    <div style="padding-bottom:56.21621621621622%"></div>
-    <img data-src="/images/youtube/13-AzureDataFactory-Triggers-v6.jpg" src=""/> 
-</div> 
-      </a>
-    </div>
-    <div class="col-md-7">
-      
-  <div class="tag-list">
-    <a href="https://azure4everyone.com/tags/azure" title="View all posts in Azure">
-      <img src="https://azure4everyone.com/images/tags/azure.svg" alt="Azure"/>
-    </a>
-    <a href="https://azure4everyone.com/tags/data-factory" title="View all posts in Data Factory">
-      <img src="https://azure4everyone.com/images/tags/data-factory.svg" alt="Data Factory"/>
-    </a>
-    <a href="https://azure4everyone.com/tags/event-grid" title="View all posts in Event Grid">
-      <img src="https://azure4everyone.com/images/tags/event-grid.svg" alt="Event Grid"/>
-    </a>
-    <a href="https://azure4everyone.com/tags/logic-apps" title="View all posts in Logic Apps">
-      <img src="https://azure4everyone.com/images/tags/logic-apps.svg" alt="Logic Apps"/>
-    </a>
-  </div>
-      <h2 class="card-title entry-title">
-        <a href="/posts/2019/10/datafactory-triggers/" title="Azure Data Factory Triggers" rel="bookmark">Azure Data Factory Triggers</a></h2>
-        <div class="card-description">
-        <p><p>Choosing the right trigger type is very important task when designing data factory workflows. Today I will show you four ways to trigger data factory pipelines so you can make sure you react to your business needs better.</p> </p> 
-      </div>
-      <div class="author">
-        By <a href="/about" title="Adam Marczak" class="vcard author"><strong class="fn">Adam Marczak</strong></a>, <time class="entry-date updated" datetime="2019-10-07 12:00:23 &#43;0200 CEST">October 7 2019</time>
-      </div>
-    </div>
-  </div>
-</article><article id="post-19" class="card card-plain card-blog">
-  <div class="row">
-    <div class="col-md-5">
-      <a href="/posts/2019/09/eventgrid-intro/" class='thumbnail'> 
-<div class="lazy" style="max-height: 416px">
-    <div style="padding-bottom:56.21621621621622%"></div>
-    <img data-src="/images/youtube/12-AzureEventGrid-Intro-v6.jpg" src=""/> 
-</div> 
-      </a>
-    </div>
-    <div class="col-md-7">
-      
-  <div class="tag-list">
-    <a href="https://azure4everyone.com/tags/azure" title="View all posts in Azure">
-      <img src="https://azure4everyone.com/images/tags/azure.svg" alt="Azure"/>
-    </a>
-    <a href="https://azure4everyone.com/tags/event-grid" title="View all posts in Event Grid">
-      <img src="https://azure4everyone.com/images/tags/event-grid.svg" alt="Event Grid"/>
-    </a>
-  </div>
-      <h2 class="card-title entry-title">
-        <a href="/posts/2019/09/eventgrid-intro/" title="Azure Event Grid Intro" rel="bookmark">Azure Event Grid Intro</a></h2>
-        <div class="card-description">
-        <p><p>Azure Event Grid is fast and reliable event routing service allowing developers to create real time applications and decouple their systems at ease. Thanks to event grid built in events you can quickly automate Azure subscription for all your operation needs.</p> </p> 
-      </div>
-      <div class="author">
-        By <a href="/about" title="Adam Marczak" class="vcard author"><strong class="fn">Adam Marczak</strong></a>, <time class="entry-date updated" datetime="2019-09-30 12:00:23 &#43;0200 CEST">September 30 2019</time>
-      </div>
-    </div>
-  </div>
-</article><article id="post-19" class="card card-plain card-blog">
-  <div class="row">
-    <div class="col-md-5">
-      <a href="/posts/2019/09/appservice-deployment-center/" class='thumbnail'> 
-<div class="lazy" style="max-height: 416px">
-    <div style="padding-bottom:56.21621621621622%"></div>
-    <img data-src="/images/youtube/11-AzureAppService-DeploymentCenter-v6.jpg" src=""/> 
-</div> 
-      </a>
-    </div>
-    <div class="col-md-7">
-      
-  <div class="tag-list">
-    <a href="https://azure4everyone.com/tags/app-service" title="View all posts in App Service">
-      <img src="https://azure4everyone.com/images/tags/app-service.svg" alt="App Service"/>
+    <a href="https://azure4everyone.com/tags/az-900" title="View all posts in AZ-900">
+      <img src="https://azure4everyone.com/images/tags/az-900.svg" alt="AZ-900"/>
     </a>
     <a href="https://azure4everyone.com/tags/azure" title="View all posts in Azure">
       <img src="https://azure4everyone.com/images/tags/azure.svg" alt="Azure"/>
     </a>
-    <a href="https://azure4everyone.com/tags/functions" title="View all posts in Functions">
-      <img src="https://azure4everyone.com/images/tags/functions.svg" alt="Functions"/>
-    </a>
   </div>
-      <h2 class="card-title entry-title">
-        <a href="/posts/2019/09/appservice-deployment-center/" title="Continuous Deployment using App Service Deployment Center" rel="bookmark">Continuous Deployment using App Service Deployment Center</a></h2>
-        <div class="card-description">
-        <p><p>Continuous Deployment is great way to increase productivity for developers in any technology out there. With Azure App Service deployment center, you can quickly set up continuous deployment for your web apps and serverless functions without need to learn complicated external tools and platforms, all this in just few minutes.</p> </p> 
-      </div>
-      <div class="author">
-        By <a href="/about" title="Adam Marczak" class="vcard author"><strong class="fn">Adam Marczak</strong></a>, <time class="entry-date updated" datetime="2019-09-23 12:00:23 &#43;0200 CEST">September 23 2019</time>
-      </div>
+            </div>
+        </div>
+        <div class="row comments">
+            <div class="col-md-12"><div id="disqus_thread"></div>
+<script>
+var disqus_config = function () {
+this.page.url = "https:\/\/azure4everyone.com\/posts\/2020\/08\/az900-ep08\/"; 
+this.page.identifier = "\/posts\/2020\/08\/az900-ep08\/";
+};
+
+(function() {
+if (window.location.hostname == "localhost")return;
+var d = document, s = d.createElement('script');
+s.src = 'https://marczak-io.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+            </div>
+        </div> 
     </div>
-  </div>
-</article><article id="post-19" class="card card-plain card-blog">
-  <div class="row">
-    <div class="col-md-5">
-      <a href="/posts/2019/09/aci-intro/" class='thumbnail'> 
-<div class="lazy" style="max-height: 416px">
-    <div style="padding-bottom:56.21621621621622%"></div>
-    <img data-src="/images/youtube/10-AzureContainerInstances-Intro-v6.jpg" src=""/> 
-</div> 
-      </a>
-    </div>
-    <div class="col-md-7">
-      
-  <div class="tag-list">
-    <a href="https://azure4everyone.com/tags/azure" title="View all posts in Azure">
-      <img src="https://azure4everyone.com/images/tags/azure.svg" alt="Azure"/>
-    </a>
-    <a href="https://azure4everyone.com/tags/container-instances" title="View all posts in Container Instances">
-      <img src="https://azure4everyone.com/images/tags/container-instances.svg" alt="Container Instances"/>
-    </a>
-  </div>
-      <h2 class="card-title entry-title">
-        <a href="/posts/2019/09/aci-intro/" title="Azure Container Instances Intro" rel="bookmark">Azure Container Instances Intro</a></h2>
-        <div class="card-description">
-        <p><p>If you are looking for a quick way to host your containers in Azure, then look no further. With Azure Container Instances you can host your containers in minutes without need to run complicated provisioning or infrastructure management. A true container service for beginners.</p> </p> 
-      </div>
-      <div class="author">
-        By <a href="/about" title="Adam Marczak" class="vcard author"><strong class="fn">Adam Marczak</strong></a>, <time class="entry-date updated" datetime="2019-09-16 12:00:23 &#43;0200 CEST">September 16 2019</time>
-      </div>
-    </div>
-  </div>
-</article>
 </div>
             <div class="col-md-3 blog-sidebar-wrapper">
               <aside id="secondary" class="blog-sidebar" role="complementary"><div id="mvp" class="banner-mvp">
@@ -378,6 +285,37 @@
     </a>
 </div>
 </div>
+</div><div id="recent-posts" class="recent-posts widget widget_recent_entries" style="float:left;max-width:180px;margin-right:30px;">
+<h5>Recent Posts</h5>
+<ul>
+        <li><b class="list-header">2020 August</b></li>
+        <li class="indented">
+            <a href="/posts/2020/08/az900-ep08/" title="AZ-900 Episode 8 | Resources, Resource Groups &amp; Resource Manager" rel="bookmark">
+                <b>3rd </b>AZ-900 Episode 8 | Resources, Resource Groups &amp; Resource Manager
+            </a>
+        </li>
+        <li><b class="list-header">2020 July</b></li>
+        <li class="indented">
+            <a href="/posts/2020/07/az900-ep07/" title="AZ-900 Episode 7 | Geographies, Regions &amp; Availability Zones | Microsoft Azure Fundamentals Course" rel="bookmark">
+                <b>30th </b>AZ-900 Episode 7 | Geographies, Regions &amp; Availability Zones | Microsoft Azure Fundamentals Course
+            </a>
+        </li>
+        <li class="indented">
+            <a href="/posts/2020/07/azure-excel-files-data-factory-n-databricks/" title="Process Excel files in Azure with Data Factory and Databricks | Tutorial" rel="bookmark">
+                <b>21st </b>Process Excel files in Azure with Data Factory and Databricks | Tutorial
+            </a>
+        </li>
+        <li class="indented">
+            <a href="/posts/2020/07/az900-ep06/" title="AZ-900 Episode 6 | Public, Private &amp; Hybrid cloud deployment models" rel="bookmark">
+                <b>14th </b>AZ-900 Episode 6 | Public, Private &amp; Hybrid cloud deployment models
+            </a>
+        </li>
+        <li class="indented">
+            <a href="/posts/2020/07/az900-ep05/" title="AZ-900 Episode 5 | IaaS vs PaaS vs SaaS cloud service models" rel="bookmark">
+                <b>14th </b>AZ-900 Episode 5 | IaaS vs PaaS vs SaaS cloud service models
+            </a>
+        </li>
+</ul>
 </div><div id="categories-3" class="widget widget_categories" style="float: left;">
   <h5>Tags</h5>
   <ul class="tag-list">
@@ -595,62 +533,7 @@
 </div>
               </aside>
             </div>
-          </div> 
-
-<div class="row">
-    <div class="text-center">
-        <ul class="pagination">
-            
-            <li class="page-item">
-                <a class="page-link" href="/page/6/" tabindex="-1">Previous</a>
-            </li>
-             
-            
-            <li class="page-item ">
-                <a class="page-link" href="/" tabindex="-1">1</a>
-            </li>
-            
-            <li class="page-item ">
-                <a class="page-link" href="/page/2/" tabindex="-1">2</a>
-            </li>
-            
-            <li class="page-item ">
-                <a class="page-link" href="/page/3/" tabindex="-1">3</a>
-            </li>
-            
-            <li class="page-item ">
-                <a class="page-link" href="/page/4/" tabindex="-1">4</a>
-            </li>
-            
-            <li class="page-item ">
-                <a class="page-link" href="/page/5/" tabindex="-1">5</a>
-            </li>
-            
-            <li class="page-item ">
-                <a class="page-link" href="/page/6/" tabindex="-1">6</a>
-            </li>
-            
-            <li class="page-item active">
-                <a class="page-link" href="/page/7/" tabindex="-1">7</a>
-            </li>
-            
-            <li class="page-item ">
-                <a class="page-link" href="/page/8/" tabindex="-1">8</a>
-            </li>
-            
-            <li class="page-item ">
-                <a class="page-link" href="/page/9/" tabindex="-1">9</a>
-            </li>
-             
-            
-            <li class="page-item">
-                <a class="page-link" href="/page/8/" tabindex="-1">Next</a>
-            </li>
-            
-        </ul>
-    </div>
-</div>
-
+          </div>
         </div>
       </div>
 <footer class="footer footer-black footer-big">
