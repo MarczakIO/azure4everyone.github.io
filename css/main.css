@@ -85,6 +85,11 @@ img {
 .navbar .container {
   min-height: 64px !important;
 }
+@media (min-width: 769px) {
+  .container>.navbar-header {
+      min-width: 150px !important;
+  }
+}
 
 .navbar-custom {
     display: table-cell!important;
@@ -94,7 +99,7 @@ img {
 }
 
 .navbar-brand {
-  margin-right: 30px;
+  margin-right: 10px;
   line-height: 20px !important;
 }
 .navbar .navbar-brand p {
@@ -140,6 +145,13 @@ aside .widget a {
 .page-header.header-small div.container {
   padding-top: 80px;
   padding-bottom: 50px;
+}
+.btn-img {
+  padding:9px 15px;
+  background-color:#fe424c;
+}
+.btn-img > img {
+  height:26px;
 }
 .btn-friendly-site {
   font-family: "Open Sans Condensed", "Sans Serif";
@@ -235,6 +247,8 @@ div.avatar {
 .btn-social-rss:hover { background: #ffa500; }
 .btn-webchat:hover { background: #4367b1; }
 .btn-github { line-height: 20px; }
+.btn-basic { background-color: #67b2ec; color: black; }
+.btn-basic:hover { background-color: #24a0ff; color: white; }
 
 body,h1,h2,h3,h4,h5,h6{font-family:Helvetica,Arial,sans-serif;font-weight:300}
 
@@ -384,25 +398,103 @@ article svg {
   margin:0px 10px 0 10px !important;
 }
 
-.check-answer > .answer > input:checked + label {
-  color: #00d000;
-}
 .check-answer > .answer > input:not(:checked) + label {
-  color: #00d000;
+  color:  #118711;
 }
 .check-answer > :not(.answer) > input:checked + label {
   color: red;
   text-decoration: line-through;
 }
-div.perfect-score-message {
+div.wrong-score-message,
+div.perfect-score-message,
+div.answer-explanation {
   display: none;
 }
 form.perfect-score > div.perfect-score-message {
-  color: #00d000;
-  font-size: 30px;
-  line-height: 30px;
+  color: #118711;
+  font-size: 24px;
+  line-height: 24px;
   margin: 20px 0;
   display: block;
+}
+form.check-answer:not(.perfect-score) > div.wrong-score-message {
+  color: #b31818;
+  font-size: 24px;
+  line-height: 24px;
+  margin: 20px 0;
+  display: block;
+}
+form.check-answer > div.answer-explanation {
+  display: block;
+}
+
+.form-check {
+  
+}
+.form-check > input {
+  display: none;
+}
+.form-check > label {
+  width: 100%;
+  line-height: 30px;
+  padding: 4px 12px;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 2rem;
+  font-weight: 400;
+}
+.form-check > label:hover {
+  border-color: rgb(233, 233, 233);
+}
+.form-check > input:checked + label {
+  border-color: hsla(206,100%,35%,1);
+  background-color: hsla(205,100%,94%,1);
+}
+.check-answer > div.answer > input:not(:checked) + label {
+  border-color: #cccccc;
+  background-color: #f1fded;
+  color: black;
+}
+.check-answer > div.answer > input:checked + label {
+  border-color: #118711;
+  background-color: hsla(120,77%,90%,1);
+  color: black;
+}
+.check-answer > div:not(.answer) > input:checked + label {
+  border-color: hsla(16,99%,43%,.999);
+  background-color: hsla(16,99%,90%,1);
+  color: darkred;
+}
+span.radio-unchecked, span.radio-checked, 
+span.checkbox-unchecked, span.checkbox-checked, 
+span.checked-good, span.checked-fail {
+  display: none;
+}
+input[type='radio']:not(:checked) + label > span.radio-unchecked {
+  display: inline;
+}
+input[type='radio']:checked + label > span.radio-checked {
+  display: inline;
+}
+input[type='checkbox']:not(:checked) + label > span.checkbox-unchecked {
+  display: inline;
+}
+input[type='checkbox']:checked + label > span.checkbox-checked {
+  display: inline;
+}
+form.quiz {
+  padding-bottom: 25px;
+}
+form.quiz > button.check-answer {
+  background-color: #0065b3;
+  border-color: #0060aa;
+  color: white;
+}
+form.quiz > button.reset-answer {
+  background-color: #b9b9b9;
+  border-color: #b9b9b9;
+  color: black;
+  display: none;
 }
 
 .rss-banner {
