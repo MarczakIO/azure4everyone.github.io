@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Application Insights on Azure 4 Everyone</title>
+    <link>https://azure4everyone.com/tags/application-insights/</link>
+    <description>Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Feb 2020 14:00:23 +0200</lastBuildDate>
+    
+        <atom:link href="https://azure4everyone.com/tags/application-insights/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Azure Application Insights Introduction</title>
+      <link>https://azure4everyone.com/posts/2020/02/application-insights-intro/</link>
+      <pubDate>Tue, 04 Feb 2020 14:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/02/application-insights-intro/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/30-AzureApplicationInsights-Intro-v6.jpg&quot;&gt;
+        &lt;p&gt;Creating logging and performance tracking solution for your applications can be challenging, especially in multi-service cloud environment. In this video I will show you why Azure Application Insights is the right tool for the job.&lt;/p&gt;
+      </description>
+    </item>
+    
+  </channel>
+</rss>

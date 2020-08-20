@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Az 900 on Azure 4 Everyone</title>
+    <link>https://azure4everyone.com/tags/az-900/</link>
+    <description>Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Aug 2020 11:00:23 +0200</lastBuildDate>
+    
+        <atom:link href="https://azure4everyone.com/tags/az-900/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>AZ-900 Episode 10 | Networking Services | Virtual Network, VPN Gateway, CDN, Load Balancer, App GW</title>
+      <link>https://azure4everyone.com/posts/2020/08/az900-ep10/</link>
+      <pubDate>Tue, 18 Aug 2020 11:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/08/az900-ep10/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-ep-10-740.jpg&quot;&gt;
+        &lt;ul&gt;
+&lt;li&gt;Describe products available for Networking such as
+
+&lt;ul&gt;
+&lt;li&gt;Virtual Network,&lt;/li&gt;
+&lt;li&gt;Load Balancer,&lt;/li&gt;
+&lt;li&gt;VPN Gateway,&lt;/li&gt;
+&lt;li&gt;Application Gateway and&lt;/li&gt;
+&lt;li&gt;Content Delivery Network
+      </description>
+    </item>
+    
+    <item>
+      <title>AZ-900 Episode 9 | Compute Services | Vms, VM Scale Set, App Service, Functions, ACI, AKS</title>
+      <link>https://azure4everyone.com/posts/2020/08/az900-ep09/</link>
+      <pubDate>Fri, 14 Aug 2020 11:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/08/az900-ep09/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-ep-09-740.jpg&quot;&gt;
+        &lt;ul&gt;
+&lt;li&gt;Describe products available for Compute such as
+
+&lt;ul&gt;
+&lt;li&gt;Virtual Machines,&lt;/li&gt;
+&lt;li&gt;Virtual Machine Scale Sets,&lt;/li&gt;
+&lt;li&gt;App Services, Functions,&lt;/li&gt;
+&lt;li&gt;Azure Container Instances (ACI) and&lt;/li&gt;
+&lt;li&gt;Azure Kubernetes Service (AKS)
+      </description>
+    </item>
+    
+    <item>
+      <title>AZ-900 Episode 8 | Resources, Resource Groups &amp; Resource Manager</title>
+      <link>https://azure4everyone.com/posts/2020/08/az900-ep08/</link>
+      <pubDate>Mon, 03 Aug 2020 13:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/08/az900-ep08/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-ep-08-740.jpg&quot;&gt;
+        &lt;ul&gt;
+&lt;li&gt;Describe Resources&lt;/li&gt;
+&lt;li&gt;Describe Resource Groups&lt;/li&gt;
+&lt;li&gt;Describe Resource Manager&lt;/li&gt;
+&lt;li&gt;Describe the benefits and usage of core Azure architectural components
+      </description>
+    </item>
+    
+    <item>
+      <title>AZ-900 Episode 7 | Geographies, Regions &amp; Availability Zones | Microsoft Azure Fundamentals Course</title>
+      <link>https://azure4everyone.com/posts/2020/07/az900-ep07/</link>
+      <pubDate>Thu, 30 Jul 2020 13:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/07/az900-ep07/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-ep-07-740.jpg&quot;&gt;
+        &lt;ul&gt;
+&lt;li&gt;Describe Data Centers&lt;/li&gt;
+&lt;li&gt;Describe Regions &amp;amp; Region Pairs&lt;/li&gt;
+&lt;li&gt;Describe Geographies&lt;/li&gt;
+&lt;li&gt;Describe Availability Zones&lt;/li&gt;
+&lt;li&gt;Describe the benefits and usage of core Azure architectural components
+      </description>
+    </item>
+    
+    <item>
+      <title>AZ-900 Episode 6 | Public, Private &amp; Hybrid cloud deployment models</title>
+      <link>https://azure4everyone.com/posts/2020/07/az900-ep06/</link>
+      <pubDate>Tue, 14 Jul 2020 13:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/07/az900-ep06/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-ep-06-740.jpg&quot;&gt;
+        &lt;ul&gt;
+&lt;li&gt;Describe Public cloud&lt;/li&gt;
+&lt;li&gt;Describe Private cloud&lt;/li&gt;
+&lt;li&gt;Describe Hybrid cloud&lt;/li&gt;
+&lt;li&gt;Compare and contrast the three different cloud models
+      </description>
+    </item>
+    
+    <item>
+      <title>AZ-900 Episode 5 | IaaS vs PaaS vs SaaS cloud service models</title>
+      <link>https://azure4everyone.com/posts/2020/07/az900-ep05/</link>
+      <pubDate>Tue, 14 Jul 2020 12:05:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/07/az900-ep05/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-ep-05-740.jpg&quot;&gt;
+        &lt;ul&gt;
+&lt;li&gt;Describe Infrastructure-as-a-Service (IaaS)&lt;/li&gt;
+&lt;li&gt;Describe Platform-as-a-Service (PaaS)&lt;/li&gt;
+&lt;li&gt;Describe Software-as-a-Service (SaaS)&lt;/li&gt;
+&lt;li&gt;Compare and contrast the three different service types
+      </description>
+    </item>
+    
+    <item>
+      <title>AZ-900 Episode 4 | Consumption-based Model </title>
+      <link>https://azure4everyone.com/posts/2020/07/az900-ep01/</link>
+      <pubDate>Tue, 14 Jul 2020 11:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/07/az900-ep01/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-ep-04-740.jpg&quot;&gt;
+        &lt;ul&gt;
+&lt;li&gt;Describe the consumption-based model
+      </description>
+    </item>
+    
+    <item>
+      <title>AZ-900 Episode 3 | CapEx vs OpEx and their differences</title>
+      <link>https://azure4everyone.com/posts/2020/07/az900-ep03/</link>
+      <pubDate>Tue, 07 Jul 2020 13:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/07/az900-ep03/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-ep-03-740.jpg&quot;&gt;
+        &lt;ul&gt;
+&lt;li&gt;Describe the principles of economies of scale
+      </description>
+    </item>
+    
+    <item>
+      <title>AZ-900 Episode 2 | Principle of economies of scale</title>
+      <link>https://azure4everyone.com/posts/2020/07/az900-ep02/</link>
+      <pubDate>Tue, 07 Jul 2020 12:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/07/az900-ep02/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-ep-02-740.jpg&quot;&gt;
+        &lt;ul&gt;
+&lt;li&gt;Describe the differences between Capital Expenditure (CapEx) and Operational Expenditure (OpEx)
+      </description>
+    </item>
+    
+    <item>
+      <title>AZ-900 Episode 1 | Cloud Computing and Vocabulary</title>
+      <link>https://azure4everyone.com/posts/2020/07/az900-ep04/</link>
+      <pubDate>Tue, 07 Jul 2020 11:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/07/az900-ep04/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-ep-01-740.jpg&quot;&gt;
+        &lt;ul&gt;
+&lt;li&gt;Describe what is Cloud Computing&lt;/li&gt;
+&lt;li&gt;Describe terms such as High Availability, Scalability, Elasticity, Agility, Fault Tolerance, and Disaster Recovery
+      </description>
+    </item>
+    
+    <item>
+      <title>AZ-900 | Course Overview</title>
+      <link>https://azure4everyone.com/posts/2020/07/az900-ep00/</link>
+      <pubDate>Tue, 07 Jul 2020 10:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/07/az900-ep00/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-ep-00-740.jpg&quot;&gt;
+        &lt;p&gt;Azure Fundamentals certification is an opportunity to prove knowledge of cloud concepts, core Azure services, Azure pricing, SLA, and lifecycle, and the fundamentals of cloud security, privacy, compliance, and trust.&lt;/p&gt;
+      </description>
+    </item>
+    
+  </channel>
+</rss>

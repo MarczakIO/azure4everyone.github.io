@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Power Bi on Azure 4 Everyone</title>
+    <link>https://azure4everyone.com/tags/power-bi/</link>
+    <description>Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 07 Dec 2019 01:00:23 +0200</lastBuildDate>
+    
+        <atom:link href="https://azure4everyone.com/tags/power-bi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Azure Analysis Services Intro</title>
+      <link>https://azure4everyone.com/posts/2019/12/analysis-services-intro/</link>
+      <pubDate>Sat, 07 Dec 2019 01:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2019/12/analysis-services-intro/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/21-AzureAnalysisServices-Intro-v6.jpg&quot;&gt;
+        &lt;p&gt;With Azure Analysis Services you can scale your Power BI reports up to tens and hundreds of gigabytes of data. It is very fast in-memory database and analytical progressing engine with all the benefits of cloud scaling and security. &lt;/p&gt;
+      </description>
+    </item>
+    
+  </channel>
+</rss>
