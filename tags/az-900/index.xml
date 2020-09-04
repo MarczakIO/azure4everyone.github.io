@@ -6,10 +6,50 @@
     <description>Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Aug 2020 11:00:23 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2020 11:00:23 +0200</lastBuildDate>
     
         <atom:link href="https://azure4everyone.com/tags/az-900/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AZ-900 Episode 12 | Database Services | Cosmos DB, SQL Database, Db for MySQL &amp; PostgreSQL</title>
+      <link>https://azure4everyone.com/posts/2020/08/az900-ep12/</link>
+      <pubDate>Thu, 03 Sep 2020 11:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/08/az900-ep12/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-ep-12-740.jpg&quot;&gt;
+        &lt;ul&gt;
+&lt;li&gt;Describe the benefits and usage of
+
+&lt;ul&gt;
+&lt;li&gt;Cosmos DB, Azure SQL Database,&lt;/li&gt;
+&lt;li&gt;Azure Database for MySQL,&lt;/li&gt;
+&lt;li&gt;Azure Database for PostgreSQL, and&lt;/li&gt;
+&lt;li&gt;SQL Managed Instance
+      </description>
+    </item>
+    
+    <item>
+      <title>AZ-900 Episode 11 | Storage Services | Blob, Queue, Table, Files, Disk Storage and Storage Tiers</title>
+      <link>https://azure4everyone.com/posts/2020/08/az900-ep11/</link>
+      <pubDate>Wed, 02 Sep 2020 11:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/08/az900-ep11/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-ep-11-740.jpg&quot;&gt;
+        &lt;ul&gt;
+&lt;li&gt;Describe products available for Storage such as
+
+&lt;ul&gt;
+&lt;li&gt;Blob Storage,&lt;/li&gt;
+&lt;li&gt;Files Storage,&lt;/li&gt;
+&lt;li&gt;Queue Storage,&lt;/li&gt;
+&lt;li&gt;Table Storage,&lt;/li&gt;
+&lt;li&gt;Disk Storage and&lt;/li&gt;
+&lt;li&gt;Storage Tiers
+      </description>
+    </item>
     
     <item>
       <title>AZ-900 Episode 10 | Networking Services | Virtual Network, VPN Gateway, CDN, Load Balancer, App GW</title>
