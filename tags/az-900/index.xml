@@ -6,10 +6,23 @@
     <description>Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 Sep 2020 11:00:23 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2020 11:00:23 +0200</lastBuildDate>
     
         <atom:link href="https://azure4everyone.com/tags/az-900/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AZ-900 Episode 18 | Azure DevOps Solutions | Azure DevOps, DevTest Labs</title>
+      <link>https://azure4everyone.com/posts/2020/09/az900-ep18/</link>
+      <pubDate>Tue, 29 Sep 2020 11:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/09/az900-ep18/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v2-ep-18-740.jpg&quot;&gt;
+        &lt;ul&gt;
+&lt;li&gt;Describe DevOps solutions available on Azure such as Azure DevOps and Azure DevTest Labs
+      </description>
+    </item>
     
     <item>
       <title>AZ-900 Episode 17 | Azure Serverless Computing Services | Functions, Logic Apps, Event Grid</title>
@@ -18,7 +31,7 @@
       
       <guid>https://azure4everyone.com/posts/2020/09/az900-ep17/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-ep-17-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v2-ep-17-740.jpg&quot;&gt;
         &lt;ul&gt;
 &lt;li&gt;Describe Serverless computing and Azure products that are available for serverless computing such as Azure Functions, Logic Apps, and Event Grid
       </description>
@@ -31,7 +44,7 @@
       
       <guid>https://azure4everyone.com/posts/2020/09/az900-ep16/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-ep-16-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v2-ep-16-740.jpg&quot;&gt;
         &lt;ul&gt;
 &lt;li&gt;Describe Artificial Intelligence (AI) and products that are available for AI such as Azure Machine Learning Service and Studio.
       </description>
@@ -44,7 +57,7 @@
       
       <guid>https://azure4everyone.com/posts/2020/09/az900-ep15/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-ep-15-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v2-ep-15-740.jpg&quot;&gt;
         &lt;ul&gt;
 &lt;li&gt;Describe Azure Big Data &amp;amp; Analytics Services such as
 
@@ -62,7 +75,7 @@
       
       <guid>https://azure4everyone.com/posts/2020/09/az900-ep14/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-ep-14-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v2-ep-14-740.jpg&quot;&gt;
         &lt;ul&gt;
 &lt;li&gt;Describe Azure IoT Services such as
 
@@ -80,7 +93,7 @@
       
       <guid>https://azure4everyone.com/posts/2020/09/az900-ep13/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-ep-13-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v2-ep-13-740.jpg&quot;&gt;
         &lt;ul&gt;
 &lt;li&gt;Describe Azure Marketplace
       </description>
@@ -93,7 +106,7 @@
       
       <guid>https://azure4everyone.com/posts/2020/08/az900-ep12/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-ep-12-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v2-ep-12-740.jpg&quot;&gt;
         &lt;ul&gt;
 &lt;li&gt;Describe the benefits and usage of
 
@@ -112,7 +125,7 @@
       
       <guid>https://azure4everyone.com/posts/2020/08/az900-ep11/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-ep-11-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v2-ep-11-740.jpg&quot;&gt;
         &lt;ul&gt;
 &lt;li&gt;Describe products available for Storage such as
 
@@ -133,7 +146,7 @@
       
       <guid>https://azure4everyone.com/posts/2020/08/az900-ep10/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-ep-10-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v2-ep-10-740.jpg&quot;&gt;
         &lt;ul&gt;
 &lt;li&gt;Describe products available for Networking such as
 
@@ -153,7 +166,7 @@
       
       <guid>https://azure4everyone.com/posts/2020/08/az900-ep09/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-ep-09-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v2-ep-09-740.jpg&quot;&gt;
         &lt;ul&gt;
 &lt;li&gt;Describe products available for Compute such as
 
@@ -173,7 +186,7 @@
       
       <guid>https://azure4everyone.com/posts/2020/08/az900-ep08/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-ep-08-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v2-ep-08-740.jpg&quot;&gt;
         &lt;ul&gt;
 &lt;li&gt;Describe Resources&lt;/li&gt;
 &lt;li&gt;Describe Resource Groups&lt;/li&gt;
@@ -189,7 +202,7 @@
       
       <guid>https://azure4everyone.com/posts/2020/07/az900-ep07/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-ep-07-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v2-ep-07-740.jpg&quot;&gt;
         &lt;ul&gt;
 &lt;li&gt;Describe Data Centers&lt;/li&gt;
 &lt;li&gt;Describe Regions &amp;amp; Region Pairs&lt;/li&gt;
@@ -206,7 +219,7 @@
       
       <guid>https://azure4everyone.com/posts/2020/07/az900-ep06/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-ep-06-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v2-ep-06-740.jpg&quot;&gt;
         &lt;ul&gt;
 &lt;li&gt;Describe Public cloud&lt;/li&gt;
 &lt;li&gt;Describe Private cloud&lt;/li&gt;
@@ -222,7 +235,7 @@
       
       <guid>https://azure4everyone.com/posts/2020/07/az900-ep05/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-ep-05-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v2-ep-05-740.jpg&quot;&gt;
         &lt;ul&gt;
 &lt;li&gt;Describe Infrastructure-as-a-Service (IaaS)&lt;/li&gt;
 &lt;li&gt;Describe Platform-as-a-Service (PaaS)&lt;/li&gt;
@@ -238,7 +251,7 @@
       
       <guid>https://azure4everyone.com/posts/2020/07/az900-ep01/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-ep-04-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v2-ep-04-740.jpg&quot;&gt;
         &lt;ul&gt;
 &lt;li&gt;Describe the consumption-based model
       </description>
@@ -251,7 +264,7 @@
       
       <guid>https://azure4everyone.com/posts/2020/07/az900-ep03/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-ep-03-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v2-ep-03-740.jpg&quot;&gt;
         &lt;ul&gt;
 &lt;li&gt;Describe the principles of economies of scale
       </description>
@@ -264,7 +277,7 @@
       
       <guid>https://azure4everyone.com/posts/2020/07/az900-ep02/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-ep-02-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v2-ep-02-740.jpg&quot;&gt;
         &lt;ul&gt;
 &lt;li&gt;Describe the differences between Capital Expenditure (CapEx) and Operational Expenditure (OpEx)
       </description>
@@ -277,7 +290,7 @@
       
       <guid>https://azure4everyone.com/posts/2020/07/az900-ep04/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-ep-01-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v2-ep-01-740.jpg&quot;&gt;
         &lt;ul&gt;
 &lt;li&gt;Describe what is Cloud Computing&lt;/li&gt;
 &lt;li&gt;Describe terms such as High Availability, Scalability, Elasticity, Agility, Fault Tolerance, and Disaster Recovery
@@ -291,7 +304,7 @@
       
       <guid>https://azure4everyone.com/posts/2020/07/az900-ep00/</guid>
       <description>
-        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-ep-00-740.jpg&quot;&gt;
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v2-ep-00-740.jpg&quot;&gt;
         &lt;p&gt;Azure Fundamentals certification is an opportunity to prove knowledge of cloud concepts, core Azure services, Azure pricing, SLA, and lifecycle, and the fundamentals of cloud security, privacy, compliance, and trust.&lt;/p&gt;
       </description>
     </item>
