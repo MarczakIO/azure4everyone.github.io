@@ -6,10 +6,23 @@
     <description>Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Sep 2020 11:00:23 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2020 11:00:23 +0200</lastBuildDate>
     
         <atom:link href="https://azure4everyone.com/tags/az-900/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AZ-900 Episode 19 | Azure Tools | Azure Portal, CLI, PowerShell &amp; Cloud Shell</title>
+      <link>https://azure4everyone.com/posts/2020/09/az900-ep19/</link>
+      <pubDate>Wed, 30 Sep 2020 11:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/09/az900-ep19/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v2-ep-19-740.jpg&quot;&gt;
+        &lt;ul&gt;
+&lt;li&gt;Describe Azure tools such as Azure Portal, Azure PowerShell, Azure CLI and Cloud Shell
+      </description>
+    </item>
     
     <item>
       <title>AZ-900 Episode 18 | Azure DevOps Solutions | Azure DevOps, DevTest Labs</title>
