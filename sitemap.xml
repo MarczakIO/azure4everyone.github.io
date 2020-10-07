@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://azure4everyone.com/posts/2020/10/az900-ep22/</loc>
+    <lastmod>2020-10-07T11:00:23+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://azure4everyone.com/posts/2020/10/az900-ep21/</loc>
     <lastmod>2020-10-05T11:00:23+02:00</lastmod>
   </url>
@@ -435,19 +440,19 @@
   
   <url>
     <loc>https://azure4everyone.com/tags/az-900/</loc>
-    <lastmod>2020-10-05T11:00:23+02:00</lastmod>
+    <lastmod>2020-10-07T11:00:23+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://azure4everyone.com/tags/azure/</loc>
-    <lastmod>2020-10-05T11:00:23+02:00</lastmod>
+    <lastmod>2020-10-07T11:00:23+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://azure4everyone.com/</loc>
-    <lastmod>2020-10-05T11:00:23+02:00</lastmod>
+    <lastmod>2020-10-07T11:00:23+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -543,7 +548,7 @@
   
   <url>
     <loc>https://azure4everyone.com/posts/</loc>
-    <lastmod>2020-10-05T11:00:23+02:00</lastmod>
+    <lastmod>2020-10-07T11:00:23+02:00</lastmod>
     <priority>0</priority>
   </url>
   
