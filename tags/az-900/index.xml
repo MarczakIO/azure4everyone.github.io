@@ -6,10 +6,36 @@
     <description>Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Oct 2020 11:00:23 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2020 12:00:23 +0200</lastBuildDate>
     
         <atom:link href="https://azure4everyone.com/tags/az-900/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AZ-900 Episode 24 | Azure DDoS Protection | Distributed Denial of Service</title>
+      <link>https://azure4everyone.com/posts/2020/10/az900-ep24/</link>
+      <pubDate>Fri, 09 Oct 2020 12:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/10/az900-ep24/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v2-ep-24-740.jpg&quot;&gt;
+        &lt;ul&gt;
+&lt;li&gt;Describe Azure DDoS Protection
+      </description>
+    </item>
+    
+    <item>
+      <title>AZ-900 Episode 23 | Azure Firewall</title>
+      <link>https://azure4everyone.com/posts/2020/10/az900-ep23/</link>
+      <pubDate>Fri, 09 Oct 2020 11:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/10/az900-ep23/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v2-ep-23-740.jpg&quot;&gt;
+        &lt;ul&gt;
+&lt;li&gt;Describe Azure Firewall
+      </description>
+    </item>
     
     <item>
       <title>AZ-900 Episode 22 | User-defined Routes (UDR) with Route Tables</title>
