@@ -20,7 +20,9 @@
       <description>
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v2-ep-25-740.jpg&quot;&gt;
         &lt;ul&gt;
-&lt;li&gt;Describe Azure DDoS Protection
+&lt;li&gt;Describe the difference between authentication and authorization&lt;/li&gt;
+&lt;li&gt;Describe Azure Active Directory&lt;/li&gt;
+&lt;li&gt;Describe Azure Multi-Factor Authentication
       </description>
     </item>
     
