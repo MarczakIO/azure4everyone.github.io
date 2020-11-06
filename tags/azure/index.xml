@@ -6,10 +6,22 @@
     <description>Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Oct 2020 12:00:23 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2020 12:00:23 +0200</lastBuildDate>
     
         <atom:link href="https://azure4everyone.com/tags/azure/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AZ-900 Episode 28 | Azure Role-based Access Control (RBAC)</title>
+      <link>https://azure4everyone.com/posts/2020/10/az900-ep28/</link>
+      <pubDate>Fri, 06 Nov 2020 12:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2020/10/az900-ep28/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v2-ep-28-740.jpg&quot;&gt;
+        &lt;p&gt;-Describe the functionality and usage of &lt;strong&gt;Role-Based Access Control (RBAC)&lt;/strong&gt;&lt;/p&gt;
+      </description>
+    </item>
     
     <item>
       <title>AZ-900 Episode 27 | Azure Key Vault | Keys, Secrets &amp; Certificates</title>
