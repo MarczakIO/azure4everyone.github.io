@@ -6,10 +6,22 @@
     <description>Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 18 Dec 2020 12:00:23 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 14 Jan 2021 12:00:23 +0200</lastBuildDate>
     
         <atom:link href="https://azure4everyone.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AZ-900 Episode 33 | Cloud Adoption Framework for Azure</title>
+      <link>https://azure4everyone.com/posts/2021/01/az900-ep33/</link>
+      <pubDate>Thu, 14 Jan 2021 12:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2021/01/az900-ep33/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v2-ep-33-740.jpg&quot;&gt;
+        &lt;p&gt;-Describe the &lt;strong&gt;Cloud Adoption Framework&lt;/strong&gt; for Azure&lt;/p&gt;
+      </description>
+    </item>
     
     <item>
       <title>AZ-900 Episode 32 | Azure Blueprints</title>
