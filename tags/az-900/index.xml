@@ -6,10 +6,25 @@
     <description>Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Jan 2021 12:00:23 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 29 Jan 2021 12:00:23 +0200</lastBuildDate>
     
         <atom:link href="https://azure4everyone.com/tags/az-900/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AZ-900 Episode 34 | Core tenets of Security, Privacy, and Compliance</title>
+      <link>https://azure4everyone.com/posts/2021/01/az900-ep34/</link>
+      <pubDate>Fri, 29 Jan 2021 12:00:23 +0200</pubDate>
+      
+      <guid>https://azure4everyone.com/posts/2021/01/az900-ep34/</guid>
+      <description>
+        &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v2-ep-34-740.jpg&quot;&gt;
+        &lt;p&gt;-Describe the purpose of the &lt;strong&gt;Microsoft Privacy Statement&lt;/strong&gt;, &lt;strong&gt;Online Services Terms&lt;/strong&gt; (OST) and &lt;strong&gt;Data Protection Amendment&lt;/strong&gt; (DPA)
+-Describe the purpose of the &lt;strong&gt;Trust Center&lt;/strong&gt;
+-Describe the purpose of the &lt;strong&gt;Azure compliance&lt;/strong&gt; documentation
+-Describe the purpose of &lt;strong&gt;Azure Sovereign Regions&lt;/strong&gt; (Azure Government cloud services and Azure China cloud services)&lt;/p&gt;
+      </description>
+    </item>
     
     <item>
       <title>AZ-900 Episode 33 | Cloud Adoption Framework for Azure</title>
