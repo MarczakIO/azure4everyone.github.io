@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html prefix="og: http://ogp.me/ns#" lang="en-us">
 <head>
-	<meta name="generator" content="Hugo 0.30.2" />
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Azure 4 Everyone | Adam Marczak</title>
+<title>AZ-900 Episode 36 | Cost Affecting Factors | Azure 4 Everyone | Adam Marczak</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/png" href="https://azure4everyone.com/images/favicon-32x32.png" sizes="32x32" />
 <link rel="icon" type="image/png" href="https://azure4everyone.com/images/favicon-16x16.png" sizes="16x16" />
@@ -15,27 +14,31 @@
 <link rel="stylesheet" id="font-awesome-css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" media="all">
 <link href='https://azure4everyone.com/css/hestia.min.css?ver=1.23' rel="stylesheet" type="text/css" />
 <link href='https://azure4everyone.com/css/main.min.css?ver=1.25' rel='stylesheet' type="text/css" />
-  <link href="https://azure4everyone.com/index.xml" rel="alternate" type="application/rss+xml" title="Azure 4 Everyone" />
-  <link href="https://azure4everyone.com/index.xml" rel="feed" type="application/rss+xml" title="Azure 4 Everyone" />
 
-<meta name="description" content="Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.">
+<meta name="description" content="
+Identify factors that can reduce costs (reserved instances, reserved capacity, hybrid use benefit, spot pricing)
+Describe the functionality and usage of the Pricing calculator and the Total Cost of Ownership (TCO) calculator">
 <meta name="author" content="Adam Marczak">
 <meta name="copyright" content="Adam Marczak">
-<meta name="title" content="Azure 4 Everyone | Adam Marczak">
+<meta name="title" content="AZ-900 Episode 36 | Cost Affecting Factors | Azure 4 Everyone | Adam Marczak">
 <meta property="og:locale" content="en_US">
 <meta property="article:author" content="https://www.facebook.com/MarczakIO/">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Azure 4 Everyone">
-<meta property="og:description" content="Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.">
-<meta property="og:url" content="https://azure4everyone.com/">
+<meta property="og:title" content="AZ-900 Episode 36 | Cost Affecting Factors">
+<meta property="og:description" content="
+Identify factors that can reduce costs (reserved instances, reserved capacity, hybrid use benefit, spot pricing)
+Describe the functionality and usage of the Pricing calculator and the Total Cost of Ownership (TCO) calculator">
+<meta property="og:url" content="https://azure4everyone.com/posts/2021/02/az900-ep36/">
 <meta property="og:site_name" content="Azure 4 Everyone">
-<meta property="og:image" content="https://azure4everyone.com/images/background.jpg">
+<meta property="og:image" content="https://azure4everyone.com/images/youtube/az-900-v4-ep-36-740.jpg">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@MarczakIO">
-<meta name="twitter:title" content="Azure 4 Everyone">
-<meta name="twitter:description" content="Adam Marczak blog created for purpose of personal contribution and sharing knowledge to communities everywhere.">
-<meta name="twitter:url" content="https://azure4everyone.com/">
+<meta name="twitter:title" content="AZ-900 Episode 36 | Cost Affecting Factors">
+<meta name="twitter:description" content="
+Identify factors that can reduce costs (reserved instances, reserved capacity, hybrid use benefit, spot pricing)
+Describe the functionality and usage of the Pricing calculator and the Total Cost of Ownership (TCO) calculator">
+<meta name="twitter:url" content="https://azure4everyone.com/posts/2021/02/az900-ep36/">
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144580824-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -95,9 +98,11 @@
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-md-offset-1 text-center">
-          <h1 class="hestia-title">Azure 4 Everyone</h1>
+          <h1 class="hestia-title">AZ-900 Episode 36 | Cost Affecting Factors</h1>
           
-            <h4>Learn every day</h4>
+            <h4 class="author">
+              Published by<a href="/about" title="Adam Marczak" class="vcard author"><strong class="fn">Adam Marczak</strong></a> on <time class="date updated published" datetime="2021-01-29 12:00:23 &#43;0200 &#43;0200">Jan 29 2021</time>
+            </h4>
            
         </div>
       </div>
@@ -108,159 +113,104 @@
     <div class="main main-raised">
       <div class="hestia-blogs">
         <div class="container">
-          <div class="row"> 
-<div class="col-md-9 blog-posts-wrap"><article id="post-19" class="card card-plain card-blog">
-  <div class="row">
-    <div class="col-md-5">
-      <a href="/posts/2020/09/az900-ep15/" class='thumbnail'> 
+          <div class="row">
+<div class="col-md-9 single-posts-wrap">
+    <article id="/posts/2021/02/az900-ep36/" class="article-section section-text"> 
 <div class="lazy" style="max-height: 416px">
     <div style="padding-bottom:56.21621621621622%"></div>
-    <img data-src="/images/youtube/az-900-v4-ep-15-740.jpg" src=""/> 
+    <img data-src="/images/youtube/az-900-v4-ep-36-740.jpg" src=""/> 
 </div> 
-      </a>
-    </div>
-    <div class="col-md-7">
-      
-  <div class="tag-list">
-    <a href="https://azure4everyone.com/tags/az-900" title="View all posts in AZ-900">
-      <img src="https://azure4everyone.com/images/tags/az-900.svg" alt="AZ-900"/>
-    </a>
-    <a href="https://azure4everyone.com/tags/azure" title="View all posts in Azure">
-      <img src="https://azure4everyone.com/images/tags/azure.svg" alt="Azure"/>
-    </a>
-  </div>
-      <h2 class="card-title entry-title">
-        <a href="/posts/2020/09/az900-ep15/" title="AZ-900 Episode 15 | Azure Big Data &amp; Analytics Services | Synapse, HDInsight, Databricks" rel="bookmark">AZ-900 Episode 15 | Azure Big Data &amp; Analytics Services | Synapse, HDInsight, Databricks</a></h2>
-        <div class="card-description">
-        <p><ul>
-<li>Describe Azure Big Data &amp; Analytics Services such as
+        <h2>Highlight</h2>
+        <ul>
+<li>Identify <strong>factors that can reduce costs</strong> (reserved instances, reserved capacity, hybrid use benefit, spot pricing)</li>
+<li>Describe the functionality and usage of the <strong>Pricing calculator</strong> and the <strong>Total Cost of Ownership (TCO) calculator</strong></li>
+</ul>
+
+<h2 id="intro">Intro</h2>
+
+<p>In this week&rsquo;s Episode we explore the core factors that reduce the cost up your Azure environment.</p>
+
+<h4 id="site-https-marczak-io-az-900-ep36">🌐 Site: <a href="https://marczak.io/az-900/#ep36">https://marczak.io/az-900/#ep36</a></h4>
+
+<h3 id="episode-resources">Episode Resources</h3>
 
 <ul>
-<li>Azure Synapse Analytics</li>
-<li>Azure HDInsight</li>
-<li>Azure Databricks </p> 
-      </div>
-      <div class="author">
-        By <a href="/about" title="Adam Marczak" class="vcard author"><strong class="fn">Adam Marczak</strong></a>, <time class="entry-date updated" datetime="2020-09-17 11:00:23 &#43;0200 CEST">September 17 2020</time>
-      </div>
-    </div>
-  </div>
-</article><article id="post-19" class="card card-plain card-blog">
-  <div class="row">
-    <div class="col-md-5">
-      <a href="/posts/2020/09/az900-ep14/" class='thumbnail'> 
-<div class="lazy" style="max-height: 416px">
-    <div style="padding-bottom:56.21621621621622%"></div>
-    <img data-src="/images/youtube/az-900-v4-ep-14-740.jpg" src=""/> 
-</div> 
-      </a>
-    </div>
-    <div class="col-md-7">
-      
-  <div class="tag-list">
-    <a href="https://azure4everyone.com/tags/az-900" title="View all posts in AZ-900">
-      <img src="https://azure4everyone.com/images/tags/az-900.svg" alt="AZ-900"/>
-    </a>
-    <a href="https://azure4everyone.com/tags/azure" title="View all posts in Azure">
-      <img src="https://azure4everyone.com/images/tags/azure.svg" alt="Azure"/>
-    </a>
-  </div>
-      <h2 class="card-title entry-title">
-        <a href="/posts/2020/09/az900-ep14/" title="AZ-900 Episode 14 | Azure IoT Services | IoT Hub, IoT Central, Azure Sphere" rel="bookmark">AZ-900 Episode 14 | Azure IoT Services | IoT Hub, IoT Central, Azure Sphere</a></h2>
-        <div class="card-description">
-        <p><ul>
-<li>Describe Azure IoT Services such as
+<li><a href="https://marczak.io/az-900/episode-36/cheat-sheet">📚 Study cheat sheet</a></li>
+<li><a href="https://marczak.io/az-900/episode-36/practice-test">🧠 Practice Test</a></li>
+</ul>
+
+<h3 id="study-guide">Study Guide</h3>
 
 <ul>
-<li>IoT Hub</li>
-<li>IoT Central</li>
-<li>Azure Sphere </p> 
-      </div>
-      <div class="author">
-        By <a href="/about" title="Adam Marczak" class="vcard author"><strong class="fn">Adam Marczak</strong></a>, <time class="entry-date updated" datetime="2020-09-10 11:00:23 &#43;0200 CEST">September 10 2020</time>
-      </div>
-    </div>
-  </div>
-</article><article id="post-19" class="card card-plain card-blog">
-  <div class="row">
-    <div class="col-md-5">
-      <a href="/posts/2020/09/az900-ep13/" class='thumbnail'> 
-<div class="lazy" style="max-height: 416px">
-    <div style="padding-bottom:56.21621621621622%"></div>
-    <img data-src="/images/youtube/az-900-v4-ep-13-740.jpg" src=""/> 
-</div> 
-      </a>
-    </div>
-    <div class="col-md-7">
-      
-  <div class="tag-list">
-    <a href="https://azure4everyone.com/tags/az-900" title="View all posts in AZ-900">
-      <img src="https://azure4everyone.com/images/tags/az-900.svg" alt="AZ-900"/>
-    </a>
-    <a href="https://azure4everyone.com/tags/azure" title="View all posts in Azure">
-      <img src="https://azure4everyone.com/images/tags/azure.svg" alt="Azure"/>
-    </a>
-  </div>
-      <h2 class="card-title entry-title">
-        <a href="/posts/2020/09/az900-ep13/" title="AZ-900 Episode 13 | Azure Marketplace" rel="bookmark">AZ-900 Episode 13 | Azure Marketplace</a></h2>
-        <div class="card-description">
-        <p><ul>
-<li>Describe Azure Marketplace </p> 
-      </div>
-      <div class="author">
-        By <a href="/about" title="Adam Marczak" class="vcard author"><strong class="fn">Adam Marczak</strong></a>, <time class="entry-date updated" datetime="2020-09-09 11:00:23 &#43;0200 CEST">September 9 2020</time>
-      </div>
-    </div>
-  </div>
-</article><article id="post-19" class="card card-plain card-blog">
-  <div class="row">
-    <div class="col-md-5">
-      <a href="/posts/2020/08/az900-ep12/" class='thumbnail'> 
-<div class="lazy" style="max-height: 416px">
-    <div style="padding-bottom:56.21621621621622%"></div>
-    <img data-src="/images/youtube/az-900-v4-ep-12-740.jpg" src=""/> 
-</div> 
-      </a>
-    </div>
-    <div class="col-md-7">
-      
-  <div class="tag-list">
-    <a href="https://azure4everyone.com/tags/az-900" title="View all posts in AZ-900">
-      <img src="https://azure4everyone.com/images/tags/az-900.svg" alt="AZ-900"/>
-    </a>
-    <a href="https://azure4everyone.com/tags/azure" title="View all posts in Azure">
-      <img src="https://azure4everyone.com/images/tags/azure.svg" alt="Azure"/>
-    </a>
-  </div>
-      <h2 class="card-title entry-title">
-        <a href="/posts/2020/08/az900-ep12/" title="AZ-900 Episode 12 | Database Services | Cosmos DB, SQL Database, Db for MySQL &amp; PostgreSQL" rel="bookmark">AZ-900 Episode 12 | Database Services | Cosmos DB, SQL Database, Db for MySQL &amp; PostgreSQL</a></h2>
-        <div class="card-description">
-        <p><ul>
-<li>Describe the benefits and usage of
+<li><a href="https://docs.microsoft.com/en-us/learn/modules/plan-manage-azure-costs/2-compare-costs-tco-calculator?WT.mc_id=AZ-MVP-5003556"><i class="ms"></i> Microsoft Learn: Compare costs by using the Total Cost of Ownership Calculator</a></li>
+<li><a href="https://docs.microsoft.com/en-us/learn/modules/plan-manage-azure-costs/6-manage-minimize-total-cost?WT.mc_id=AZ-MVP-5003556"><i class="ms"></i> Microsoft Learn: Manage and minimize total cost on Azure</a></li>
+<li><a href="https://azure.microsoft.com/en-us/pricing/tco/calculator/?WT.mc_id=AZ-MVP-5003556"><i class="ms"></i> Microsoft Azure: TCO Calculator</a></li>
+</ul>
+
+<h2 id="agenda">Agenda</h2>
 
 <ul>
-<li>Cosmos DB, Azure SQL Database,</li>
-<li>Azure Database for MySQL,</li>
-<li>Azure Database for PostgreSQL, and</li>
-<li>SQL Managed Instance </p> 
-      </div>
-      <div class="author">
-        By <a href="/about" title="Adam Marczak" class="vcard author"><strong class="fn">Adam Marczak</strong></a>, <time class="entry-date updated" datetime="2020-09-03 11:00:23 &#43;0200 CEST">September 3 2020</time>
-      </div>
+<li>00:00 Episode Introduction</li>
+<li>00:50 Azure Reservations</li>
+<li>03:53 Azure Spot Pricing for VMs</li>
+<li>06:23 Hybrid use benefit</li>
+<li>08:48 Azure Pricing Calculator</li>
+<li>10:54 TCO Calculator</li>
+<li>14:09 Episode Summary</li>
+</ul>
+
+<h2 id="video">Video</h2>
+
+<iframe class="youtube" frameborder="0" allowfullscreen src="https://www.youtube.com/embed/ZV2bfoqFpZ8"></iframe>
+
+<h1 id="enjoy">Enjoy!</h1>
+    </article>
+    <div class="section-blog-info">
+        <div class="row">
+            <div class="col-md-12">
+<div class="authorblock">
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="avatar"></div>
+        </div>
+        <div class="col-sm-9">
+            <h4><b>Adam Marczak</b></h4>
+            <p>Programmer, architect, trainer, blogger, evangelist are just a few of many titles. What I really am, is a passionate technology enthusiast. I take great pleasure in learning new technologies and finding ways in which it can aid people every day. My latest passion is running an <a href='https://www.youtube.com/azure4everyone'>Azure 4 Everyone</a> YouTube channel, where I show that Azure really is for everyone!</p>
+        </div>
     </div>
-  </div>
-</article><article id="post-19" class="card card-plain card-blog">
-  <div class="row">
-    <div class="col-md-5">
-      <a href="/posts/2020/08/az900-ep11/" class='thumbnail'> 
-<div class="lazy" style="max-height: 416px">
-    <div style="padding-bottom:56.21621621621622%"></div>
-    <img data-src="/images/youtube/az-900-v4-ep-11-740.jpg" src=""/> 
-</div> 
-      </a>
-    </div>
-    <div class="col-md-7">
-      
+</div>
+            </div>
+        </div> 
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3 class="text-center">Did you enjoy the article?</h3>
+            </div>
+            <div class="col-md-6 text-center">
+                <h4 class="">Share it!</h4><a target="_blank" 
+   rel="tooltip" 
+   data-original-title="Share on Facebook" 
+   class="btn btn-just-icon btn-share btn-facebook"
+   href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fazure4everyone.com%2fposts%2f2021%2f02%2faz900-ep36%2f">
+    <i class="fa fa-facebook"></i>
+</a>
+<a target="_blank" 
+   rel="tooltip" 
+   data-original-title="Share on Twitter" 
+   class="btn btn-just-icon btn-share btn-twitter" 
+   href="https://twitter.com/home?status=AZ-900%20Episode%2036%20%7c%20Cost%20Affecting%20Factors - https%3a%2f%2fazure4everyone.com%2fposts%2f2021%2f02%2faz900-ep36%2f">
+   <i class="fa fa-twitter"></i>
+</a>
+<a target="_blank" 
+   rel="tooltip" 
+   data-original-title="Share on Google+" 
+   class="btn btn-just-icon btn-share btn-google" 
+   href="https://plus.google.com/share?url=https%3a%2f%2fazure4everyone.com%2fposts%2f2021%2f02%2faz900-ep36%2f"><i 
+   class="fa fa-google"></i>
+</a>
+            
+            </div>
+            <div class="col-md-6 text-center large">
+                <h4 class="">More tagged posts</h4>
   <div class="tag-list">
     <a href="https://azure4everyone.com/tags/az-900" title="View all posts in AZ-900">
       <img src="https://azure4everyone.com/images/tags/az-900.svg" alt="AZ-900"/>
@@ -269,102 +219,27 @@
       <img src="https://azure4everyone.com/images/tags/azure.svg" alt="Azure"/>
     </a>
   </div>
-      <h2 class="card-title entry-title">
-        <a href="/posts/2020/08/az900-ep11/" title="AZ-900 Episode 11 | Storage Services | Blob, Queue, Table, Files, Disk Storage and Storage Tiers" rel="bookmark">AZ-900 Episode 11 | Storage Services | Blob, Queue, Table, Files, Disk Storage and Storage Tiers</a></h2>
-        <div class="card-description">
-        <p><ul>
-<li>Describe products available for Storage such as
+            </div>
+        </div>
+        <div class="row comments">
+            <div class="col-md-12"><div id="disqus_thread"></div>
+<script>
+var disqus_config = function () {
+this.page.url = "https:\/\/azure4everyone.com\/posts\/2021\/02\/az900-ep36\/"; 
+this.page.identifier = "\/posts\/2021\/02\/az900-ep36\/";
+};
 
-<ul>
-<li>Blob Storage,</li>
-<li>Files Storage,</li>
-<li>Queue Storage,</li>
-<li>Table Storage,</li>
-<li>Disk Storage and</li>
-<li>Storage Tiers </p> 
-      </div>
-      <div class="author">
-        By <a href="/about" title="Adam Marczak" class="vcard author"><strong class="fn">Adam Marczak</strong></a>, <time class="entry-date updated" datetime="2020-09-02 11:00:23 &#43;0200 CEST">September 2 2020</time>
-      </div>
+(function() {
+if (window.location.hostname == "localhost")return;
+var d = document, s = d.createElement('script');
+s.src = 'https://marczak-io.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+            </div>
+        </div> 
     </div>
-  </div>
-</article><article id="post-19" class="card card-plain card-blog">
-  <div class="row">
-    <div class="col-md-5">
-      <a href="/posts/2020/08/az900-ep10/" class='thumbnail'> 
-<div class="lazy" style="max-height: 416px">
-    <div style="padding-bottom:56.21621621621622%"></div>
-    <img data-src="/images/youtube/az-900-v4-ep-10-740.jpg" src=""/> 
-</div> 
-      </a>
-    </div>
-    <div class="col-md-7">
-      
-  <div class="tag-list">
-    <a href="https://azure4everyone.com/tags/az-900" title="View all posts in AZ-900">
-      <img src="https://azure4everyone.com/images/tags/az-900.svg" alt="AZ-900"/>
-    </a>
-    <a href="https://azure4everyone.com/tags/azure" title="View all posts in Azure">
-      <img src="https://azure4everyone.com/images/tags/azure.svg" alt="Azure"/>
-    </a>
-  </div>
-      <h2 class="card-title entry-title">
-        <a href="/posts/2020/08/az900-ep10/" title="AZ-900 Episode 10 | Networking Services | Virtual Network, VPN Gateway, CDN, Load Balancer, App GW" rel="bookmark">AZ-900 Episode 10 | Networking Services | Virtual Network, VPN Gateway, CDN, Load Balancer, App GW</a></h2>
-        <div class="card-description">
-        <p><ul>
-<li>Describe products available for Networking such as
-
-<ul>
-<li>Virtual Network,</li>
-<li>Load Balancer,</li>
-<li>VPN Gateway,</li>
-<li>Application Gateway and</li>
-<li>Content Delivery Network </p> 
-      </div>
-      <div class="author">
-        By <a href="/about" title="Adam Marczak" class="vcard author"><strong class="fn">Adam Marczak</strong></a>, <time class="entry-date updated" datetime="2020-08-18 11:00:23 &#43;0200 CEST">August 18 2020</time>
-      </div>
-    </div>
-  </div>
-</article><article id="post-19" class="card card-plain card-blog">
-  <div class="row">
-    <div class="col-md-5">
-      <a href="/posts/2020/08/az900-ep09/" class='thumbnail'> 
-<div class="lazy" style="max-height: 416px">
-    <div style="padding-bottom:56.21621621621622%"></div>
-    <img data-src="/images/youtube/az-900-v4-ep-09-740.jpg" src=""/> 
-</div> 
-      </a>
-    </div>
-    <div class="col-md-7">
-      
-  <div class="tag-list">
-    <a href="https://azure4everyone.com/tags/az-900" title="View all posts in AZ-900">
-      <img src="https://azure4everyone.com/images/tags/az-900.svg" alt="AZ-900"/>
-    </a>
-    <a href="https://azure4everyone.com/tags/azure" title="View all posts in Azure">
-      <img src="https://azure4everyone.com/images/tags/azure.svg" alt="Azure"/>
-    </a>
-  </div>
-      <h2 class="card-title entry-title">
-        <a href="/posts/2020/08/az900-ep09/" title="AZ-900 Episode 9 | Compute Services | Vms, VM Scale Set, App Service, Functions, ACI, AKS" rel="bookmark">AZ-900 Episode 9 | Compute Services | Vms, VM Scale Set, App Service, Functions, ACI, AKS</a></h2>
-        <div class="card-description">
-        <p><ul>
-<li>Describe products available for Compute such as
-
-<ul>
-<li>Virtual Machines,</li>
-<li>Virtual Machine Scale Sets,</li>
-<li>App Services, Functions,</li>
-<li>Azure Container Instances (ACI) and</li>
-<li>Azure Kubernetes Service (AKS) </p> 
-      </div>
-      <div class="author">
-        By <a href="/about" title="Adam Marczak" class="vcard author"><strong class="fn">Adam Marczak</strong></a>, <time class="entry-date updated" datetime="2020-08-14 11:00:23 &#43;0200 CEST">August 14 2020</time>
-      </div>
-    </div>
-  </div>
-</article>
 </div>
             <div class="col-md-3 blog-sidebar-wrapper">
               <aside id="secondary" class="blog-sidebar" role="complementary"><div id="mvp" class="banner-mvp">
@@ -414,6 +289,38 @@
     </a>
 </div>
 </div>
+</div><div id="recent-posts" class="recent-posts widget widget_recent_entries" style="float:left;max-width:180px;margin-right:30px;">
+<h5>Recent Posts</h5>
+<ul>
+        <li><b class="list-header">2021 February</b></li>
+        <li class="indented">
+            <a href="/posts/2021/01/az900-ep34/" title="AZ-900 Episode 34 | Core tenets of Security, Privacy, and Compliance" rel="bookmark">
+                <b>5th </b>AZ-900 Episode 34 | Core tenets of Security, Privacy, and Compliance
+            </a>
+        </li>
+        <li><b class="list-header">2021 January</b></li>
+        <li class="indented">
+            <a href="/posts/2021/02/az900-ep35/" title="AZ-900 Episode 35 | Cost Affecting Factors" rel="bookmark">
+                <b>29th </b>AZ-900 Episode 35 | Cost Affecting Factors
+            </a>
+        </li>
+        <li class="indented">
+            <a href="/posts/2021/02/az900-ep36/" title="AZ-900 Episode 36 | Cost Affecting Factors" rel="bookmark">
+                <b>29th </b>AZ-900 Episode 36 | Cost Affecting Factors
+            </a>
+        </li>
+        <li class="indented">
+            <a href="/posts/2021/01/az900-ep33/" title="AZ-900 Episode 33 | Cloud Adoption Framework for Azure" rel="bookmark">
+                <b>14th </b>AZ-900 Episode 33 | Cloud Adoption Framework for Azure
+            </a>
+        </li>
+        <li><b class="list-header">2020 December</b></li>
+        <li class="indented">
+            <a href="/posts/2020/12/az900-ep32/" title="AZ-900 Episode 32 | Azure Blueprints" rel="bookmark">
+                <b>18th </b>AZ-900 Episode 32 | Azure Blueprints
+            </a>
+        </li>
+</ul>
 </div><div id="categories-3" class="widget widget_categories" style="float: left;">
   <h5>Tags</h5>
   <ul class="tag-list">
@@ -631,78 +538,7 @@
 </div>
               </aside>
             </div>
-          </div> 
-
-<div class="row">
-    <div class="text-center">
-        <ul class="pagination">
-            
-            <li class="page-item">
-                <a class="page-link" href="/page/3/" tabindex="-1">Previous</a>
-            </li>
-             
-            
-            <li class="page-item ">
-                <a class="page-link" href="/" tabindex="-1">1</a>
-            </li>
-            
-            <li class="page-item ">
-                <a class="page-link" href="/page/2/" tabindex="-1">2</a>
-            </li>
-            
-            <li class="page-item ">
-                <a class="page-link" href="/page/3/" tabindex="-1">3</a>
-            </li>
-            
-            <li class="page-item active">
-                <a class="page-link" href="/page/4/" tabindex="-1">4</a>
-            </li>
-            
-            <li class="page-item ">
-                <a class="page-link" href="/page/5/" tabindex="-1">5</a>
-            </li>
-            
-            <li class="page-item ">
-                <a class="page-link" href="/page/6/" tabindex="-1">6</a>
-            </li>
-            
-            <li class="page-item ">
-                <a class="page-link" href="/page/7/" tabindex="-1">7</a>
-            </li>
-            
-            <li class="page-item ">
-                <a class="page-link" href="/page/8/" tabindex="-1">8</a>
-            </li>
-            
-            <li class="page-item ">
-                <a class="page-link" href="/page/9/" tabindex="-1">9</a>
-            </li>
-            
-            <li class="page-item ">
-                <a class="page-link" href="/page/10/" tabindex="-1">10</a>
-            </li>
-            
-            <li class="page-item ">
-                <a class="page-link" href="/page/11/" tabindex="-1">11</a>
-            </li>
-            
-            <li class="page-item ">
-                <a class="page-link" href="/page/12/" tabindex="-1">12</a>
-            </li>
-            
-            <li class="page-item ">
-                <a class="page-link" href="/page/13/" tabindex="-1">13</a>
-            </li>
-             
-            
-            <li class="page-item">
-                <a class="page-link" href="/page/5/" tabindex="-1">Next</a>
-            </li>
-            
-        </ul>
-    </div>
-</div>
-
+          </div>
         </div>
       </div>
 <footer class="footer footer-black footer-big">
