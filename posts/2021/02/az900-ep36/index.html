@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Azure Automation Introduction | Azure 4 Everyone | Adam Marczak</title>
+<title>AZ-900 Episode 36 | Cost Reduction Methods | Azure 4 Everyone | Adam Marczak</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/png" href="https://azure4everyone.com/images/favicon-32x32.png" sizes="32x32" />
 <link rel="icon" type="image/png" href="https://azure4everyone.com/images/favicon-16x16.png" sizes="16x16" />
@@ -15,24 +15,30 @@
 <link href='https://azure4everyone.com/css/hestia.min.css?ver=1.23' rel="stylesheet" type="text/css" />
 <link href='https://azure4everyone.com/css/main.min.css?ver=1.25' rel='stylesheet' type="text/css" />
 
-<meta name="description" content="Azure Automation service is designed specifically to help with day to day operational challenges around process automation, configuration management and update management for both Azure and non-Azure environments. Join me and see what is this service all about.">
+<meta name="description" content="
+Identify factors that can reduce costs (reserved instances, reserved capacity, hybrid use benefit, spot pricing)
+Describe the functionality and usage of the Pricing calculator and the Total Cost of Ownership (TCO) calculator">
 <meta name="author" content="Adam Marczak">
 <meta name="copyright" content="Adam Marczak">
-<meta name="title" content="Azure Automation Introduction | Azure 4 Everyone | Adam Marczak">
+<meta name="title" content="AZ-900 Episode 36 | Cost Reduction Methods | Azure 4 Everyone | Adam Marczak">
 <meta property="og:locale" content="en_US">
 <meta property="article:author" content="https://www.facebook.com/MarczakIO/">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Azure Automation Introduction">
-<meta property="og:description" content="Azure Automation service is designed specifically to help with day to day operational challenges around process automation, configuration management and update management for both Azure and non-Azure environments. Join me and see what is this service all about.">
-<meta property="og:url" content="https://azure4everyone.com/posts/2019/11/automation-intro/">
+<meta property="og:title" content="AZ-900 Episode 36 | Cost Reduction Methods">
+<meta property="og:description" content="
+Identify factors that can reduce costs (reserved instances, reserved capacity, hybrid use benefit, spot pricing)
+Describe the functionality and usage of the Pricing calculator and the Total Cost of Ownership (TCO) calculator">
+<meta property="og:url" content="https://azure4everyone.com/posts/2021/02/az900-ep36/">
 <meta property="og:site_name" content="Azure 4 Everyone">
-<meta property="og:image" content="https://azure4everyone.com/images/youtube/18-AzureAutomation-Intro-v6.jpg">
+<meta property="og:image" content="https://azure4everyone.com/images/youtube/az-900-v4-ep-36-740.jpg">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@MarczakIO">
-<meta name="twitter:title" content="Azure Automation Introduction">
-<meta name="twitter:description" content="Azure Automation service is designed specifically to help with day to day operational challenges around process automation, configuration management and update management for both Azure and non-Azure environments. Join me and see what is this service all about.">
-<meta name="twitter:url" content="https://azure4everyone.com/posts/2019/11/automation-intro/">
+<meta name="twitter:title" content="AZ-900 Episode 36 | Cost Reduction Methods">
+<meta name="twitter:description" content="
+Identify factors that can reduce costs (reserved instances, reserved capacity, hybrid use benefit, spot pricing)
+Describe the functionality and usage of the Pricing calculator and the Total Cost of Ownership (TCO) calculator">
+<meta name="twitter:url" content="https://azure4everyone.com/posts/2021/02/az900-ep36/">
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144580824-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -92,10 +98,10 @@
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-md-offset-1 text-center">
-          <h1 class="hestia-title">Azure Automation Introduction</h1>
+          <h1 class="hestia-title">AZ-900 Episode 36 | Cost Reduction Methods</h1>
           
             <h4 class="author">
-              Published by<a href="/about" title="Adam Marczak" class="vcard author"><strong class="fn">Adam Marczak</strong></a> on <time class="date updated published" datetime="2019-11-12 10:00:23 &#43;0200 &#43;0200">Nov 12 2019</time>
+              Published by<a href="/about" title="Adam Marczak" class="vcard author"><strong class="fn">Adam Marczak</strong></a> on <time class="date updated published" datetime="2021-02-20 12:00:23 &#43;0200 &#43;0200">Feb 20 2021</time>
             </h4>
            
         </div>
@@ -109,50 +115,55 @@
         <div class="container">
           <div class="row">
 <div class="col-md-9 single-posts-wrap">
-    <article id="/posts/2019/11/automation-intro/" class="article-section section-text"> 
+    <article id="/posts/2021/02/az900-ep36/" class="article-section section-text"> 
 <div class="lazy" style="max-height: 416px">
     <div style="padding-bottom:56.21621621621622%"></div>
-    <img data-src="/images/youtube/18-AzureAutomation-Intro-v6.jpg" src=""/> 
+    <img data-src="/images/youtube/az-900-v4-ep-36-740.jpg" src=""/> 
 </div> 
         <h2>Highlight</h2>
-        <p>Azure Automation service is designed specifically to help with day to day operational challenges around process automation, configuration management and update management for both Azure and non-Azure environments. Join me and see what is this service all about.</p>
+        <ul>
+<li>Identify <strong>factors that can reduce costs</strong> (reserved instances, reserved capacity, hybrid use benefit, spot pricing)</li>
+<li>Describe the functionality and usage of the <strong>Pricing calculator</strong> and the <strong>Total Cost of Ownership (TCO) calculator</strong></li>
+</ul>
 
 <h2 id="intro">Intro</h2>
 
-<p>In this episode I give you introduction to what Azure Automation service is and how can it solve your day to day operational challenges.</p>
+<p>In this week&rsquo;s Episode we explore the core factors that reduce the cost up your Azure environment.</p>
+
+<h4 id="site-https-marczak-io-az-900-ep36">🌐 Site: <a href="https://marczak.io/az-900/#ep36">https://marczak.io/az-900/#ep36</a></h4>
+
+<h3 id="episode-resources">Episode Resources</h3>
+
+<ul>
+<li><a href="https://marczak.io/az-900/episode-36/cheat-sheet">📚 Study cheat sheet</a></li>
+<li><a href="https://marczak.io/az-900/episode-36/practice-test">🧠 Practice Test</a></li>
+</ul>
+
+<h3 id="study-guide">Study Guide</h3>
+
+<ul>
+<li><a href="https://docs.microsoft.com/en-us/learn/modules/plan-manage-azure-costs/2-compare-costs-tco-calculator?WT.mc_id=AZ-MVP-5003556"><i class="ms"></i> Microsoft Learn: Compare costs by using the Total Cost of Ownership Calculator</a></li>
+<li><a href="https://docs.microsoft.com/en-us/learn/modules/plan-manage-azure-costs/6-manage-minimize-total-cost?WT.mc_id=AZ-MVP-5003556"><i class="ms"></i> Microsoft Learn: Manage and minimize total cost on Azure</a></li>
+<li><a href="https://azure.microsoft.com/en-us/pricing/tco/calculator/?WT.mc_id=AZ-MVP-5003556"><i class="ms"></i> Microsoft Azure: TCO Calculator</a></li>
+</ul>
 
 <h2 id="agenda">Agenda</h2>
 
-<p>In a short demo I will show you how to</p>
-
 <ul>
-<li>Create automation account</li>
-<li>Manage and run notebooks</li>
-<li>Present different type of notebooks</li>
-<li>Manager permissions for service account</li>
-<li>Perform standard operational demo with Virtual Machinne</li>
-<li>Update powershell modules</li>
-<li>Schedule execution of runbooks</li>
+<li>00:00 Episode Introduction</li>
+<li>00:50 Azure Reservations</li>
+<li>03:53 Azure Spot Pricing for VMs</li>
+<li>06:23 Hybrid use benefit</li>
+<li>08:48 Azure Pricing Calculator</li>
+<li>10:54 TCO Calculator</li>
+<li>14:09 Episode Summary</li>
 </ul>
 
 <h2 id="video">Video</h2>
 
-<iframe class="youtube" frameborder="0" allowfullscreen src="https://www.youtube.com/embed/u6eR8yguVxE?origin=https://azure4everyone.com"></iframe>
+<iframe class="youtube" frameborder="0" allowfullscreen src="https://www.youtube.com/embed/ZV2bfoqFpZ8"></iframe>
 
-<h3 id="next-steps-for-you-after-watching-the-video">Next steps for you after watching the video</h3>
-
-<ol>
-<li>Check Azure Automation documentation
-
-<ul>
-<li><a href="https://docs.microsoft.com/en-us/azure/automation/automation-intro?WT.mc_id=AZ-MVP-5003556">https://docs.microsoft.com/en-us/azure/automation/automation-intro?WT.mc_id=AZ-MVP-5003556</a></li>
-</ul></li>
-<li>Want to learn more? Check Azure Friday video on Automation
-
-<ul>
-<li><a href="https://azure.microsoft.com/en-us/resources/videos/azure-automation-101-with-powershell-and-eamon-o-reilly/">https://azure.microsoft.com/en-us/resources/videos/azure-automation-101-with-powershell-and-eamon-o-reilly/</a></li>
-</ul></li>
-</ol>
+<h1 id="enjoy">Enjoy!</h1>
     </article>
     <div class="section-blog-info">
         <div class="row">
@@ -179,21 +190,21 @@
    rel="tooltip" 
    data-original-title="Share on Facebook" 
    class="btn btn-just-icon btn-share btn-facebook"
-   href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fazure4everyone.com%2fposts%2f2019%2f11%2fautomation-intro%2f">
+   href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fazure4everyone.com%2fposts%2f2021%2f02%2faz900-ep36%2f">
     <i class="fa fa-facebook"></i>
 </a>
 <a target="_blank" 
    rel="tooltip" 
    data-original-title="Share on Twitter" 
    class="btn btn-just-icon btn-share btn-twitter" 
-   href="https://twitter.com/home?status=Azure%20Automation%20Introduction - https%3a%2f%2fazure4everyone.com%2fposts%2f2019%2f11%2fautomation-intro%2f">
+   href="https://twitter.com/home?status=AZ-900%20Episode%2036%20%7c%20Cost%20Reduction%20Methods - https%3a%2f%2fazure4everyone.com%2fposts%2f2021%2f02%2faz900-ep36%2f">
    <i class="fa fa-twitter"></i>
 </a>
 <a target="_blank" 
    rel="tooltip" 
    data-original-title="Share on Google+" 
    class="btn btn-just-icon btn-share btn-google" 
-   href="https://plus.google.com/share?url=https%3a%2f%2fazure4everyone.com%2fposts%2f2019%2f11%2fautomation-intro%2f"><i 
+   href="https://plus.google.com/share?url=https%3a%2f%2fazure4everyone.com%2fposts%2f2021%2f02%2faz900-ep36%2f"><i 
    class="fa fa-google"></i>
 </a>
             
@@ -201,8 +212,8 @@
             <div class="col-md-6 text-center large">
                 <h4 class="">More tagged posts</h4>
   <div class="tag-list">
-    <a href="https://azure4everyone.com/tags/automation" title="View all posts in Automation">
-      <img src="https://azure4everyone.com/images/tags/automation.svg" alt="Automation"/>
+    <a href="https://azure4everyone.com/tags/az-900" title="View all posts in AZ-900">
+      <img src="https://azure4everyone.com/images/tags/az-900.svg" alt="AZ-900"/>
     </a>
     <a href="https://azure4everyone.com/tags/azure" title="View all posts in Azure">
       <img src="https://azure4everyone.com/images/tags/azure.svg" alt="Azure"/>
@@ -214,8 +225,8 @@
             <div class="col-md-12"><div id="disqus_thread"></div>
 <script>
 var disqus_config = function () {
-this.page.url = "https:\/\/azure4everyone.com\/posts\/2019\/11\/automation-intro\/"; 
-this.page.identifier = "\/posts\/2019\/11\/automation-intro\/";
+this.page.url = "https:\/\/azure4everyone.com\/posts\/2021\/02\/az900-ep36\/"; 
+this.page.identifier = "\/posts\/2021\/02\/az900-ep36\/";
 };
 
 (function() {
