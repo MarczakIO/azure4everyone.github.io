@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Azure Data Factory | Copy multiple tables in Bulk with Lookup &amp; ForEach | Azure 4 Everyone | Adam Marczak</title>
+<title>AZ-900 Episode 38 | SLA in Azure and Composite SLA | Azure 4 Everyone | Adam Marczak</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/png" href="https://azure4everyone.com/images/favicon-32x32.png" sizes="32x32" />
 <link rel="icon" type="image/png" href="https://azure4everyone.com/images/favicon-16x16.png" sizes="16x16" />
@@ -15,24 +15,36 @@
 <link href='https://azure4everyone.com/css/hestia.min.css?ver=1.23' rel="stylesheet" type="text/css" />
 <link href='https://azure4everyone.com/css/main.min.css?ver=1.25' rel='stylesheet' type="text/css" />
 
-<meta name="description" content="With Azure Data Factory Lookup and ForEach activities you can perform dynamic copies of your data tables in bulk within a single pipeline. ">
+<meta name="description" content="
+Describe the purpose of an Azure Service Level Agreement (SLA)
+
+
+Identify actions that can impact an SLA (i.e. Availability Zones">
 <meta name="author" content="Adam Marczak">
 <meta name="copyright" content="Adam Marczak">
-<meta name="title" content="Azure Data Factory | Copy multiple tables in Bulk with Lookup &amp; ForEach | Azure 4 Everyone | Adam Marczak">
+<meta name="title" content="AZ-900 Episode 38 | SLA in Azure and Composite SLA | Azure 4 Everyone | Adam Marczak">
 <meta property="og:locale" content="en_US">
 <meta property="article:author" content="https://www.facebook.com/MarczakIO/">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Azure Data Factory | Copy multiple tables in Bulk with Lookup &amp; ForEach">
-<meta property="og:description" content="With Azure Data Factory Lookup and ForEach activities you can perform dynamic copies of your data tables in bulk within a single pipeline. ">
-<meta property="og:url" content="https://azure4everyone.com/posts/2020/04/azure-data-factory-lookup-activity/">
+<meta property="og:title" content="AZ-900 Episode 38 | SLA in Azure and Composite SLA">
+<meta property="og:description" content="
+Describe the purpose of an Azure Service Level Agreement (SLA)
+
+
+Identify actions that can impact an SLA (i.e. Availability Zones">
+<meta property="og:url" content="https://azure4everyone.com/posts/2021/03/az900-ep38/">
 <meta property="og:site_name" content="Azure 4 Everyone">
-<meta property="og:image" content="https://azure4everyone.com/images/youtube/40-AzureDataFactory-LookupActivity-740.jpg">
+<meta property="og:image" content="https://azure4everyone.com/images/youtube/az-900-v4-ep-38-740.jpg">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@MarczakIO">
-<meta name="twitter:title" content="Azure Data Factory | Copy multiple tables in Bulk with Lookup &amp; ForEach">
-<meta name="twitter:description" content="With Azure Data Factory Lookup and ForEach activities you can perform dynamic copies of your data tables in bulk within a single pipeline. ">
-<meta name="twitter:url" content="https://azure4everyone.com/posts/2020/04/azure-data-factory-lookup-activity/">
+<meta name="twitter:title" content="AZ-900 Episode 38 | SLA in Azure and Composite SLA">
+<meta name="twitter:description" content="
+Describe the purpose of an Azure Service Level Agreement (SLA)
+
+
+Identify actions that can impact an SLA (i.e. Availability Zones">
+<meta name="twitter:url" content="https://azure4everyone.com/posts/2021/03/az900-ep38/">
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144580824-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -92,10 +104,10 @@
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-md-offset-1 text-center">
-          <h1 class="hestia-title">Azure Data Factory | Copy multiple tables in Bulk with Lookup &amp; ForEach</h1>
+          <h1 class="hestia-title">AZ-900 Episode 38 | SLA in Azure and Composite SLA</h1>
           
             <h4 class="author">
-              Published by<a href="/about" title="Adam Marczak" class="vcard author"><strong class="fn">Adam Marczak</strong></a> on <time class="date updated published" datetime="2020-04-21 10:00:23 &#43;0200 CEST">Apr 21 2020</time>
+              Published by<a href="/about" title="Adam Marczak" class="vcard author"><strong class="fn">Adam Marczak</strong></a> on <time class="date updated published" datetime="2021-03-31 10:00:23 &#43;0200 CEST">Mar 31 2021</time>
             </h4>
            
         </div>
@@ -109,45 +121,62 @@
         <div class="container">
           <div class="row">
 <div class="col-md-9 single-posts-wrap">
-    <article id="/posts/2020/04/azure-data-factory-lookup-activity/" class="article-section section-text"> 
+    <article id="/posts/2021/03/az900-ep38/" class="article-section section-text"> 
 <div class="lazy" style="max-height: 416px">
     <div style="padding-bottom:56.21621621621622%"></div>
-    <img data-src="/images/youtube/40-AzureDataFactory-LookupActivity-740.jpg" src=""/> 
+    <img data-src="/images/youtube/az-900-v4-ep-38-740.jpg" src=""/> 
 </div> 
         <h2>Highlight</h2>
-        <p>With Azure Data Factory Lookup and ForEach activities you can perform dynamic copies of your data tables in bulk within a single pipeline. </p>
+        <ul>
+<li>Describe the purpose of an Azure <strong>Service Level Agreement</strong> (SLA)
+
+<ul>
+<li>Identify actions that can impact an <strong>SLA</strong> (i.e. Availability Zones</li>
+</ul></li>
+</ul>
 
 <h2 id="intro">Intro</h2>
 
-<p>In this episode I will show you how to perform bulk copies with ADF.</p>
+<p>In this episode we will learn what is SLA, what does it stand for in the context of Azure services and how it impacts our applications.</p>
 
-<p>Source code for demos: <a href="https://github.com/MarczakIO/azure4everyone-samples/tree/master/azure-data-factory-lookup-activity">https://github.com/MarczakIO/azure4everyone-samples/tree/master/azure-data-factory-lookup-activity</a></p>
+<h4 id="site-https-marczak-io-az-900-ep38">🌐 Site: <a href="https://marczak.io/az-900/#ep38">https://marczak.io/az-900/#ep38</a></h4>
 
-<p>In this episode live demo of ADF lookup activity in SQL to Blob export scenario and how to control this using metadata table.</p>
+<h3 id="episode-resources">Episode Resources</h3>
+
+<ul>
+<li><a href="https://marczak.io/az-900/episode-38/cheat-sheet">📚 Study cheat sheet</a></li>
+<li><a href="https://marczak.io/az-900/episode-38/practice-test">🧠 Practice Test</a></li>
+</ul>
+
+<h3 id="study-guide">Study Guide</h3>
+
+<ul>
+<li><a href="https://docs.microsoft.com/en-us/learn/modules/choose-azure-services-sla-lifecycle/2-what-are-service-level-agreements?WT.mc_id=AZ-MVP-5003556"><i class="ms"></i> Microsoft Learn: What are service-level agreements (SLAs)?</a></li>
+<li><a href="https://docs.microsoft.com/en-us/learn/modules/choose-azure-services-sla-lifecycle/3-define-application-sla?WT.mc_id=AZ-MVP-5003556"><i class="ms"></i> Microsoft Learn: Define your application SLA</a></li>
+<li><a href="https://docs.microsoft.com/en-us/learn/modules/choose-azure-services-sla-lifecycle/4-design-application-meet-sla?WT.mc_id=AZ-MVP-5003556"><i class="ms"></i> Microsoft Learn: Design your application to meet your SLA</a></li>
+</ul>
+
+<h3 id="expand-your-knowledge-extra-resources">Expand your knowledge - extra resources</h3>
+
+<ul>
+<li><a href="https://azure.microsoft.com/en-us/support/legal/sla/?WT.mc_id=AZ-MVP-5003556"><i class="ms"></i> Microsoft Documentatiom: Azure SLA</a></li>
+</ul>
+
+<h2 id="agenda">Agenda</h2>
+
+<ul>
+<li>00:00 Episode Introduction</li>
+<li>00:38 SLA in Azure</li>
+<li>06:06 Composite SLA</li>
+<li>07:48 SLA example #1</li>
+<li>13:13 Summary</li>
+</ul>
 
 <h2 id="video">Video</h2>
 
-<iframe class="youtube" frameborder="0" allowfullscreen src="https://www.youtube.com/embed/KsO2FHQdILs?origin=https://azure4everyone.com"></iframe>
+<iframe class="youtube" frameborder="0" allowfullscreen src="https://www.youtube.com/embed/WuzpcMZ1UxI"></iframe>
 
-<h2 id="next-steps-for-you-after-watching-the-video">Next steps for you after watching the video</h2>
-
-<ol>
-<li>ADF bulk copy scenario
-
-<ul>
-<li><a href="https://docs.microsoft.com/en-us/azure/data-factory/tutorial-bulk-copy-portal?WT.mc_id=AZ-MVP-5003556">https://docs.microsoft.com/en-us/azure/data-factory/tutorial-bulk-copy-portal?WT.mc_id=AZ-MVP-5003556</a></li>
-</ul></li>
-<li>Lookup Activity docs
-
-<ul>
-<li><a href="https://docs.microsoft.com/en-us/azure/data-factory/control-flow-lookup-activity?WT.mc_id=AZ-MVP-5003556">https://docs.microsoft.com/en-us/azure/data-factory/control-flow-lookup-activity?WT.mc_id=AZ-MVP-5003556</a></li>
-</ul></li>
-<li>ForEach Activity docs
-
-<ul>
-<li><a href="https://docs.microsoft.com/en-us/azure/data-factory/control-flow-for-each-activity?WT.mc_id=AZ-MVP-5003556">https://docs.microsoft.com/en-us/azure/data-factory/control-flow-for-each-activity?WT.mc_id=AZ-MVP-5003556</a></li>
-</ul></li>
-</ol>
+<h1 id="enjoy">Enjoy!</h1>
     </article>
     <div class="section-blog-info">
         <div class="row">
@@ -174,21 +203,21 @@
    rel="tooltip" 
    data-original-title="Share on Facebook" 
    class="btn btn-just-icon btn-share btn-facebook"
-   href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fazure4everyone.com%2fposts%2f2020%2f04%2fazure-data-factory-lookup-activity%2f">
+   href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fazure4everyone.com%2fposts%2f2021%2f03%2faz900-ep38%2f">
     <i class="fa fa-facebook"></i>
 </a>
 <a target="_blank" 
    rel="tooltip" 
    data-original-title="Share on Twitter" 
    class="btn btn-just-icon btn-share btn-twitter" 
-   href="https://twitter.com/home?status=Azure%20Data%20Factory%20%7c%20Copy%20multiple%20tables%20in%20Bulk%20with%20Lookup%20%26%20ForEach - https%3a%2f%2fazure4everyone.com%2fposts%2f2020%2f04%2fazure-data-factory-lookup-activity%2f">
+   href="https://twitter.com/home?status=AZ-900%20Episode%2038%20%7c%20SLA%20in%20Azure%20and%20Composite%20SLA - https%3a%2f%2fazure4everyone.com%2fposts%2f2021%2f03%2faz900-ep38%2f">
    <i class="fa fa-twitter"></i>
 </a>
 <a target="_blank" 
    rel="tooltip" 
    data-original-title="Share on Google+" 
    class="btn btn-just-icon btn-share btn-google" 
-   href="https://plus.google.com/share?url=https%3a%2f%2fazure4everyone.com%2fposts%2f2020%2f04%2fazure-data-factory-lookup-activity%2f"><i 
+   href="https://plus.google.com/share?url=https%3a%2f%2fazure4everyone.com%2fposts%2f2021%2f03%2faz900-ep38%2f"><i 
    class="fa fa-google"></i>
 </a>
             
@@ -196,11 +225,11 @@
             <div class="col-md-6 text-center large">
                 <h4 class="">More tagged posts</h4>
   <div class="tag-list">
+    <a href="https://azure4everyone.com/tags/az-900" title="View all posts in AZ-900">
+      <img src="https://azure4everyone.com/images/tags/az-900.svg" alt="AZ-900"/>
+    </a>
     <a href="https://azure4everyone.com/tags/azure" title="View all posts in Azure">
       <img src="https://azure4everyone.com/images/tags/azure.svg" alt="Azure"/>
-    </a>
-    <a href="https://azure4everyone.com/tags/data-factory" title="View all posts in Data Factory">
-      <img src="https://azure4everyone.com/images/tags/data-factory.svg" alt="Data Factory"/>
     </a>
   </div>
             </div>
@@ -209,8 +238,8 @@
             <div class="col-md-12"><div id="disqus_thread"></div>
 <script>
 var disqus_config = function () {
-this.page.url = "https:\/\/azure4everyone.com\/posts\/2020\/04\/azure-data-factory-lookup-activity\/"; 
-this.page.identifier = "\/posts\/2020\/04\/azure-data-factory-lookup-activity\/";
+this.page.url = "https:\/\/azure4everyone.com\/posts\/2021\/03\/az900-ep38\/"; 
+this.page.identifier = "\/posts\/2021\/03\/az900-ep38\/";
 };
 
 (function() {
