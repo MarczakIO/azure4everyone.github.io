@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Azure 4 Everyone</title>
@@ -20,7 +19,8 @@
       <description>
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v4-ep-39-740.jpg&quot;&gt;
         &lt;ul&gt;
-&lt;li&gt;Describe the service lifecycle in Azure (Public Preview and General Availability)
+&lt;li&gt;Describe the service lifecycle in Azure (Public Preview and General Availability)&lt;/li&gt;
+&lt;/ul&gt;
       </description>
     </item>
     
@@ -33,10 +33,9 @@
       <description>
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v4-ep-38-740.jpg&quot;&gt;
         &lt;ul&gt;
-&lt;li&gt;Describe the purpose of an Azure &lt;strong&gt;Service Level Agreement&lt;/strong&gt; (SLA)
-
-&lt;ul&gt;
-&lt;li&gt;Identify actions that can impact an &lt;strong&gt;SLA&lt;/strong&gt; (i.e. Availability Zones
+&lt;li&gt;Describe the purpose of an Azure &lt;strong&gt;Service Level Agreement&lt;/strong&gt; (SLA)&lt;/li&gt;
+&lt;li&gt;Identify actions that can impact an &lt;strong&gt;SLA&lt;/strong&gt; (i.e. Availability Zones&lt;/li&gt;
+&lt;/ul&gt;
       </description>
     </item>
     
@@ -49,7 +48,8 @@
       <description>
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v4-ep-37-740.jpg&quot;&gt;
         &lt;ul&gt;
-&lt;li&gt;Describe the functionality and usage of &lt;strong&gt;Azure Cost Management&lt;/strong&gt;
+&lt;li&gt;Describe the functionality and usage of &lt;strong&gt;Azure Cost Management&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
       </description>
     </item>
     
@@ -63,7 +63,8 @@
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v4-ep-36-740.jpg&quot;&gt;
         &lt;ul&gt;
 &lt;li&gt;Identify &lt;strong&gt;factors that can reduce costs&lt;/strong&gt; (reserved instances, reserved capacity, hybrid use benefit, spot pricing)&lt;/li&gt;
-&lt;li&gt;Describe the functionality and usage of the &lt;strong&gt;Pricing calculator&lt;/strong&gt; and the &lt;strong&gt;Total Cost of Ownership (TCO) calculator&lt;/strong&gt;
+&lt;li&gt;Describe the functionality and usage of the &lt;strong&gt;Pricing calculator&lt;/strong&gt; and the &lt;strong&gt;Total Cost of Ownership (TCO) calculator&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
       </description>
     </item>
     
@@ -76,7 +77,8 @@
       <description>
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v4-ep-35-740.jpg&quot;&gt;
         &lt;ul&gt;
-&lt;li&gt;Identify &lt;strong&gt;factors that can affect costs&lt;/strong&gt; (&lt;strong&gt;resource types&lt;/strong&gt;, &lt;strong&gt;services&lt;/strong&gt;, &lt;strong&gt;locations&lt;/strong&gt;, &lt;strong&gt;ingress&lt;/strong&gt; and &lt;strong&gt;egress traffic&lt;/strong&gt;)
+&lt;li&gt;Identify &lt;strong&gt;factors that can affect costs&lt;/strong&gt; (&lt;strong&gt;resource types&lt;/strong&gt;, &lt;strong&gt;services&lt;/strong&gt;, &lt;strong&gt;locations&lt;/strong&gt;, &lt;strong&gt;ingress&lt;/strong&gt; and &lt;strong&gt;egress traffic&lt;/strong&gt;)&lt;/li&gt;
+&lt;/ul&gt;
       </description>
     </item>
     
@@ -176,7 +178,8 @@
       <description>
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v4-ep-27-740.jpg&quot;&gt;
         &lt;ul&gt;
-&lt;li&gt;Describe &lt;strong&gt;Azure Key Vault&lt;/strong&gt;
+&lt;li&gt;Describe &lt;strong&gt;Azure Key Vault&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
       </description>
     </item>
     
@@ -190,7 +193,8 @@
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v4-ep-26-740.jpg&quot;&gt;
         &lt;ul&gt;
 &lt;li&gt;Describe &lt;strong&gt;Azure Security Center&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Describe &lt;strong&gt;Azure Security Center&lt;/strong&gt; usage scenarios
+&lt;li&gt;Describe &lt;strong&gt;Azure Security Center&lt;/strong&gt; usage scenarios&lt;/li&gt;
+&lt;/ul&gt;
       </description>
     </item>
     
@@ -205,7 +209,8 @@
         &lt;ul&gt;
 &lt;li&gt;Describe the difference between authentication and authorization&lt;/li&gt;
 &lt;li&gt;Describe Azure Active Directory&lt;/li&gt;
-&lt;li&gt;Describe Azure Multi-Factor Authentication
+&lt;li&gt;Describe Azure Multi-Factor Authentication&lt;/li&gt;
+&lt;/ul&gt;
       </description>
     </item>
     
@@ -218,7 +223,8 @@
       <description>
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v4-ep-24-740.jpg&quot;&gt;
         &lt;ul&gt;
-&lt;li&gt;Describe Azure DDoS Protection
+&lt;li&gt;Describe Azure DDoS Protection&lt;/li&gt;
+&lt;/ul&gt;
       </description>
     </item>
     
@@ -231,7 +237,8 @@
       <description>
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v4-ep-23-740.jpg&quot;&gt;
         &lt;ul&gt;
-&lt;li&gt;Describe Azure Firewall
+&lt;li&gt;Describe Azure Firewall&lt;/li&gt;
+&lt;/ul&gt;
       </description>
     </item>
     
@@ -244,7 +251,8 @@
       <description>
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v4-ep-22-740.jpg&quot;&gt;
         &lt;ul&gt;
-&lt;li&gt;Describe User-defined Routes (UDR)
+&lt;li&gt;Describe User-defined Routes (UDR)&lt;/li&gt;
+&lt;/ul&gt;
       </description>
     </item>
     
@@ -258,7 +266,8 @@
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v4-ep-21-740.jpg&quot;&gt;
         &lt;ul&gt;
 &lt;li&gt;Describe Network Security Groups (NSG)&lt;/li&gt;
-&lt;li&gt;Describe Application Security Groups (ASG)
+&lt;li&gt;Describe Application Security Groups (ASG)&lt;/li&gt;
+&lt;/ul&gt;
       </description>
     </item>
     
@@ -271,7 +280,8 @@
       <description>
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v4-ep-20-740.jpg&quot;&gt;
         &lt;ul&gt;
-&lt;li&gt;Describe Azure Advisor
+&lt;li&gt;Describe Azure Advisor&lt;/li&gt;
+&lt;/ul&gt;
       </description>
     </item>
     
@@ -284,7 +294,8 @@
       <description>
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v4-ep-19-740.jpg&quot;&gt;
         &lt;ul&gt;
-&lt;li&gt;Describe Azure tools such as Azure Portal, Azure PowerShell, Azure CLI and Cloud Shell
+&lt;li&gt;Describe Azure tools such as Azure Portal, Azure PowerShell, Azure CLI and Cloud Shell&lt;/li&gt;
+&lt;/ul&gt;
       </description>
     </item>
     
@@ -297,7 +308,8 @@
       <description>
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v4-ep-18-740.jpg&quot;&gt;
         &lt;ul&gt;
-&lt;li&gt;Describe DevOps solutions available on Azure such as Azure DevOps and Azure DevTest Labs
+&lt;li&gt;Describe DevOps solutions available on Azure such as Azure DevOps and Azure DevTest Labs&lt;/li&gt;
+&lt;/ul&gt;
       </description>
     </item>
     
@@ -310,7 +322,8 @@
       <description>
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v4-ep-17-740.jpg&quot;&gt;
         &lt;ul&gt;
-&lt;li&gt;Describe Serverless computing and Azure products that are available for serverless computing such as Azure Functions, Logic Apps, and Event Grid
+&lt;li&gt;Describe Serverless computing and Azure products that are available for serverless computing such as Azure Functions, Logic Apps, and Event Grid&lt;/li&gt;
+&lt;/ul&gt;
       </description>
     </item>
     
@@ -323,7 +336,8 @@
       <description>
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v4-ep-16-740.jpg&quot;&gt;
         &lt;ul&gt;
-&lt;li&gt;Describe Artificial Intelligence (AI) and products that are available for AI such as Azure Machine Learning Service and Studio.
+&lt;li&gt;Describe Artificial Intelligence (AI) and products that are available for AI such as Azure Machine Learning Service and Studio.&lt;/li&gt;
+&lt;/ul&gt;
       </description>
     </item>
     
@@ -337,11 +351,13 @@
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v4-ep-15-740.jpg&quot;&gt;
         &lt;ul&gt;
 &lt;li&gt;Describe Azure Big Data &amp;amp; Analytics Services such as
-
 &lt;ul&gt;
 &lt;li&gt;Azure Synapse Analytics&lt;/li&gt;
 &lt;li&gt;Azure HDInsight&lt;/li&gt;
-&lt;li&gt;Azure Databricks
+&lt;li&gt;Azure Databricks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
       </description>
     </item>
     
@@ -355,11 +371,13 @@
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v4-ep-14-740.jpg&quot;&gt;
         &lt;ul&gt;
 &lt;li&gt;Describe Azure IoT Services such as
-
 &lt;ul&gt;
 &lt;li&gt;IoT Hub&lt;/li&gt;
 &lt;li&gt;IoT Central&lt;/li&gt;
-&lt;li&gt;Azure Sphere
+&lt;li&gt;Azure Sphere&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
       </description>
     </item>
     
@@ -372,7 +390,8 @@
       <description>
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v4-ep-13-740.jpg&quot;&gt;
         &lt;ul&gt;
-&lt;li&gt;Describe Azure Marketplace
+&lt;li&gt;Describe Azure Marketplace&lt;/li&gt;
+&lt;/ul&gt;
       </description>
     </item>
     
@@ -386,12 +405,14 @@
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v4-ep-12-740.jpg&quot;&gt;
         &lt;ul&gt;
 &lt;li&gt;Describe the benefits and usage of
-
 &lt;ul&gt;
 &lt;li&gt;Cosmos DB, Azure SQL Database,&lt;/li&gt;
 &lt;li&gt;Azure Database for MySQL,&lt;/li&gt;
 &lt;li&gt;Azure Database for PostgreSQL, and&lt;/li&gt;
-&lt;li&gt;SQL Managed Instance
+&lt;li&gt;SQL Managed Instance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
       </description>
     </item>
     
@@ -405,14 +426,16 @@
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v4-ep-11-740.jpg&quot;&gt;
         &lt;ul&gt;
 &lt;li&gt;Describe products available for Storage such as
-
 &lt;ul&gt;
 &lt;li&gt;Blob Storage,&lt;/li&gt;
 &lt;li&gt;Files Storage,&lt;/li&gt;
 &lt;li&gt;Queue Storage,&lt;/li&gt;
 &lt;li&gt;Table Storage,&lt;/li&gt;
 &lt;li&gt;Disk Storage and&lt;/li&gt;
-&lt;li&gt;Storage Tiers
+&lt;li&gt;Storage Tiers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
       </description>
     </item>
     
@@ -426,13 +449,15 @@
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v4-ep-10-740.jpg&quot;&gt;
         &lt;ul&gt;
 &lt;li&gt;Describe products available for Networking such as
-
 &lt;ul&gt;
 &lt;li&gt;Virtual Network,&lt;/li&gt;
 &lt;li&gt;Load Balancer,&lt;/li&gt;
 &lt;li&gt;VPN Gateway,&lt;/li&gt;
 &lt;li&gt;Application Gateway and&lt;/li&gt;
-&lt;li&gt;Content Delivery Network
+&lt;li&gt;Content Delivery Network&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
       </description>
     </item>
     
@@ -446,13 +471,15 @@
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v4-ep-09-740.jpg&quot;&gt;
         &lt;ul&gt;
 &lt;li&gt;Describe products available for Compute such as
-
 &lt;ul&gt;
 &lt;li&gt;Virtual Machines,&lt;/li&gt;
 &lt;li&gt;Virtual Machine Scale Sets,&lt;/li&gt;
 &lt;li&gt;App Services, Functions,&lt;/li&gt;
 &lt;li&gt;Azure Container Instances (ACI) and&lt;/li&gt;
-&lt;li&gt;Azure Kubernetes Service (AKS)
+&lt;li&gt;Azure Kubernetes Service (AKS)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
       </description>
     </item>
     
@@ -468,7 +495,8 @@
 &lt;li&gt;Describe Resources&lt;/li&gt;
 &lt;li&gt;Describe Resource Groups&lt;/li&gt;
 &lt;li&gt;Describe Resource Manager&lt;/li&gt;
-&lt;li&gt;Describe the benefits and usage of core Azure architectural components
+&lt;li&gt;Describe the benefits and usage of core Azure architectural components&lt;/li&gt;
+&lt;/ul&gt;
       </description>
     </item>
     
@@ -485,7 +513,8 @@
 &lt;li&gt;Describe Regions &amp;amp; Region Pairs&lt;/li&gt;
 &lt;li&gt;Describe Geographies&lt;/li&gt;
 &lt;li&gt;Describe Availability Zones&lt;/li&gt;
-&lt;li&gt;Describe the benefits and usage of core Azure architectural components
+&lt;li&gt;Describe the benefits and usage of core Azure architectural components&lt;/li&gt;
+&lt;/ul&gt;
       </description>
     </item>
     
@@ -497,7 +526,7 @@
       <guid>https://azure4everyone.com/posts/2020/07/azure-excel-files-data-factory-n-databricks/</guid>
       <description>
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/49-AzureExcelFileProcessing-ADFandDatabricks-Tutorial-740.jpg&quot;&gt;
-        &lt;p&gt;Excel files are one of the most commonly used file format on the market. Popularity of the tool itself among the business users, business analysts and data engineers is driven by its flexibility, ease of use, powerful integration features and low price. &lt;/p&gt;
+        &lt;p&gt;Excel files are one of the most commonly used file format on the market. Popularity of the tool itself among the business users, business analysts and data engineers is driven by its flexibility, ease of use, powerful integration features and low price.&lt;/p&gt;
       </description>
     </item>
     
@@ -513,7 +542,8 @@
 &lt;li&gt;Describe Public cloud&lt;/li&gt;
 &lt;li&gt;Describe Private cloud&lt;/li&gt;
 &lt;li&gt;Describe Hybrid cloud&lt;/li&gt;
-&lt;li&gt;Compare and contrast the three different cloud models
+&lt;li&gt;Compare and contrast the three different cloud models&lt;/li&gt;
+&lt;/ul&gt;
       </description>
     </item>
     
@@ -529,7 +559,8 @@
 &lt;li&gt;Describe Infrastructure-as-a-Service (IaaS)&lt;/li&gt;
 &lt;li&gt;Describe Platform-as-a-Service (PaaS)&lt;/li&gt;
 &lt;li&gt;Describe Software-as-a-Service (SaaS)&lt;/li&gt;
-&lt;li&gt;Compare and contrast the three different service types
+&lt;li&gt;Compare and contrast the three different service types&lt;/li&gt;
+&lt;/ul&gt;
       </description>
     </item>
     
@@ -542,7 +573,8 @@
       <description>
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v4-ep-04-740.jpg&quot;&gt;
         &lt;ul&gt;
-&lt;li&gt;Describe the consumption-based model
+&lt;li&gt;Describe the consumption-based model&lt;/li&gt;
+&lt;/ul&gt;
       </description>
     </item>
     
@@ -555,7 +587,8 @@
       <description>
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v4-ep-03-740.jpg&quot;&gt;
         &lt;ul&gt;
-&lt;li&gt;Describe the principles of economies of scale
+&lt;li&gt;Describe the principles of economies of scale&lt;/li&gt;
+&lt;/ul&gt;
       </description>
     </item>
     
@@ -568,7 +601,8 @@
       <description>
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v4-ep-02-740.jpg&quot;&gt;
         &lt;ul&gt;
-&lt;li&gt;Describe the differences between Capital Expenditure (CapEx) and Operational Expenditure (OpEx)
+&lt;li&gt;Describe the differences between Capital Expenditure (CapEx) and Operational Expenditure (OpEx)&lt;/li&gt;
+&lt;/ul&gt;
       </description>
     </item>
     
@@ -582,7 +616,8 @@
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/az-900-v4-ep-01-740.jpg&quot;&gt;
         &lt;ul&gt;
 &lt;li&gt;Describe what is Cloud Computing&lt;/li&gt;
-&lt;li&gt;Describe terms such as High Availability, Scalability, Elasticity, Agility, Fault Tolerance, and Disaster Recovery
+&lt;li&gt;Describe terms such as High Availability, Scalability, Elasticity, Agility, Fault Tolerance, and Disaster Recovery&lt;/li&gt;
+&lt;/ul&gt;
       </description>
     </item>
     
@@ -630,7 +665,7 @@
       <guid>https://azure4everyone.com/posts/2020/06/azure-stream-analytics-intro/</guid>
       <description>
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/46-AzureSteamAnalytics-Intro-740.jpg&quot;&gt;
-        &lt;p&gt;Azure Stream Analytics offer SQL Query language over stream of data, out of the box Azure integrations and custom functions support. Today a quick tutorial around this easy to use streaming service. &lt;/p&gt;
+        &lt;p&gt;Azure Stream Analytics offer SQL Query language over stream of data, out of the box Azure integrations and custom functions support. Today a quick tutorial around this easy to use streaming service.&lt;/p&gt;
       </description>
     </item>
     
@@ -666,7 +701,7 @@
       <guid>https://azure4everyone.com/posts/2020/05/azure-event-hubs-intro/</guid>
       <description>
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/43-AzureEventHub-Intro-740.jpg&quot;&gt;
-        &lt;p&gt;Azure Event Hubs is highly scalable big data event processing service capable of processing millions of events per second. &lt;/p&gt;
+        &lt;p&gt;Azure Event Hubs is highly scalable big data event processing service capable of processing millions of events per second.&lt;/p&gt;
       </description>
     </item>
     
@@ -702,7 +737,7 @@
       <guid>https://azure4everyone.com/posts/2020/04/azure-data-factory-lookup-activity/</guid>
       <description>
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/40-AzureDataFactory-LookupActivity-740.jpg&quot;&gt;
-        &lt;p&gt;With Azure Data Factory Lookup and ForEach activities you can perform dynamic copies of your data tables in bulk within a single pipeline. &lt;/p&gt;
+        &lt;p&gt;With Azure Data Factory Lookup and ForEach activities you can perform dynamic copies of your data tables in bulk within a single pipeline.&lt;/p&gt;
       </description>
     </item>
     
@@ -870,7 +905,7 @@
       <guid>https://azure4everyone.com/posts/2020/01/load-balancer-intro/</guid>
       <description>
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/26-AzureLoadBalancer-Intro.jpg&quot;&gt;
-        &lt;p&gt;Azure Load balancing allows for distribution of load or incoming network traffic across a group of backend resources or servers. It operates at layer 4 of the Open Systems Interconnection (OSI) model. It is the single point of contact for clients. &lt;/p&gt;
+        &lt;p&gt;Azure Load balancing allows for distribution of load or incoming network traffic across a group of backend resources or servers. It operates at layer 4 of the Open Systems Interconnection (OSI) model. It is the single point of contact for clients.&lt;/p&gt;
       </description>
     </item>
     
@@ -882,7 +917,7 @@
       <guid>https://azure4everyone.com/posts/2020/01/traffic-manager-intro/</guid>
       <description>
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/25-AzureTrafficManager-Intro-v6.jpg&quot;&gt;
-        &lt;p&gt;Azure Traffic Manager is a DNS-based traffic load balancer that enables you to distribute traffic optimally to services across global Azure regions, while providing high availability and responsiveness. &lt;/p&gt;
+        &lt;p&gt;Azure Traffic Manager is a DNS-based traffic load balancer that enables you to distribute traffic optimally to services across global Azure regions, while providing high availability and responsiveness.&lt;/p&gt;
       </description>
     </item>
     
@@ -894,7 +929,7 @@
       <guid>https://azure4everyone.com/posts/2019/12/virtual-machines-intro/</guid>
       <description>
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/24-AzureVirtualMachines-Intro-v6.jpg&quot;&gt;
-        &lt;p&gt;Virtual Machines are beating heart and a core component of any cloud. With wide range of use cases and flexibility of virtualizing most of commonly known operating systems it is possible to move pretty much any software to the cloud. &lt;/p&gt;
+        &lt;p&gt;Virtual Machines are beating heart and a core component of any cloud. With wide range of use cases and flexibility of virtualizing most of commonly known operating systems it is possible to move pretty much any software to the cloud.&lt;/p&gt;
       </description>
     </item>
     
@@ -906,7 +941,7 @@
       <guid>https://azure4everyone.com/posts/2019/12/databricks-secret-scopes/</guid>
       <description>
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/23-AzureDatabricks-SecretScopes-v6.jpg&quot;&gt;
-        &lt;p&gt;When building solutions in Databricks you need to ensure that all your credentials are securely stored. Today I will show you how to do it using Databricks Secret Scopes and how can you integrate them with Azure Key Vault. &lt;/p&gt;
+        &lt;p&gt;When building solutions in Databricks you need to ensure that all your credentials are securely stored. Today I will show you how to do it using Databricks Secret Scopes and how can you integrate them with Azure Key Vault.&lt;/p&gt;
       </description>
     </item>
     
@@ -918,7 +953,7 @@
       <guid>https://azure4everyone.com/posts/2019/12/data-lake-storage-intro/</guid>
       <description>
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/22-AzureDataLakeStorage-Intro-v6.jpg&quot;&gt;
-        &lt;p&gt;Data Lake Storage Gen 2 is the best storage solution for big data analytics in Azure. With its Hadoop compatible access, it is a perfect fit for existing platforms like Databricks, Cloudera, Hortonworks, Hadoop, HDInsight and many more. Take advantage of both blob storage and data lake in one service! &lt;/p&gt;
+        &lt;p&gt;Data Lake Storage Gen 2 is the best storage solution for big data analytics in Azure. With its Hadoop compatible access, it is a perfect fit for existing platforms like Databricks, Cloudera, Hortonworks, Hadoop, HDInsight and many more. Take advantage of both blob storage and data lake in one service!&lt;/p&gt;
       </description>
     </item>
     
@@ -930,7 +965,7 @@
       <guid>https://azure4everyone.com/posts/2019/12/analysis-services-intro/</guid>
       <description>
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/21-AzureAnalysisServices-Intro-v6.jpg&quot;&gt;
-        &lt;p&gt;With Azure Analysis Services you can scale your Power BI reports up to tens and hundreds of gigabytes of data. It is very fast in-memory database and analytical progressing engine with all the benefits of cloud scaling and security. &lt;/p&gt;
+        &lt;p&gt;With Azure Analysis Services you can scale your Power BI reports up to tens and hundreds of gigabytes of data. It is very fast in-memory database and analytical progressing engine with all the benefits of cloud scaling and security.&lt;/p&gt;
       </description>
     </item>
     
@@ -942,7 +977,7 @@
       <guid>https://azure4everyone.com/posts/2019/11/powershell-intro/</guid>
       <description>
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/20-AzurePowerShell-Intro-v6.jpg&quot;&gt;
-        &lt;p&gt;Azure PowerShell allows for task automation and operational management of Azure resources at no cost or effort using popular PowerShell scripting language. &lt;/p&gt;
+        &lt;p&gt;Azure PowerShell allows for task automation and operational management of Azure resources at no cost or effort using popular PowerShell scripting language.&lt;/p&gt;
       </description>
     </item>
     
@@ -978,7 +1013,7 @@
       <guid>https://azure4everyone.com/posts/2019/11/adf-mapping-data-flow/</guid>
       <description>
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/17-AzureDataFactory-MappingDataFlows-v6.jpg&quot;&gt;
-        &lt;p&gt;With Azure Data Factory Mapping Data Flow, you can create fast and scalable on-demand transformations by using visual user interface. In just minutes you can leverage power of Spark with not a single line of code written. &lt;/p&gt;
+        &lt;p&gt;With Azure Data Factory Mapping Data Flow, you can create fast and scalable on-demand transformations by using visual user interface. In just minutes you can leverage power of Spark with not a single line of code written.&lt;/p&gt;
       </description>
     </item>
     
@@ -1002,7 +1037,7 @@
       <guid>https://azure4everyone.com/posts/2019/10/botservice-intro/</guid>
       <description>
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/15-AzureBotService-Intro-v6.jpg&quot;&gt;
-        &lt;p&gt;Azure Bot Service and Bot Framework provide tools to build, test, deploy, and manage intelligent bots all in one place. &lt;/p&gt;
+        &lt;p&gt;Azure Bot Service and Bot Framework provide tools to build, test, deploy, and manage intelligent bots all in one place.&lt;/p&gt;
       </description>
     </item>
     
@@ -1074,7 +1109,7 @@
       <guid>https://azure4everyone.com/posts/2019/09/logicapps-controlactions/</guid>
       <description>
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/09-AzureLogicApps-LoopsConditionsParallelExecution-v6.jpg&quot;&gt;
-        &lt;p&gt;Using conditions, loops and parallel execution allows developers to implement much more complex Enterprise Integration scenarios using Azure Logic Apps. All those actions are available through Control Actions group which we will learn all about Today. &lt;/p&gt;
+        &lt;p&gt;Using conditions, loops and parallel execution allows developers to implement much more complex Enterprise Integration scenarios using Azure Logic Apps. All those actions are available through Control Actions group which we will learn all about Today.&lt;/p&gt;
       </description>
     </item>
     
@@ -1086,7 +1121,7 @@
       <guid>https://azure4everyone.com/posts/2019/09/cosmosdb-intro/</guid>
       <description>
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/08-AzureCosmosDB-Intro-v6.jpg&quot;&gt;
-        &lt;p&gt;Azure Cosmos DB is globally distributed and highly responsive database in the cloud. With just few clicks you can get multi-regional distribution and redundancy with high availability of 99.999%. &lt;/p&gt;
+        &lt;p&gt;Azure Cosmos DB is globally distributed and highly responsive database in the cloud. With just few clicks you can get multi-regional distribution and redundancy with high availability of 99.999%.&lt;/p&gt;
       </description>
     </item>
     
@@ -1098,7 +1133,7 @@
       <guid>https://azure4everyone.com/posts/2019/08/datafactory-params/</guid>
       <description>
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/07-AzureDataFactory-Parameterization-v6.jpg&quot;&gt;
-        &lt;p&gt;Parametrization in Azure Data Factory is essential to achieve good design and reusability as well as low cost of solution maintenance. Using parameters also speeds up implementation of new features in your pipelines. &lt;/p&gt;
+        &lt;p&gt;Parametrization in Azure Data Factory is essential to achieve good design and reusability as well as low cost of solution maintenance. Using parameters also speeds up implementation of new features in your pipelines.&lt;/p&gt;
       </description>
     </item>
     
@@ -1158,7 +1193,7 @@
       <guid>https://azure4everyone.com/posts/2019/07/data-factory-intro/</guid>
       <description>
         &lt;img src=&quot;https://azure4everyone.com/images/youtube/02-AzureDataFactoryIntro-v6.jpg&quot;&gt;
-        &lt;p&gt;Azure Data Factory is essential service in all data related activities in Azure. It is flexible and powerful Platform as a Service offering with multitude of connectors and inetgration capabilities. It is a heart of ETL in Azure. &lt;/p&gt;
+        &lt;p&gt;Azure Data Factory is essential service in all data related activities in Azure. It is flexible and powerful Platform as a Service offering with multitude of connectors and inetgration capabilities. It is a heart of ETL in Azure.&lt;/p&gt;
       </description>
     </item>
     
